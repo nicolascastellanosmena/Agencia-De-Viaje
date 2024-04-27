@@ -7,22 +7,17 @@
     
 }
  .a{
-    
     display: flex;
     justify-content: center;   
     margin-top: 10rem;
  }
  
-body{
-      
+body{  
     min-height: 100vh;
     background: url('../../../assets/imagenes/fondo.jpeg') no-repeat ;
     background-size: cover;
-     
 }
 .wrapper{
-    
-    
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255,255,255,.2);
