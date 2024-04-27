@@ -16,5 +16,6 @@ export const routes: Routes = [
     {path:'iniciosesion',component:IniciosesionComponent},
     {path:'registro',component:RegistroComponent},
     {path:'reservas',component:ReservasComponent},
+    {path:'**',redirectTo:'',component:HomeComponent}
 
 ];
