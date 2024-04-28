@@ -1,0 +1,71 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+#div_buscador{
+    width: 100%;
+    position: absolute;
+    bottom: 420px;
+}
+.input-group input, .input-group button{
+    height: 3em;
+}
+.form-control{
+    color: black;
+}
+#carouselExampleCaptions{
+    position: relative;
+}
+/* #mensajecarru {
+    border-radius: 8px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+} */
+#img_carrousel{
+    height: 600px;
+}
+.card{
+    height: 20%;
+    
+}
+.col-3{
+    height: fit-content;
+    width: fit-content;
+    margin: 1%;
+}
+.Ofertas{
+    width: 75%;
+    margin: 3%;
+    margin-left: 17%;
+    text-align: center;
+}
+.Ofertas h2{
+    margin-right: 10%;
+}
+.carta_ofertas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.vermas{
+    margin-right: 14%;
+    text-align: right;
+}
+#aboutUS{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#TextoAbout{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+}
+#imgAbout{
+    margin: 1%;
+}
+
+#imgAbout img{
+    width: 500px;
+    height: auto;
+}

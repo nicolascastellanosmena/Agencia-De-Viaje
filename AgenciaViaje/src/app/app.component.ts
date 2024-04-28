@@ -7,7 +7,7 @@ import { CatalogoComponent } from './page/catalogo/catalogo.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, NavbarComponent, FooterComponent,CatalogoComponent],
+  imports: [RouterOutlet, RouterLink, NavbarComponent, FooterComponent, CatalogoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
