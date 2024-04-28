@@ -7,7 +7,7 @@
          
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col" id="carrus">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
@@ -30,11 +30,8 @@
                 </button>
               </div>
         </div>
-        <div class="col">
+        <div class="col" id="descrip">
             <p>
-
-               
-
                 <strong>¡Bienvenido a Paradise Travel Air Agency, tu pasaporte hacia el paraíso de Europa!</strong> 
 
                 En Paradise Travel Air Agency, nos dedicamos a hacer realidad tus sueños de explorar las maravillas de Europa. Con una pasión por los viajes y un compromiso con la excelencia, nos esforzamos por ofrecerte una experiencia de viaje única y memorable que te dejará con recuerdos para toda la vida.
@@ -50,31 +47,84 @@
         </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col" id="ranking">
+            <h3>Ranking de paises</h3>
             <ol class="list-group list-group-numbered">
                 @for (conte of bDestinos.continentes; track conte) {
                     @if (conte.nombre=="Europa") {
-                        @for (paises of conte.destinos | slice : 0 : 3; track paises) {
+                        @for (paises of conte.destinos | slice : 0 : 4; track paises) {
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
                                   <div class="fw-bold">{{paises.nombre}}</div>
                                   {{paises.pais}}
                                 </div>
                                 <span class="badge text-bg-primary rounded-pill">{{paises.calificacion}}</span>
-                              </li>
-    
-
-                        }
-                        
+                            </li>
+                        }   
                     }
-                    
-
                 }
                
               </ol>
         </div>
-        <div class="col">
-            paises
+        <div class="col" id="tarjetas">
+            <h3>Paises que no te puedes perder....</h3>
+                @for (elem of bDestinos.continentes; track elem) {
+                    @if (elem.nombre=="Europa") {
+                        @for (pais of elem.destinos |slice:2:4; track pais) {
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">{{pais.nombre}}</h5>
+                                      <p class="card-text">{{pais.descripcion}}</p>
+                                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        }
+                    }
+    
+                }
         </div>
+            
+    </div>
+    <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col" >
+            
+                @for (elem of bDestinos.continentes; track elem) {
+                    @if (elem.nombre=="Europa") {
+                        @for (pais of elem.destinos |slice:4:6; track pais) {
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">{{pais.nombre}}</h5>
+                                      <p class="card-text">{{pais.descripcion}}</p>
+                                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        }
+                    }
+    
+                }
+
+            
+            
+        </div>
+    </div>
+    <div class="row">
+        <app-footer></app-footer>
     </div>
 </div>

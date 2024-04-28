@@ -1,3 +1,23 @@
+app-footer{
+    padding: 0;
+}
+
+#carrus{
+    padding: 10px;
+}
+#descrip{
+    padding: 10px;
+}
+#ranking{
+    padding: 20px;
+    margin: 15px;
+}
+#tarjetas{
+    padding: 20px;
+    margin: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 
 #btnVolver{

@@ -12,7 +12,49 @@
           "atracciones": ["Torre Eiffel", "Museo del Louvre", "Catedral de Notre-Dame"],
           "imagen": "paris.jpg",
           "precio": 500,
-          "calificacion": 4.5
+          "calificacion": 4.5,
+          "hoteles": [
+            {
+              "nombre": "Hotel Belle Époque",
+              "ubicacion": "París, Francia",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.6,
+              "servicios": ["Wi-Fi gratuito", "Desayuno continental", "Servicio de habitaciones", "Gimnasio"]
+            },
+            {
+              "nombre": "Hotel Lumière",
+              "ubicacion": "París, Francia",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.8,
+              "servicios": ["Spa de lujo", "Restaurante gourmet", "Piscina cubierta", "Servicio de conserjería"]
+            },
+            {
+              "nombre": "Hotel Charmant",
+              "ubicacion": "París, Francia",
+              "precio_minimo": 120,
+              "precio_maximo": 250,
+              "calificacion": 4.3,
+              "servicios": ["Desayuno buffet", "Bar en la azotea", "Recepción 24 horas", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Royale",
+              "ubicacion": "París, Francia",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Centro de negocios", "Salas de reuniones", "Estacionamiento privado", "Alquiler de bicicletas"]
+            },
+            {
+              "nombre": "Hotel Étoile",
+              "ubicacion": "París, Francia",
+              "precio_minimo": 130,
+              "precio_maximo": 280,
+              "calificacion": 4.5,
+              "servicios": ["Acceso para discapacitados", "Terraza con vistas panorámicas", "Servicio de traslado al aeropuerto", "Servicio de guardería"]
+            }
+          ]
         },
         {
           "nombre": "Roma",
@@ -21,7 +63,49 @@
           "atracciones": ["Coliseo", "Vaticano", "Fontana di Trevi"],
           "imagen": "roma.jpg",
           "precio": 800,
-          "calificacion": 4.7
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Bella Vista",
+              "ubicacion": "Roma, Italia",
+              "precio_minimo": 120,
+              "precio_maximo": 250,
+              "calificacion": 4.4,
+              "servicios": ["Excursiones guiadas", "Alquiler de coches", "Servicio de habitaciones las 24 horas", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Dolce Vita",
+              "ubicacion": "Roma, Italia",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Spa y centro de bienestar", "Restaurante con estrellas Michelin", "Bar en la piscina", "Servicio de cambio de divisas"]
+            },
+            {
+              "nombre": "Hotel Coliseum",
+              "ubicacion": "Roma, Italia",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.6,
+              "servicios": ["Piscina al aire libre", "Jacuzzi privado en algunas habitaciones", "Desayuno buffet", "Sala de juegos"]
+            },
+            {
+              "nombre": "Hotel Paradiso",
+              "ubicacion": "Roma, Italia",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.8,
+              "servicios": ["Gimnasio con entrenador personal", "Servicio de transporte al aeropuerto", "Organización de excursiones", "Lavandería"]
+            },
+            {
+              "nombre": "Hotel Pantheon",
+              "ubicacion": "Roma, Italia",
+              "precio_minimo": 130,
+              "precio_maximo": 280,
+              "calificacion": 4.5,
+              "servicios": ["Sala de conferencias", "Centro de negocios", "Servicio de masajes", "Recepción multilingüe"]
+            }
+          ]
         },
         {
           "nombre": "Barcelona",
@@ -30,7 +114,49 @@
           "atracciones": ["Sagrada Familia", "Parque Güell", "Las Ramblas"],
           "imagen": "barcelona.jpg",
           "precio": 650,
-          "calificacion": 4.6
+          "calificacion": 4.6,
+          "hoteles": [
+            {
+              "nombre": "Hotel Mediterráneo",
+              "ubicacion": "Barcelona, España",
+              "precio_minimo": 100,
+              "precio_maximo": 200,
+              "calificacion": 4.3,
+              "servicios": ["Terraza con vistas al mar", "Piscina al aire libre", "Restaurante mediterráneo", "Sala de conferencias"]
+            },
+            {
+              "nombre": "Hotel Gaudí",
+              "ubicacion": "Barcelona, España",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.5,
+              "servicios": ["Decoración modernista", "Desayuno buffet", "Gimnasio abierto las 24 horas", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Ramblas",
+              "ubicacion": "Barcelona, España",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Ubicación céntrica en Las Ramblas", "Restaurante de tapas", "Bar de cócteles", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Catalunya",
+              "ubicacion": "Barcelona, España",
+              "precio_minimo": 130,
+              "precio_maximo": 280,
+              "calificacion": 4.4,
+              "servicios": ["Piscina en la azotea", "Sauna y baño turco", "Wi-Fi de alta velocidad", "Servicio de conserjería"]
+            },
+            {
+              "nombre": "Hotel Gothic",
+              "ubicacion": "Barcelona, España",
+              "precio_minimo": 160,
+              "precio_maximo": 320,
+              "calificacion": 4.6,
+              "servicios": ["Vistas a la Catedral de Barcelona", "Decoración gótica", "Bar en la terraza", "Servicio de alquiler de bicicletas"]
+            }
+          ]
         },
         {
           "nombre": "Londres",
@@ -39,7 +165,49 @@
           "atracciones": ["Palacio de Buckingham", "Abadía de Westminster", "London Eye"],
           "imagen": "londres.jpg",
           "precio": 950,
-          "calificacion": 4.8
+          "calificacion": 4.8,
+          "hoteles": [
+            {
+              "nombre": "Hotel Buckingham Palace",
+              "ubicacion": "Londres, Reino Unido",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al Palacio de Buckingham", "Desayuno inglés completo", "Sala de estar con chimenea", "Servicio de limpieza diario"]
+            },
+            {
+              "nombre": "Hotel Westminster Abbey",
+              "ubicacion": "Londres, Reino Unido",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.5,
+              "servicios": ["Acceso exclusivo al spa", "Restaurante con chef galardonado", "Bar de cócteles con música en vivo", "Servicio de canguro"]
+            },
+            {
+              "nombre": "Hotel Thames View",
+              "ubicacion": "Londres, Reino Unido",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.6,
+              "servicios": ["Terraza con vistas al río Támesis", "Gimnasio abierto las 24 horas", "Wi-Fi de alta velocidad", "Servicio de lavandería exprés"]
+            },
+            {
+              "nombre": "Hotel London Bridge",
+              "ubicacion": "Londres, Reino Unido",
+              "precio_minimo": 130,
+              "precio_maximo": 280,
+              "calificacion": 4.4,
+              "servicios": ["Recepción abierta las 24 horas", "Alquiler de bicicletas", "Organización de tours por la ciudad", "Restaurante con platos locales"]
+            },
+            {
+              "nombre": "Hotel Covent Garden",
+              "ubicacion": "Londres, Reino Unido",
+              "precio_minimo": 170,
+              "precio_maximo": 320,
+              "calificacion": 4.8,
+              "servicios": ["Ubicación céntrica en Covent Garden", "Servicio de habitaciones las 24 horas", "Sala de fitness con entrenador personal", "Servicio de conserjería"]
+            }
+          ]
         },
         {
           "nombre": "Madrid",
@@ -48,7 +216,49 @@
           "atracciones": ["Museo del Prado", "Plaza Mayor", "Parque del Retiro"],
           "imagen": "madrid.jpg",
           "precio": 900,
-          "calificacion": 4.6
+          "calificacion": 4.6,
+          "hoteles": [
+            {
+              "nombre": "Hotel Reina Sofía",
+              "ubicacion": "Madrid, España",
+              "precio_minimo": 180,
+              "precio_maximo": 300,
+              "calificacion": 4.5,
+              "servicios": ["Ubicación cerca del Museo del Prado", "Wi-Fi gratuito", "Desayuno buffet", "Servicio de habitaciones"]
+            },
+            {
+              "nombre": "Hotel Plaza Mayor",
+              "ubicacion": "Madrid, España",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.7,
+              "servicios": ["Vistas a la Plaza Mayor", "Restaurante de tapas", "Bar en la azotea", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Retiro Gardens",
+              "ubicacion": "Madrid, España",
+              "precio_minimo": 220,
+              "precio_maximo": 380,
+              "calificacion": 4.6,
+              "servicios": ["Jardines privados", "Piscina al aire libre", "Gimnasio abierto las 24 horas", "Servicio de transporte al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Gran Vía",
+              "ubicacion": "Madrid, España",
+              "precio_minimo": 190,
+              "precio_maximo": 350,
+              "calificacion": 4.8,
+              "servicios": ["Ubicación en la Gran Vía", "Centro de negocios", "Spa y centro de bienestar", "Recepción 24 horas"]
+            },
+            {
+              "nombre": "Hotel Princesa",
+              "ubicacion": "Madrid, España",
+              "precio_minimo": 170,
+              "precio_maximo": 320,
+              "calificacion": 4.4,
+              "servicios": ["Sala de conferencias", "Servicio de cambio de divisas", "Bar de cócteles", "Servicio de alquiler de coches"]
+            }
+          ]
         },
         {
           "nombre": "Praga",
@@ -57,7 +267,49 @@
           "atracciones": ["Puente de Carlos", "Castillo de Praga", "Plaza de la Ciudad Vieja"],
           "imagen": "praga.jpg",
           "precio": 700,
-          "calificacion": 4.4
+          "calificacion": 4.4,
+          "hoteles": [
+            {
+              "nombre": "Hotel Charles Bridge",
+              "ubicacion": "Praga, República Checa",
+              "precio_minimo": 2000,
+              "precio_maximo": 4000,
+              "calificacion": 4.5,
+              "servicios": ["Vistas al Puente de Carlos", "Desayuno buffet", "Wi-Fi gratuito", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Old Town Square",
+              "ubicacion": "Praga, República Checa",
+              "precio_minimo": 2500,
+              "precio_maximo": 4500,
+              "calificacion": 4.7,
+              "servicios": ["Ubicación en la Plaza de la Ciudad Vieja", "Terraza con vistas panorámicas", "Servicio de habitaciones las 24 horas", "Recepción multilingüe"]
+            },
+            {
+              "nombre": "Hotel Prague Castle",
+              "ubicacion": "Praga, República Checa",
+              "precio_minimo": 1800,
+              "precio_maximo": 3600,
+              "calificacion": 4.6,
+              "servicios": ["Cerca del Castillo de Praga", "Restaurante de cocina tradicional checa", "Bar de vinos", "Servicio de conserjería"]
+            },
+            {
+              "nombre": "Hotel Wenceslas Square",
+              "ubicacion": "Praga, República Checa",
+              "precio_minimo": 2100,
+              "precio_maximo": 3900,
+              "calificacion": 4.8,
+              "servicios": ["En la Plaza de Wenceslao", "Spa y centro de bienestar", "Sala de fitness", "Servicio de traslado al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Josefov",
+              "ubicacion": "Praga, República Checa",
+              "precio_minimo": 2200,
+              "precio_maximo": 4000,
+              "calificacion": 4.4,
+              "servicios": ["Cerca del barrio judío de Josefov", "Recepción 24 horas", "Servicio de habitaciones", "Servicio de cambio de divisas"]
+            }
+          ]
         },
         {
           "nombre": "Venecia",
@@ -66,7 +318,49 @@
           "atracciones": ["Piazza San Marco", "Gran Canal", "Puente de Rialto"],
           "imagen": "venecia.jpg",
           "precio": 850,
-          "calificacion": 4.7
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Canal Grande",
+              "ubicacion": "Venecia, Italia",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.6,
+              "servicios": ["Vistas al Gran Canal", "Desayuno buffet", "Bar en la azotea", "Servicio de traslado en góndola"]
+            },
+            {
+              "nombre": "Hotel San Marco",
+              "ubicacion": "Venecia, Italia",
+              "precio_minimo": 250,
+              "precio_maximo": 450,
+              "calificacion": 4.8,
+              "servicios": ["Cerca de la Piazza San Marco", "Restaurante italiano", "Servicio de habitaciones las 24 horas", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Rialto View",
+              "ubicacion": "Venecia, Italia",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.5,
+              "servicios": ["Vistas al Puente de Rialto", "Desayuno continental", "Recepción 24 horas", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Romantic Canal",
+              "ubicacion": "Venecia, Italia",
+              "precio_minimo": 220,
+              "precio_maximo": 380,
+              "calificacion": 4.7,
+              "servicios": ["Ambiente romántico", "Servicio de spa", "Cena privada en góndola", "Organización de tours por la ciudad"]
+            },
+            {
+              "nombre": "Hotel Murano Palace",
+              "ubicacion": "Venecia, Italia",
+              "precio_minimo": 190,
+              "precio_maximo": 360,
+              "calificacion": 4.6,
+              "servicios": ["Cerca de la isla de Murano", "Piscina en la azotea", "Bar de vinos venecianos", "Servicio de traslado al aeropuerto"]
+            }
+          ]
         },
         {
           "nombre": "Berlín",
@@ -75,7 +369,49 @@
           "atracciones": ["Muro de Berlín", "Puerta de Brandeburgo", "Museo de Pérgamo"],
           "imagen": "berlin.jpg",
           "precio": 700,
-          "calificacion": 4.5
+          "calificacion": 4.5,
+          "hoteles": [
+            {
+              "nombre": "Hotel Brandenburg Gate",
+              "ubicacion": "Berlín, Alemania",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.4,
+              "servicios": ["Cerca de la Puerta de Brandeburgo", "Desayuno buffet", "Gimnasio abierto las 24 horas", "Servicio de alquiler de bicicletas"]
+            },
+            {
+              "nombre": "Hotel Pergamon Museum",
+              "ubicacion": "Berlín, Alemania",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al Museo de Pérgamo", "Spa y centro de bienestar", "Restaurante gourmet", "Wi-Fi de alta velocidad"]
+            },
+            {
+              "nombre": "Hotel Berlin Wall View",
+              "ubicacion": "Berlín, Alemania",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.5,
+              "servicios": ["Vistas al Muro de Berlín", "Bar de cócteles", "Sala de fitness", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Alexanderplatz",
+              "ubicacion": "Berlín, Alemania",
+              "precio_minimo": 170,
+              "precio_maximo": 320,
+              "calificacion": 4.6,
+              "servicios": ["Ubicación en Alexanderplatz", "Terraza panorámica", "Sala de conferencias", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Tiergarten",
+              "ubicacion": "Berlín, Alemania",
+              "precio_minimo": 190,
+              "precio_maximo": 360,
+              "calificacion": 4.8,
+              "servicios": ["Cerca del parque Tiergarten", "Piscina cubierta", "Bar en la azotea", "Servicio de transporte al aeropuerto"]
+            }
+          ]
         }
       ]
     },
@@ -90,7 +426,49 @@
           "atracciones": ["Torre de Tokio", "Barrio de Harajuku", "Templo Senso-ji"],
           "imagen": "tokio.jpg",
           "precio": 1200,
-          "calificacion": 4.8
+          "calificacion": 4.8,
+          "hoteles": [
+            {
+              "nombre": "Hotel Shinjuku Park",
+              "ubicacion": "Tokio, Japón",
+              "precio_minimo": 250,
+              "precio_maximo": 450,
+              "calificacion": 4.6,
+              "servicios": ["Cerca del Barrio de Shinjuku", "Restaurante japonés tradicional", "Servicio de masajes", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Ginza View",
+              "ubicacion": "Tokio, Japón",
+              "precio_minimo": 300,
+              "precio_maximo": 500,
+              "calificacion": 4.7,
+              "servicios": ["Ubicación en el distrito de Ginza", "Terraza con vistas panorámicas", "Gimnasio abierto las 24 horas", "Servicio de habitaciones"]
+            },
+            {
+              "nombre": "Hotel Asakusa Tradition",
+              "ubicacion": "Tokio, Japón",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.5,
+              "servicios": ["Cerca del Templo Senso-ji", "Desayuno buffet japonés", "Servicio de lavandería", "Recepción 24 horas"]
+            },
+            {
+              "nombre": "Hotel Shibuya Trend",
+              "ubicacion": "Tokio, Japón",
+              "precio_minimo": 220,
+              "precio_maximo": 380,
+              "calificacion": 4.8,
+              "servicios": ["Ubicación en el distrito de Shibuya", "Bar de sake", "Spa y centro de bienestar", "Organización de excursiones"]
+            },
+            {
+              "nombre": "Hotel Roppongi City",
+              "ubicacion": "Tokio, Japón",
+              "precio_minimo": 270,
+              "precio_maximo": 470,
+              "calificacion": 4.9,
+              "servicios": ["Cerca de Roppongi Hills", "Piscina cubierta", "Sala de conferencias", "Servicio de transporte al aeropuerto"]
+            }
+          ]
         },
         {
           "nombre": "Bangkok",
@@ -99,7 +477,49 @@
           "atracciones": ["Gran Palacio", "Wat Arun", "Mercado Flotante Damnoen Saduak"],
           "imagen": "bangkok.jpg",
           "precio": 1000,
-          "calificacion": 4.6
+          "calificacion": 4.6,
+          "hoteles": [
+            {
+              "nombre": "Hotel Riverside Palace",
+              "ubicacion": "Bangkok, Tailandia",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.5,
+              "servicios": ["Vistas al río Chao Phraya", "Piscina al aire libre", "Restaurante tailandés", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Sukhumvit Oasis",
+              "ubicacion": "Bangkok, Tailandia",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Cerca del distrito de Sukhumvit", "Spa y centro de bienestar", "Bar en la azotea", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Grand Palace",
+              "ubicacion": "Bangkok, Tailandia",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.6,
+              "servicios": ["Ubicación cerca del Gran Palacio", "Desayuno buffet internacional", "Sala de fitness", "Recepción 24 horas"]
+            },
+            {
+              "nombre": "Hotel Chatuchak Market",
+              "ubicacion": "Bangkok, Tailandia",
+              "precio_minimo": 170,
+              "precio_maximo": 320,
+              "calificacion": 4.8,
+              "servicios": ["Cerca del Mercado Chatuchak", "Piscina en la azotea", "Restaurante con buffet tailandés", "Servicio de transporte al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Siam Square",
+              "ubicacion": "Bangkok, Tailandia",
+              "precio_minimo": 190,
+              "precio_maximo": 360,
+              "calificacion": 4.9,
+              "servicios": ["En el corazón de Siam Square", "Bar de cócteles", "Centro de negocios", "Servicio de habitaciones las 24 horas"]
+            }
+          ]
         },
         {
           "nombre": "Estambul",
@@ -108,7 +528,49 @@
           "atracciones": ["Mezquita Azul", "Gran Bazar", "Palacio de Topkapi"],
           "imagen": "estambul.jpg",
           "precio": 1100,
-          "calificacion": 4.7
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Sultanahmet View",
+              "ubicacion": "Estambul, Turquía",
+              "precio_minimo": 180,
+              "precio_maximo": 300,
+              "calificacion": 4.5,
+              "servicios": ["Vistas a la Mezquita Azul", "Desayuno turco", "Hammam tradicional", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Bosphorus Palace",
+              "ubicacion": "Estambul, Turquía",
+              "precio_minimo": 200,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al Bósforo", "Piscina cubierta", "Restaurante de mariscos", "Servicio de masajes"]
+            },
+            {
+              "nombre": "Hotel Taksim Square",
+              "ubicacion": "Estambul, Turquía",
+              "precio_minimo": 220,
+              "precio_maximo": 400,
+              "calificacion": 4.6,
+              "servicios": ["Ubicación en la Plaza Taksim", "Bar en la azotea", "Centro de fitness", "Recepción 24 horas"]
+            },
+            {
+              "nombre": "Hotel Galata Tower",
+              "ubicacion": "Estambul, Turquía",
+              "precio_minimo": 190,
+              "precio_maximo": 370,
+              "calificacion": 4.8,
+              "servicios": ["Cerca de la Torre Gálata", "Spa y centro de bienestar", "Restaurante con vistas panorámicas", "Servicio de traslado al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Karakoy Loft",
+              "ubicacion": "Estambul, Turquía",
+              "precio_minimo": 210,
+              "precio_maximo": 380,
+              "calificacion": 4.9,
+              "servicios": ["Ubicación en el barrio de Karakoy", "Bar de cócteles moderno", "Sala de reuniones", "Servicio de habitaciones las 24 horas"]
+            }
+          ]
         },
         {
           "nombre": "Dubai",
@@ -117,7 +579,49 @@
           "atracciones": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
           "imagen": "dubai.jpg",
           "precio": 1500,
-          "calificacion": 4.9
+          "calificacion": 4.9,
+          "hoteles": [
+            {
+              "nombre": "Hotel Burj View",
+              "ubicacion": "Dubai, Emiratos Árabes Unidos",
+              "precio_minimo": 300,
+              "precio_maximo": 500,
+              "calificacion": 4.8,
+              "servicios": ["Vistas al Burj Khalifa", "Piscina en la azotea", "Spa de lujo", "Restaurante de alta cocina"]
+            },
+            {
+              "nombre": "Hotel Palm Retreat",
+              "ubicacion": "Dubai, Emiratos Árabes Unidos",
+              "precio_minimo": 350,
+              "precio_maximo": 600,
+              "calificacion": 4.7,
+              "servicios": ["Ubicación en Palm Jumeirah", "Playa privada", "Club de salud y bienestar", "Servicio de transporte en limusina"]
+            },
+            {
+              "nombre": "Hotel Downtown Oasis",
+              "ubicacion": "Dubai, Emiratos Árabes Unidos",
+              "precio_minimo": 280,
+              "precio_maximo": 480,
+              "calificacion": 4.9,
+              "servicios": ["Cerca del Dubai Mall", "Gimnasio abierto las 24 horas", "Piscina climatizada", "Servicio de traslado al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Marina Bay",
+              "ubicacion": "Dubai, Emiratos Árabes Unidos",
+              "precio_minimo": 320,
+              "precio_maximo": 550,
+              "calificacion": 4.6,
+              "servicios": ["Vistas al puerto deportivo de Dubái", "Bar en la azotea", "Centro de negocios", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Desert Rose",
+              "ubicacion": "Dubai, Emiratos Árabes Unidos",
+              "precio_minimo": 250,
+              "precio_maximo": 450,
+              "calificacion": 4.5,
+              "servicios": ["Retiro en el desierto", "Jardín con palmeras", "Restaurante al aire libre", "Actividades de safari"]
+            }
+          ]
         },
         {
           "nombre": "Hong Kong",
@@ -126,7 +630,49 @@
           "atracciones": ["Victoria Peak", "Mercado Nocturno de Temple Street", "Avenue of Stars"],
           "imagen": "hong_kong.jpg",
           "precio": 1400,
-          "calificacion": 4.7
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Peak View",
+              "ubicacion": "Hong Kong, China",
+              "precio_minimo": 250,
+              "precio_maximo": 450,
+              "calificacion": 4.6,
+              "servicios": ["Vistas panorámicas desde Victoria Peak", "Restaurante de dim sum", "Spa y centro de bienestar", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Night Market Plaza",
+              "ubicacion": "Hong Kong, China",
+              "precio_minimo": 280,
+              "precio_maximo": 500,
+              "calificacion": 4.8,
+              "servicios": ["Cerca del Mercado Nocturno de Temple Street", "Bar de cócteles temáticos", "Piscina al aire libre", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Harbourfront Oasis",
+              "ubicacion": "Hong Kong, China",
+              "precio_minimo": 300,
+              "precio_maximo": 550,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al puerto de Victoria", "Desayuno buffet internacional", "Gimnasio con vistas al mar", "Servicio de traslado al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Skyline Retreat",
+              "ubicacion": "Hong Kong, China",
+              "precio_minimo": 260,
+              "precio_maximo": 480,
+              "calificacion": 4.9,
+              "servicios": ["Vistas al horizonte de Hong Kong", "Restaurante en la azotea", "Piscina infinita", "Club de salud y bienestar"]
+            },
+            {
+              "nombre": "Hotel Temple Street Haven",
+              "ubicacion": "Hong Kong, China",
+              "precio_minimo": 220,
+              "precio_maximo": 400,
+              "calificacion": 4.5,
+              "servicios": ["Cerca del Mercado Nocturno de Temple Street", "Desayuno local en la habitación", "Servicio de masajes tailandeses", "Recepción 24 horas"]
+            }
+          ]
         },
         {
           "nombre": "Hanoi",
@@ -134,10 +680,50 @@
           "descripcion": "La encantadora capital de Vietnam, con una rica historia y una deliciosa cocina callejera.",
           "atracciones": ["Casco Antiguo", "Templo de la Literatura", "Lago Hoan Kiem"],
           "imagen": "hanoi.jpg",
-          "precio": 
-
-1000,
-          "calificacion": 4.5
+          "precio": 1000,
+          "calificacion": 4.5,
+          "hoteles": [
+            {
+              "nombre": "Hotel Old Quarter Charm",
+              "ubicacion": "Hanoi, Vietnam",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.4,
+              "servicios": ["Ubicación en el casco antiguo", "Desayuno vietnamita tradicional", "Alquiler de bicicletas gratuito", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Lakeview Retreat",
+              "ubicacion": "Hanoi, Vietnam",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al lago Hoan Kiem", "Spa y centro de bienestar", "Restaurante con terraza al aire libre", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Literature Square",
+              "ubicacion": "Hanoi, Vietnam",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.6,
+              "servicios": ["Cerca del Templo de la Literatura", "Bar de cócteles artesanales", "Gimnasio con entrenador personal", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Riverside Serenity",
+              "ubicacion": "Hanoi, Vietnam",
+              "precio_minimo": 170,
+              "precio_maximo": 320,
+              "calificacion": 4.8,
+              "servicios": ["Vistas al río Rojo", "Piscina al aire libre", "Restaurante de mariscos frescos", "Servicio de masajes tailandeses"]
+            },
+            {
+              "nombre": "Hotel Modern Art Haven",
+              "ubicacion": "Hanoi, Vietnam",
+              "precio_minimo": 190,
+              "precio_maximo": 360,
+              "calificacion": 4.9,
+              "servicios": ["Diseño moderno y contemporáneo", "Galería de arte en el vestíbulo", "Restaurante gourmet", "Servicio de conserjería personalizado"]
+            }
+          ]
         },
         {
           "nombre": "Bangalore",
@@ -146,7 +732,49 @@
           "atracciones": ["Palacio de Bangalore", "Lalbagh Botanical Garden", "Cubbon Park"],
           "imagen": "bangalore.jpg",
           "precio": 900,
-          "calificacion": 4.4
+          "calificacion": 4.4,
+          "hoteles": [
+            {
+              "nombre": "Hotel Tech Hub",
+              "ubicacion": "Bangalore, India",
+              "precio_minimo": 120,
+              "precio_maximo": 250,
+              "calificacion": 4.3,
+              "servicios": ["Ubicación cerca de los parques tecnológicos", "Desayuno buffet internacional", "Sala de reuniones", "Wi-Fi de alta velocidad"]
+            },
+            {
+              "nombre": "Hotel Garden Retreat",
+              "ubicacion": "Bangalore, India",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.5,
+              "servicios": ["Ubicación cerca de los jardines botánicos", "Jardín paisajístico", "Piscina al aire libre", "Gimnasio con entrenador personal"]
+            },
+            {
+              "nombre": "Hotel Cityscape Oasis",
+              "ubicacion": "Bangalore, India",
+              "precio_minimo": 180,
+              "precio_maximo": 350,
+              "calificacion": 4.6,
+              "servicios": ["Vistas panorámicas de la ciudad", "Bar en la azotea", "Spa y centro de bienestar", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Artistic Haven",
+              "ubicacion": "Bangalore, India",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.8,
+              "servicios": ["Diseño artístico y contemporáneo", "Galería de arte en el vestíbulo", "Restaurante gourmet", "Servicio de conserjería personalizado"]
+            },
+            {
+              "nombre": "Hotel Lakeside Serenity",
+              "ubicacion": "Bangalore, India",
+              "precio_minimo": 170,
+              "precio_maximo": 320,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al lago Ulsoor", "Piscina al aire libre", "Restaurante de cocina regional", "Servicio de traslado al aeropuerto"]
+            }
+          ]
         },
         {
           "nombre": "Seúl",
@@ -155,7 +783,49 @@
           "atracciones": ["Gyeongbokgung", "Torre de Seúl", "Myeong-dong"],
           "imagen": "seul.jpg",
           "precio": 1300,
-          "calificacion": 4.6
+          "calificacion": 4.6,
+          "hoteles": [
+            {
+              "nombre": "Hotel Tech Tower",
+              "ubicacion": "Seúl, Corea del Sur",
+              "precio_minimo": 220,
+              "precio_maximo": 400,
+              "calificacion": 4.5,
+              "servicios": ["Ubicación cerca de la Torre de Seúl", "Wi-Fi gratuito", "Centro de negocios", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Palace View",
+              "ubicacion": "Seúl, Corea del Sur",
+              "precio_minimo": 250,
+              "precio_maximo": 450,
+              "calificacion": 4.7,
+              "servicios": ["Vistas al Palacio Gyeongbokgung", "Spa y centro de bienestar", "Restaurante con cocina tradicional coreana", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Myeong-dong Oasis",
+              "ubicacion": "Seúl, Corea del Sur",
+              "precio_minimo": 280,
+              "precio_maximo": 500,
+              "calificacion": 4.6,
+              "servicios": ["Cerca de Myeong-dong", "Bar en la azotea", "Piscina cubierta", "Servicio de traslado al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel K-pop Haven",
+              "ubicacion": "Seúl, Corea del Sur",
+              "precio_minimo": 300,
+              "precio_maximo": 550,
+              "calificacion": 4.8,
+              "servicios": ["Diseño inspirado en la cultura K-pop", "Sala de karaoke temática", "Restaurante con menú K-pop", "Recepción multilingüe"]
+            },
+            {
+              "nombre": "Hotel Hanok Retreat",
+              "ubicacion": "Seúl, Corea del Sur",
+              "precio_minimo": 200,
+              "precio_maximo": 380,
+              "calificacion": 4.4,
+              "servicios": ["Estancia en una casa hanok tradicional", "Clases de cocina coreana", "Jardín interior", "Servicio de guía turístico"]
+            }
+          ]
         }
       ]
     },
@@ -170,7 +840,49 @@
           "atracciones": ["Times Square", "Estátua de la Libertad", "Central Park"],
           "imagen": "nueva_york.jpg",
           "precio": 1800,
-          "calificacion": 4.8
+          "calificacion": 4.8,
+          "hoteles": [
+            {
+              "nombre": "Hotel Broadway Lights",
+              "ubicacion": "Nueva York, Estados Unidos",
+              "precio_minimo": 300,
+              "precio_maximo": 600,
+              "calificacion": 4.7,
+              "servicios": ["Cerca de Times Square", "Teatro en el hotel", "Restaurante de cocina internacional", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Liberty View",
+              "ubicacion": "Nueva York, Estados Unidos",
+              "precio_minimo": 350,
+              "precio_maximo": 650,
+              "calificacion": 4.9,
+              "servicios": ["Vistas a la Estatua de la Libertad", "Gimnasio con entrenador personal", "Piscina cubierta", "Servicio de transporte al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Central Park Oasis",
+              "ubicacion": "Nueva York, Estados Unidos",
+              "precio_minimo": 400,
+              "precio_maximo": 700,
+              "calificacion": 4.8,
+              "servicios": ["Ubicación frente a Central Park", "Spa y centro de bienestar", "Restaurante con vistas panorámicas", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Times Square Retreat",
+              "ubicacion": "Nueva York, Estados Unidos",
+              "precio_minimo": 320,
+              "precio_maximo": 600,
+              "calificacion": 4.6,
+              "servicios": ["Cerca de Times Square", "Bar en la azotea", "Centro de negocios", "Servicio de lavandería"]
+            },
+            {
+              "nombre": "Hotel Manhattan Skyline",
+              "ubicacion": "Nueva York, Estados Unidos",
+              "precio_minimo": 280,
+              "precio_maximo": 550,
+              "calificacion": 4.5,
+              "servicios": ["Vistas panorámicas del horizonte de Manhattan", "Restaurante de alta cocina", "Gimnasio abierto las 24 horas", "Wi-Fi gratuito"]
+            }
+          ]
         },
         {
           "nombre": "Buenos Aires",
@@ -179,7 +891,49 @@
           "atracciones": ["La Boca", "Recoleta", "Teatro Colón"],
           "imagen": "buenos_aires.jpg",
           "precio": 1300,
-          "calificacion": 4.5
+          "calificacion": 4.5,
+          "hoteles": [
+            {
+              "nombre": "Hotel Tango Palace",
+              "ubicacion": "Buenos Aires, Argentina",
+              "precio_minimo": 150,
+              "precio_maximo": 300,
+              "calificacion": 4.4,
+              "servicios": ["Ambiente tanguero", "Restaurante con shows de tango en vivo", "Piscina al aire libre", "Servicio de masajes"]
+            },
+            {
+              "nombre": "Hotel Recoleta Retreat",
+              "ubicacion": "Buenos Aires, Argentina",
+              "precio_minimo": 200,
+              "precio_maximo": 350,
+              "calificacion": 4.6,
+              "servicios": ["Cerca de Recoleta", "Spa y centro de bienestar", "Bar de vinos argentinos", "Servicio de alquiler de bicicletas"]
+            },
+            {
+              "nombre": "Hotel Colón View",
+              "ubicacion": "Buenos Aires, Argentina",
+              "precio_minimo": 180,
+              "precio_maximo": 320,
+              "calificacion": 4.5,
+              "servicios": ["Vistas al Teatro Colón", "Desayuno buffet internacional", "Gimnasio con vistas al jardín", "Servicio de habitaciones las 24 horas"]
+            },
+            {
+              "nombre": "Hotel Tango Garden",
+              "ubicacion": "Buenos Aires, Argentina",
+              "precio_minimo": 170,
+              "precio_maximo": 300,
+              "calificacion": 4.7,
+              "servicios": ["Jardín de estilo tanguero", "Restaurante con asado argentino", "Cócteles de tango", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Boca Charm",
+              "ubicacion": "Buenos Aires, Argentina",
+              "precio_minimo": 190,
+              "precio_maximo": 340,
+              "calificacion": 4.8,
+              "servicios": ["Cerca de La Boca", "Terraza con vistas panorámicas", "Piscina cubierta climatizada", "Servicio de lavandería"]
+            }
+          ]
         },
         {
           "nombre": "Ciudad del Cabo",
@@ -188,7 +942,49 @@
           "atracciones": ["Table Mountain", "Cabo de Buena Esperanza", "Victoria & Alfred Waterfront"],
           "imagen": "ciudad_del_cabo.jpg",
           "precio": 2200,
-          "calificacion": 4.9
+          "calificacion": 4.9,
+          "hoteles": [
+            {
+              "nombre": "Hotel Mountain View",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 400,
+              "precio_maximo": 700,
+              "calificacion": 4.8,
+              "servicios": ["Vistas a la Table Mountain", "Piscina al aire libre con bar", "Safari organizado", "Servicio de traslado al aeropuerto"]
+            },
+            {
+              "nombre": "Hotel Waterfront Oasis",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 450,
+              "precio_maximo": 750,
+              "calificacion": 4.9,
+              "servicios": ["Cerca del Victoria & Alfred Waterfront", "Spa y centro de bienestar", "Restaurante de mariscos frescos", "Servicio de masajes tailandeses"]
+            },
+            {
+              "nombre": "Hotel Coastal Retreat",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 500,
+              "precio_maximo": 800,
+              "calificacion": 4.7,
+              "servicios": ["Ubicación frente al mar", "Piscina infinita con vistas al océano", "Excursiones guiadas a la naturaleza", "Restaurante con menú local"]
+            },
+            {
+              "nombre": "Hotel Cape Town Serenity",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 350,
+              "precio_maximo": 650,
+              "calificacion": 4.6,
+              "servicios": ["Entorno tranquilo y apacible", "Jardín paisajístico", "Desayuno buffet continental", "Servicio de traslado al centro de la ciudad"]
+            },
+            {
+              "nombre": "Hotel Table Mountain View",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 380,
+              "precio_maximo": 700,
+              "calificacion": 4.5,
+              "servicios": ["Vistas panorámicas a la Table Mountain", "Piscina al aire libre con bar", "Gimnasio abierto las 24 horas", "Wi-Fi gratuito"]
+            }
+          ]
         },
         {
           "nombre": "Rio de Janeiro",
@@ -197,123 +993,666 @@
           "atracciones": ["Cristo Redentor", "Playa de Copacabana", "Pan de Azúcar"],
           "imagen": "rio_de_janeiro.jpg",
           "precio": 2000,
-          "calificacion": 4.7
-        },
-        {
-          "nombre": "Los Ángeles",
-          "pais": "Estados Unidos",
-          "descripcion": "La ciudad de las estrellas de cine, las playas y los parques temáticos.",
-          "atracciones": ["Hollywood", "Universal Studios", "Santa Mónica Pier"],
-          "imagen": "los_angeles.jpg",
-          "precio": 1900,
-          "calificacion": 4.6
-        },
-        {
-          "nombre": "Toronto",
-          "pais": "Canadá",
-          "descripcion": "La ciudad multicultural situada en la orilla norte del lago Ontario.",
-          "atracciones": ["Torre CN", "Cataratas del Niágara", "Distrito de Entretenimiento"],
-          "imagen": "toronto.jpg",
-          "precio": 1700,
-          "calificacion": 4.5
-        },
-        {
-          "nombre": "Santiago",
-          "pais": "Chile",
-          "descripcion": "La capital chilena, rodeada de montañas y viñedos.",
-          "atracciones": ["Cerro San Cristóbal", "Barrio Bellavista", "Plaza de Armas"],
-          "imagen": "santiago.jpg",
-          "precio": 1500,
-          "calificacion": 4.4
-        },
-        {
-          "nombre": "Cancún",
-          "pais": "México",
-          "descripcion": "El paraíso del Caribe, famoso por sus playas de arena blanca y aguas turquesas.",
-          "atracciones": ["Zona Hotelera", "Chichén Itzá", "Isla Mujeres"],
-          "imagen": "cancun.jpg",
-          "precio": 2100,
-          "calificacion": 4.8
-        },
-        {
-          "nombre": "Caracas",
-          "pais": "Venezuela",
-          "descripcion": "La bulliciosa capital de Venezuela, ubicada en un valle rodeado de montañas.",
-          "atracciones": ["El Ávila", "Plaza Bolívar", "Teleférico de Caracas"],
-          "imagen": "caracas.jpg",
-          "precio": 1500,
-          "calificacion": 4.3
-        },
-        {
-          "nombre": "La Habana",
-          "pais": "Cuba",
-          "descripcion": "La ciudad caribeña llena de color, música y arquitectura colonial.",
-          "atracciones": ["La Habana Vieja", "Malecón", "Plaza de la Revolución"],
-          "imagen": "la_habana.jpg",
-          "precio": 1400,
-          "calificacion": 4.2
-        }
-      ]
-    },
-    {
-      "nombre": "África",
-      "descripcion": "África es un continente de una belleza natural impresionante, con una rica diversidad de culturas, paisajes y vida salvaje. Desde las vastas llanuras del Serengeti hasta las montañas nevadas del Kilimanjaro, África ofrece una experiencia única e inolvidable.",
-      "destinos": [
-        {
-          "nombre": "Ciudad del Cabo",
-          "pais": "Sudáfrica",
-          "descripcion": "La ciudad con una belleza natural espectacular y una mezcla cultural vibrante.",
-          "atracciones": ["Table Mountain", "Cabo de Buena Esperanza", "Victoria & Alfred Waterfront"],
-          "imagen": "ciudad_del_cabo.jpg",
-          "precio": 2200,
-          "calificacion": 4.9
-        },
-        {
-          "nombre": "El Cairo",
-          "pais": "Egipto",
-          "descripcion": "La ciudad de los faraones, las pirámides y el río Nilo.",
-          "atracciones": ["Pirámides de Giza", "Museo Egipcio", "Ciudadela de Saladino"],
-          "imagen": "el_cairo.jpg",
-          "precio": 2000,
-          "calificacion": 4.7
-        },
-        {
-          "nombre": "Marrakech",
-          "pais": "Marruecos",
-          "descripcion": "La ciudad de los zocos, los jardines exuberantes y la arquitectura islámica.",
-          "atracciones": ["Medina de Marrakech", "Jardines Majorelle", "Palacio Bahía"],
-          "imagen": "marrakech.jpg",
-          "precio": 1800,
-          "calificacion": 4.6
-        },
-        {
-          "nombre": "Nairobi",
-          "pais": "Kenia",
-          "descripcion": "La puerta de entrada al safari africano, con una rica vida salvaje y una vibrante cultura urbana.",
-          "atracciones": ["Parque Nacional de Nairobi", "Giraffe Centre", "Museo Nacional de Nairobi"],
-          "imagen": "nairobi.jpg",
-          "precio": 2100,
-          "calificacion": 4.8
-        },
-        {
-          "nombre": "Casablanca",
-          "pais": "Marruecos",
-          "descripcion": "La moderna ciudad costera conocida por su mezcla de arquitectura histórica y contemporánea.",
-          "atracciones": ["Mezquita Hassan II", "Casco antiguo de Casablanca", "Corniche Ain Diab"],
-          "imagen": "casablanca.jpg",
-          "precio": 1900,
-          "calificacion": 4.7
-        },
-        {
-          "nombre": "Johannesburgo",
-          "pais": "Sudáfrica",
-          "descripcion": "La vibrante metrópolis sudafricana, llena de historia, arte y cultura.",
-          "atracciones": ["Museo del Apartheid", "Soweto", "Parque Nacional Kruger"],
-          "imagen": "johannesburgo.jpg",
-          "precio": 2300,
-          "calificacion": 4.9
-        }
-      ]
-    }
-  ]
-}
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Copacabana Palace",
+              "ubicacion": "Río de Janeiro, Brasil",
+              "precio_minimo": 350,
+              "precio_maximo": 650,
+              "calificacion": 4.6,
+              "servicios": ["Frente a la Playa de Copacabana", "Piscina al aire libre con vistas al mar", "Spa de lujo", "Restaurante gourmet"]
+            },
+            {
+              "nombre": "Hotel Samba Garden",
+              "ubicacion": "Río de Janeiro, Brasil",
+              "precio_minimo": 300,
+              "precio_maximo": 550,
+              "calificacion": 4.7,
+              "servicios": ["Ambiente de samba en el hotel", "Bar en la piscina", "Servicio de masajes relajantes", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Sugarloaf Retreat",
+              "ubicacion": "Río de Janeiro, Brasil",
+              "precio_minimo": 400,
+              "precio_maximo": 700,
+              "calificacion": 4.8,
+              "servicios": ["Vistas al Pan de Azúcar", "Piscina infinita en la azotea", "Restaurante con menú regional", "Servicio de traslado a la playa"]
+            },
+            {
+              "nombre": "Hotel Redentor View",
+              "ubicacion": "Río de Janeiro, Brasil",
+              "precio_minimo": 380,
+              "precio_maximo": 650,
+              "calificacion": 4.5,
+              "servicios": ["Vistas al Cristo Redentor", "Gimnasio con vistas panorámicas", "Bar de cócteles en la azotea", "Wi-Fi gratuito"]
+            },
+            {
+              "nombre": "Hotel Carnival Oasis",
+              "ubicacion": "Río de Janeiro, Brasil",
+              "precio_minimo": 420,
+              "precio_maximo": 750,
+              "calificacion": 4.9,
+              "servicios": ["Ambiente de carnaval todo el año", "Piscina temática con música en vivo", "Restaurante con buffet de samba", "Servicio de lavandería"]
+            }
+            ]
+          },
+          {
+            "nombre": "Los Ángeles",
+            "pais": "Estados Unidos",
+            "descripcion": "La ciudad de las estrellas de cine, las playas y los parques temáticos.",
+            "atracciones": ["Hollywood", "Universal Studios", "Santa Mónica Pier"],
+            "imagen": "los_angeles.jpg",
+            "precio": 1900,
+            "calificacion": 4.6,
+            "hoteles": [
+              {
+                "nombre": "Hotel Hollywood Star",
+                "ubicacion": "Los Ángeles, Estados Unidos",
+                "precio_minimo": 350,
+                "precio_maximo": 600,
+                "calificacion": 4.7,
+                "servicios": ["Cerca de Hollywood Walk of Fame", "Piscina al aire libre con bar", "Restaurante de cocina internacional", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Beachfront Bliss",
+                "ubicacion": "Los Ángeles, Estados Unidos",
+                "precio_minimo": 400,
+                "precio_maximo": 700,
+                "calificacion": 4.8,
+                "servicios": ["Frente al mar en Santa Mónica", "Spa de lujo", "Bar en la playa", "Servicio de alquiler de bicicletas"]
+              },
+              {
+                "nombre": "Hotel Downtown Views",
+                "ubicacion": "Los Ángeles, Estados Unidos",
+                "precio_minimo": 380,
+                "precio_maximo": 650,
+                "calificacion": 4.6,
+                "servicios": ["Vistas panorámicas del centro de la ciudad", "Gimnasio abierto las 24 horas", "Restaurante con terraza", "Servicio de habitaciones las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Universal Retreat",
+                "ubicacion": "Los Ángeles, Estados Unidos",
+                "precio_minimo": 450,
+                "precio_maximo": 750,
+                "calificacion": 4.9,
+                "servicios": ["Cerca de Universal Studios", "Piscina cubierta climatizada", "Bar de cócteles temáticos", "Servicio de traslado al parque"]
+              },
+              {
+                "nombre": "Hotel Sunset Serenity",
+                "ubicacion": "Los Ángeles, Estados Unidos",
+                "precio_minimo": 400,
+                "precio_maximo": 700,
+                "calificacion": 4.5,
+                "servicios": ["Vistas al atardecer en Hollywood Hills", "Jardín paisajístico", "Desayuno buffet continental", "Wi-Fi gratuito"]
+              }
+            ]
+          },
+          {
+            "nombre": "Toronto",
+            "pais": "Canadá",
+            "descripcion": "La ciudad multicultural situada en la orilla norte del lago Ontario.",
+            "atracciones": ["Torre CN", "Cataratas del Niágara", "Distrito de Entretenimiento"],
+            "imagen": "toronto.jpg",
+            "precio": 1700,
+            "calificacion": 4.5,
+            "hoteles": [
+              {
+                "nombre": "Hotel CN Tower View",
+                "ubicacion": "Toronto, Canadá",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.6,
+                "servicios": ["Vistas a la Torre CN", "Piscina cubierta con vistas panorámicas", "Restaurante con menú internacional", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Lakeside Retreat",
+                "ubicacion": "Toronto, Canadá",
+                "precio_minimo": 300,
+                "precio_maximo": 550,
+                "calificacion": 4.7,
+                "servicios": ["Frente al lago Ontario", "Spa y centro de bienestar", "Bar de vinos canadienses", "Servicio de traslado al aeropuerto"]
+              },
+              {
+                "nombre": "Hotel Downtown Haven",
+                "ubicacion": "Toronto, Canadá",
+                "precio_minimo": 280,
+                "precio_maximo": 520,
+                "calificacion": 4.5,
+                "servicios": ["Cerca del Distrito de Entretenimiento", "Gimnasio con entrenador personal", "Desayuno buffet continental", "Servicio de habitaciones las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Niagara Escapes",
+                "ubicacion": "Toronto, Canadá",
+                "precio_minimo": 320,
+                "precio_maximo": 600,
+                "calificacion": 4.8,
+                "servicios": ["Excursiones a las Cataratas del Niágara", "Piscina al aire libre con bar", "Restaurante con menú local", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Entertainment District Gem",
+                "ubicacion": "Toronto, Canadá",
+                "precio_minimo": 280,
+                "precio_maximo": 550,
+                "calificacion": 4.6,
+                "servicios": ["Cerca del Distrito de Entretenimiento", "Terraza en la azotea con vistas a la ciudad", "Bar de cócteles temáticos", "Servicio de lavandería"]
+              }
+            ]
+          },
+          {
+            "nombre": "Santiago",
+            "pais": "Chile",
+            "descripcion": "La capital chilena, rodeada de montañas y viñedos.",
+            "atracciones": ["Cerro San Cristóbal", "Barrio Bellavista", "Plaza de Armas"],
+            "imagen": "santiago.jpg",
+            "precio": 1500,
+            "calificacion": 4.4,
+            "hoteles": [
+              {
+                "nombre": "Hotel Mountain View",
+                "ubicacion": "Santiago, Chile",
+                "precio_minimo": 200,
+                "precio_maximo": 400,
+                "calificacion": 4.5,
+                "servicios": ["Vistas a la Cordillera de los Andes", "Piscina al aire libre con bar", "Restaurante con menú internacional", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Bellavista Charm",
+                "ubicacion": "Santiago, Chile",
+                "precio_minimo": 220,
+                "precio_maximo": 450,
+                "calificacion": 4.6,
+                "servicios": ["Ubicación en el Barrio Bellavista", "Spa y centro de bienestar", "Bar de tapas chilenas", "Servicio de habitaciones las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Plaza Central",
+                "ubicacion": "Santiago, Chile",
+                "precio_minimo": 180,
+                "precio_maximo": 380,
+                "calificacion": 4.4,
+                "servicios": ["Cerca de la Plaza de Armas", "Gimnasio abierto las 24 horas", "Desayuno buffet continental", "Servicio de lavandería"]
+              },
+              {
+                "nombre": "Hotel Vineyard Retreat",
+                "ubicacion": "Santiago, Chile",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.7,
+                "servicios": ["Cerca de viñedos locales", "Piscina rodeada de naturaleza", "Restaurante gourmet con maridaje de vinos", "Servicio de traslado a las bodegas"]
+              },
+              {
+                "nombre": "Hotel City Lights",
+                "ubicacion": "Santiago, Chile",
+                "precio_minimo": 200,
+                "precio_maximo": 420,
+                "calificacion": 4.5,
+                "servicios": ["Vistas panorámicas de la ciudad", "Terraza en la azotea con bar", "Bar de cócteles temáticos", "Wi-Fi gratuito"]
+              }
+            ]
+          },
+          {
+            "nombre": "Cancún",
+            "pais": "México",
+            "descripcion": "El paraíso del Caribe, famoso por sus playas de arena blanca y aguas turquesas.",
+            "atracciones": ["Zona Hotelera", "Chichén Itzá", "Isla Mujeres"],
+            "imagen": "cancun.jpg",
+            "precio": 2100,
+            "calificacion": 4.8,
+            "hoteles": [
+              {
+                "nombre": "Hotel Beachfront Paradise",
+                "ubicacion": "Cancún, México",
+                "precio_minimo": 400,
+                "precio_maximo": 800,
+                "calificacion": 4.7,
+                "servicios": ["Frente a la playa en la Zona Hotelera", "Piscina infinita con vistas al mar", "Spa de lujo", "Restaurante de mariscos frescos"]
+              },
+              {
+                "nombre": "Hotel Island Retreat",
+                "ubicacion": "Cancún, México",
+                "precio_minimo": 380,
+                "precio_maximo": 700,
+                "calificacion": 4.8,
+                "servicios": ["Ubicación en Isla Mujeres", "Piscina privada en algunas habitaciones", "Bar en la playa", "Servicio de traslado en lancha"]
+              },
+              {
+                "nombre": "Hotel Downtown Oasis",
+                "ubicacion": "Cancún, México",
+                "precio_minimo": 350,
+                "precio_maximo": 650,
+                "calificacion": 4.6,
+                "servicios": ["Cerca de la vida nocturna de la ciudad", "Piscina al aire libre con bar", "Restaurante con cocina mexicana", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Jungle Resort",
+                "ubicacion": "Cancún, México",
+                "precio_minimo": 420,
+                "precio_maximo": 750,
+                "calificacion": 4.9,
+                "servicios": ["Rodeado de selva tropical", "Piscina natural con cascadas", "Excursiones guiadas a la naturaleza", "Restaurante con menú regional"]
+              },
+              {
+                "nombre": "Hotel Ocean View",
+                "ubicacion": "Cancún, México",
+                "precio_minimo": 380,
+                "precio_maximo": 700,
+                "calificacion": 4.5,
+                "servicios": ["Vistas al mar Caribe", "Gimnasio con entrenador personal", "Bar en la piscina", "Wi-Fi gratuito"]
+              }
+            ]
+          },
+          {
+            "nombre": "Caracas",
+            "pais": "Venezuela",
+            "descripcion": "La bulliciosa capital de Venezuela, ubicada en un valle rodeado de montañas.",
+            "atracciones": ["El Ávila", "Plaza Bolívar", "Teleférico de Caracas"],
+            "imagen": "caracas.jpg",
+            "precio": 1500,
+            "calificacion": 4.3,
+            "hoteles": [
+              {
+                "nombre": "Hotel Mountain Retreat",
+                "ubicacion": "Caracas, Venezuela",
+                "precio_minimo": 200,
+                "precio_maximo": 400,
+                "calificacion": 4.4,
+                "servicios": ["Rodeado de naturaleza en El Ávila", "Piscina al aire libre con vistas a las montañas", "Restaurante con menú local", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Plaza Bolívar",
+                "ubicacion": "Caracas, Venezuela",
+                "precio_minimo": 180,
+                "precio_maximo": 380,
+                "calificacion": 4.5,
+                "servicios": ["En el corazón de la ciudad", "Desayuno buffet continental", "Servicio de habitaciones las 24 horas", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Valley Views",
+                "ubicacion": "Caracas, Venezuela",
+                "precio_minimo": 220,
+                "precio_maximo": 450,
+                "calificacion": 4.3,
+                "servicios": ["Vistas panorámicas del valle", "Piscina al aire libre con bar", "Spa y centro de bienestar", "Restaurante con terraza"]
+              },
+              {
+                "nombre": "Hotel Downtown Haven",
+                "ubicacion": "Caracas, Venezuela",
+                "precio_minimo": 210,
+                "precio_maximo": 420,
+                "calificacion": 4.2,
+                "servicios": ["Cerca de la Plaza Bolívar", "Gimnasio abierto las 24 horas", "Bar de cócteles en la azotea", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Ávila Retreat",
+                "ubicacion": "Caracas, Venezuela",
+                "precio_minimo": 230,
+                "precio_maximo": 480,
+                "calificacion": 4.3,
+                "servicios": ["Ubicado en la base del Ávila", "Piscina climatizada al aire libre", "Restaurante con vistas panorámicas", "Wi-Fi gratuito"]
+              }
+            ]
+          },
+          {
+            "nombre": "La Habana",
+            "pais": "Cuba",
+            "descripcion": "La ciudad caribeña llena de color, música y arquitectura colonial.",
+            "atracciones": ["La Habana Vieja", "Malecón", "Plaza de la Revolución"],
+            "imagen": "la_habana.jpg",
+            "precio": 1400,
+            "calificacion": 4.2,
+            "hoteles": [
+              {
+                "nombre": "Hotel Colonial Charm",
+                "ubicacion": "La Habana, Cuba",
+                "precio_minimo": 180,
+                "precio_maximo": 380,
+                "calificacion": 4.3,
+                "servicios": ["En el corazón de la Habana Vieja", "Patio colonial con jardín", "Restaurante de cocina tradicional cubana", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Malecón View",
+                "ubicacion": "La Habana, Cuba",
+                "precio_minimo": 200,
+                "precio_maximo": 420,
+                "calificacion": 4.4,
+                "servicios": ["Vistas panorámicas al Malecón", "Piscina en la azotea con bar", "Bar de mojitos cubanos", "Servicio de lavandería"]
+              },
+              {
+                "nombre": "Hotel Revolución Square",
+                "ubicacion": "La Habana, Cuba",
+                "precio_minimo": 220,
+                "precio_maximo": 450,
+                "calificacion": 4.2,
+                "servicios": ["Cerca de la Plaza de la Revolución", "Desayuno buffet continental", "Servicio de habitaciones las 24 horas", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Oceanfront Oasis",
+                "ubicacion": "La Habana, Cuba",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.1,
+                "servicios": ["Frente al mar Caribe", "Piscina al aire libre con vistas al mar", "Restaurante de mariscos frescos", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Havana Hideaway",
+                "ubicacion": "La Habana, Cuba",
+                "precio_minimo": 220,
+                "precio_maximo": 460,
+                "calificacion": 4.3,
+                "servicios": ["En un callejón tranquilo de la Habana Vieja", "Patio interior con plantas tropicales", "Bar de cócteles cubanos", "Servicio de traslado al aeropuerto"]
+              }
+            ]
+          },
+          {
+            "nombre": "Ciudad del Cabo",
+            "pais": "Sudáfrica",
+            "descripcion": "La ciudad con una belleza natural espectacular y una mezcla cultural vibrante.",
+            "atracciones": ["Table Mountain", "Cabo de Buena Esperanza", "Victoria & Alfred Waterfront"],
+            "imagen": "ciudad_del_cabo.jpg",
+            "precio": 2200,
+            "calificacion": 4.9,
+            "hoteles": [
+              {
+                "nombre": "Hotel Mountain View",
+                "ubicacion": "Ciudad del Cabo, Sudáfrica",
+                "precio_minimo": 400,
+                "precio_maximo": 800,
+                "calificacion": 4.8,
+                "servicios": ["Vistas panorámicas a la montaña", "Piscina al aire libre", "Restaurante con cocina local", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Waterfront Deluxe",
+                "ubicacion": "Ciudad del Cabo, Sudáfrica",
+                "precio_minimo": 450,
+                "precio_maximo": 850,
+                "calificacion": 4.9,
+                "servicios": ["Ubicación en el Victoria & Alfred Waterfront", "Spa de lujo", "Restaurante gourmet", "Servicio de habitaciones las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Coastal Retreat",
+                "ubicacion": "Ciudad del Cabo, Sudáfrica",
+                "precio_minimo": 350,
+                "precio_maximo": 700,
+                "calificacion": 4.7,
+                "servicios": ["Cerca de la playa", "Piscina infinita con vistas al mar", "Bar en la azotea", "Gimnasio abierto las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Gardens Oasis",
+                "ubicacion": "Ciudad del Cabo, Sudáfrica",
+                "precio_minimo": 300,
+                "precio_maximo": 600,
+                "calificacion": 4.6,
+                "servicios": ["Jardines tropicales exuberantes", "Piscina rodeada de palmeras", "Desayuno buffet continental", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Urban Escape",
+                "ubicacion": "Ciudad del Cabo, Sudáfrica",
+                "precio_minimo": 400,
+                "precio_maximo": 750,
+                "calificacion": 4.8,
+                "servicios": ["Ubicación céntrica", "Piscina en la azotea con vistas a la ciudad", "Restaurante con terraza", "Servicio de lavandería"]
+              }
+            ]
+          },
+          {
+            "nombre": "El Cairo",
+            "pais": "Egipto",
+            "descripcion": "La ciudad de los faraones, las pirámides y el río Nilo.",
+            "atracciones": ["Pirámides de Giza", "Museo Egipcio", "Ciudadela de Saladino"],
+            "imagen": "el_cairo.jpg",
+            "precio": 2000,
+            "calificacion": 4.7,
+            "hoteles": [
+              {
+                "nombre": "Hotel Nile View",
+                "ubicacion": "El Cairo, Egipto",
+                "precio_minimo": 300,
+                "precio_maximo": 600,
+                "calificacion": 4.6,
+                "servicios": ["Vistas al río Nilo", "Piscina en la azotea con bar", "Restaurante con terraza panorámica", "Servicio de habitaciones las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Pyramid Oasis",
+                "ubicacion": "El Cairo, Egipto",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.5,
+                "servicios": ["Cerca de las Pirámides de Giza", "Jardín con piscina al aire libre", "Restaurante con menú egipcio", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel City Centre",
+                "ubicacion": "El Cairo, Egipto",
+                "precio_minimo": 200,
+                "precio_maximo": 400,
+                "calificacion": 4.7,
+                "servicios": ["Ubicación céntrica", "Desayuno buffet continental", "Centro de negocios", "Servicio de lavandería"]
+              },
+              {
+                "nombre": "Hotel Desert Retreat",
+                "ubicacion": "El Cairo, Egipto",
+                "precio_minimo": 280,
+                "precio_maximo": 550,
+                "calificacion": 4.6,
+                "servicios": ["Oasis en el desierto", "Piscina rodeada de palmeras", "Bar de cócteles beduinos", "Excursiones al desierto"]
+              },
+              {
+                "nombre": "Hotel Luxor Palace",
+                "ubicacion": "El Cairo, Egipto",
+                "precio_minimo": 350,
+                "precio_maximo": 700,
+                "calificacion": 4.8,
+                "servicios": ["Estilo palaciego", "Spa de lujo", "Restaurante con chefs galardonados", "Servicio de traslado al aeropuerto"]
+              }
+            ]
+          },
+          {
+            "nombre": "Marrakech",
+            "pais": "Marruecos",
+            "descripcion": "La ciudad de los zocos, los jardines exuberantes y la arquitectura islámica.",
+            "atracciones": ["Medina de Marrakech", "Jardines Majorelle", "Palacio Bahía"],
+            "imagen": "marrakech.jpg",
+            "precio": 1800,
+            "calificacion": 4.6,
+            "hoteles": [
+              {
+                "nombre": "Hotel Medina Charm",
+                "ubicacion": "Marrakech, Marruecos",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.5,
+                "servicios": ["En el corazón de la Medina", "Patio con fuente", "Riad con decoración tradicional", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Oasis Resort",
+                "ubicacion": "Marrakech, Marruecos",
+                "precio_minimo": 300,
+                "precio_maximo": 600,
+                "calificacion": 4.7,
+                "servicios": ["Rodeado de palmeras", "Piscina estilo oasis", "Restaurante con terraza", "Servicio de spa"]
+              },
+              {
+                "nombre": "Hotel Palace View",
+                "ubicacion": "Marrakech, Marruecos",
+                "precio_minimo": 400,
+                "precio_maximo": 800,
+                "calificacion": 4.8,
+                "servicios": ["Vistas al Palacio Bahía", "Spa de lujo", "Restaurante con chefs internacionales", "Servicio de transporte al aeropuerto"]
+              },
+              {
+                "nombre": "Hotel Riad Elegance",
+                "ubicacion": "Marrakech, Marruecos",
+                "precio_minimo": 280,
+                "precio_maximo": 550,
+                "calificacion": 4.6,
+                "servicios": ["Riad tradicional con patio interior", "Piscina climatizada", "Hammam", "Excursiones al desierto"]
+              },
+              {
+                "nombre": "Hotel Atlas Palace",
+                "ubicacion": "Marrakech, Marruecos",
+                "precio_minimo": 350,
+                "precio_maximo": 700,
+                "calificacion": 4.7,
+                "servicios": ["Ubicación en la zona moderna", "Piscina en la azotea", "Restaurante con cocina internacional", "Wi-Fi gratuito"]
+              }
+            ]
+          },
+          {
+            "nombre": "Nairobi",
+            "pais": "Kenia",
+            "descripcion": "La puerta de entrada al safari africano, con una rica vida salvaje y una vibrante cultura urbana.",
+            "atracciones": ["Parque Nacional de Nairobi", "Giraffe Centre", "Museo Nacional de Nairobi"],
+            "imagen": "nairobi.jpg",
+            "precio": 2100,
+            "calificacion": 4.8,
+            "hoteles": [
+              {
+                "nombre": "Hotel Safari Lodge",
+                "ubicacion": "Nairobi, Kenia",
+                "precio_minimo": 350,
+                "precio_maximo": 700,
+                "calificacion": 4.7,
+                "servicios": ["En el borde del Parque Nacional de Nairobi", "Vistas a la sabana", "Safari guiado", "Piscina al aire libre"]
+              },
+              {
+                "nombre": "Hotel Urban Oasis",
+                "ubicacion": "Nairobi, Kenia",
+                "precio_minimo": 300,
+                "precio_maximo": 600,
+                "calificacion": 4.6,
+                "servicios": ["Cerca del Giraffe Centre", "Jardines tropicales", "Piscina con cascada", "Restaurante con terraza"]
+              },
+              {
+                "nombre": "Hotel City Centre",
+                "ubicacion": "Nairobi, Kenia",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.5,
+                "servicios": ["Ubicación céntrica", "Desayuno buffet continental", "Servicio de transporte al aeropuerto", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Savannah View",
+                "ubicacion": "Nairobi, Kenia",
+                "precio_minimo": 280,
+                "precio_maximo": 550,
+                "calificacion": 4.6,
+                "servicios": ["Vistas panorámicas a la sabana", "Piscina al aire libre con bar", "Restaurante con cocina local", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Serenity",
+                "ubicacion": "Nairobi, Kenia",
+                "precio_minimo": 320,
+                "precio_maximo": 650,
+                "calificacion": 4.8,
+                "servicios": ["Atmósfera tranquila", "Jardines zen", "Piscina climatizada", "Spa y centro de bienestar"]
+              }
+            ]
+          },
+          {
+            "nombre": "Casablanca",
+            "pais": "Marruecos",
+            "descripcion": "La moderna ciudad costera conocida por su mezcla de arquitectura histórica y contemporánea.",
+            "atracciones": ["Mezquita Hassan II", "Casco antiguo de Casablanca", "Corniche Ain Diab"],
+            "imagen": "casablanca.jpg",
+            "precio": 1900,
+            "calificacion": 4.7,
+            "hoteles": [
+              {
+                "nombre": "Hotel Mosque View",
+                "ubicacion": "Casablanca, Marruecos",
+                "precio_minimo": 400,
+                "precio_maximo": 800,
+                "calificacion": 4.8,
+                "servicios": ["Vistas a la Mezquita Hassan II", "Spa y centro de bienestar", "Restaurante con cocina marroquí", "Servicio de habitaciones las 24 horas"]
+              },
+              {
+                "nombre": "Hotel Ocean Breeze",
+                "ubicacion": "Casablanca, Marruecos",
+                "precio_minimo": 350,
+                "precio_maximo": 700,
+                "calificacion": 4.7,
+                "servicios": ["Cerca de la playa", "Piscina con vistas al océano", "Bar de cócteles en la azotea", "Servicio de traslado al aeropuerto"]
+              },
+              {
+                "nombre": "Hotel Medina Palace",
+                "ubicacion": "Casablanca, Marruecos",
+                "precio_minimo": 300,
+                "precio_maximo": 600,
+                "calificacion": 4.6,
+                "servicios": ["Estilo morisco", "Patio interior con fuente", "Restaurante con terraza", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel City Centre",
+                "ubicacion": "Casablanca, Marruecos",
+                "precio_minimo": 250,
+                "precio_maximo": 500,
+                "calificacion": 4.5,
+                "servicios": ["Ubicación céntrica", "Desayuno buffet continental", "Servicio de lavandería", "Recepción 24 horas"]
+              },
+              {
+                "nombre": "Hotel Royal Mirage",
+                "ubicacion": "Casablanca, Marruecos",
+                "precio_minimo": 280,
+                "precio_maximo": 550,
+                "calificacion": 4.6,
+                "servicios": ["Lujo moderno", "Piscina en la azotea con vistas a la ciudad", "Restaurante con chefs galardonados", "Servicio de habitaciones las 24 horas"]
+              }
+            ]
+          },
+          {
+            "nombre": "Johannesburgo",
+            "pais": "Sudáfrica",
+            "descripcion": "La vibrante metrópolis sudafricana, llena de historia, arte y cultura.",
+            "atracciones": ["Museo del Apartheid", "Soweto", "Parque Nacional Kruger"],
+            "imagen": "johannesburgo.jpg",
+            "precio": 2300,
+            "calificacion": 4.9,
+            "hoteles": [
+              {
+                "nombre": "Hotel Apartheid Museum",
+                "ubicacion": "Johannesburgo, Sudáfrica",
+                "precio_minimo": 400,
+                "precio_maximo": 800,
+                "calificacion": 4.8,
+                "servicios": ["Cerca del Museo del Apartheid", "Piscina al aire libre", "Restaurante con cocina sudafricana", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Soweto Experience",
+                "ubicacion": "Johannesburgo, Sudáfrica",
+                "precio_minimo": 350,
+                "precio_maximo": 700,
+                "calificacion": 4.7,
+                "servicios": ["Tours a Soweto", "Piscina con vistas a la ciudad", "Bar en la azotea", "Servicio de lavandería"]
+              },
+              {
+                "nombre": "Hotel Kruger Retreat",
+                "ubicacion": "Johannesburgo, Sudáfrica",
+                "precio_minimo": 300,
+                "precio_maximo": 600,
+                "calificacion": 4.6,
+                "servicios": ["Acceso rápido al Parque Nacional Kruger", "Piscina rodeada de jardines", "Restaurante con menú internacional", "Wi-Fi gratuito"]
+              },
+              {
+                "nombre": "Hotel Urban Oasis",
+                "ubicacion": "Johannesburgo, Sudáfrica",
+                "precio_minimo": 280,
+                "precio_maximo": 550,
+                "calificacion": 4.6,
+                "servicios": ["Atmósfera tranquila", "Jardín botánico", "Piscina climatizada", "Servicio de traslado al aeropuerto"]
+              },
+              {
+                "nombre": "Hotel Downtown Gem",
+                "ubicacion": "Johannesburgo, Sudáfrica",
+                "precio_minimo": 320,
+                "precio_maximo": 650,
+                "calificacion": 4.8,
+                "servicios": ["Ubicación céntrica", "Piscina en la azotea con vistas a la ciudad", "Gimnasio abierto las 24 horas", "Servicio de habitaciones las 24 horas"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+
+    

@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Destinos } from '../../../common/destinos';
 import { DestinosService } from '../../../services/destinos.service';
 import { SlicePipe } from '@angular/common';
+import { FooterComponent } from '../../../component/footer/footer.component';
 
 @Component({
   selector: 'app-europa',
   standalone: true,
-  imports: [SlicePipe],
+  imports: [SlicePipe,FooterComponent],
   templateUrl: './europa.component.html',
   styleUrl: './europa.component.css'
 })
@@ -26,6 +27,8 @@ export class EuropaComponent implements OnInit {
         next: (destino) => {
           this.bDestinos = destino;
           console.log(destino);
+          this.ordenarPorPuntuacion();
+          ;
            
         },
         error: (error) => {
@@ -39,5 +42,12 @@ export class EuropaComponent implements OnInit {
       }
     )
   }
+
+  ordenarPorPuntuacion() {
+    this.bDestinos.continentes.forEach((continente) => {
+      continente.destinos.sort((a, b) => b.calificacion - a.calificacion);
+    }
+  )
+}
 
 }
