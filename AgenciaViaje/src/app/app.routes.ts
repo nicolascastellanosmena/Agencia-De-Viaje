@@ -6,13 +6,18 @@ import { DestinosComponent } from './page/destinos/destinos.component';
 import { IniciosesionComponent } from './page/iniciosesion/iniciosesion.component';
 import { RegistroComponent } from './page/registro/registro.component';
 import { ReservasComponent } from './page/reservas/reservas.component';
-import { BuenosAiresComponent } from './page/catalogo/buenos-aires/buenos-aires.component';
+import { AfricaComponent } from './page/catalogo/africa/africa.component';
+import { Component } from '@angular/core';
+import { EuropaComponent } from './page/catalogo/europa/europa.component';
+
+
+
 
 export const routes: Routes = [
     {path:'',component:HomeComponent},
     {path:'catalogo',component:CatalogoComponent},
+    {path:'catalogo/europa',component:EuropaComponent},
     {path:'contactanos',component:ContactanosComponent},
-    {path:'catalogo/:BuenosAires',component:BuenosAiresComponent},
     {path:'home',component:HomeComponent},
     {path:'iniciosesion',component:IniciosesionComponent},
     {path:'registro',component:RegistroComponent},

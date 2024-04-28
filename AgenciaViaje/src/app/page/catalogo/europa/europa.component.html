@@ -1,0 +1,80 @@
+<div class="container-fluid">
+    <div class="row" id="titulo">
+        <div class="col" id="btnVolver">
+            <a href="">Volver</a>
+            <h1>Europa</h1>
+        </div>
+         
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../../../../assets/imagenes/fondo/Europa4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../../../../assets/imagenes/fondo/Europa4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../../../assets/imagenes/fondo/Europa4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col">
+            <p>
+
+               
+
+                <strong>¡Bienvenido a Paradise Travel Air Agency, tu pasaporte hacia el paraíso de Europa!</strong> 
+
+                En Paradise Travel Air Agency, nos dedicamos a hacer realidad tus sueños de explorar las maravillas de Europa. Con una pasión por los viajes y un compromiso con la excelencia, nos esforzamos por ofrecerte una experiencia de viaje única y memorable que te dejará con recuerdos para toda la vida.
+
+                ¿Qué hace que Paradise Travel Air Agency sea tu mejor opción para descubrir Europa? Nuestro enfoque personalizado y nuestra atención al detalle. Desde las majestuosas montañas de los Alpes hasta las pintorescas calles de París, cada destino que ofrecemos ha sido seleccionado cuidadosamente para garantizar una experiencia auténtica y enriquecedora.
+
+                Nuestro equipo de expertos en viajes está aquí para guiarte en cada paso del camino. Desde la planificación de itinerarios personalizados hasta la reserva de alojamientos de lujo y la organización de actividades emocionantes, nos encargamos de todos los detalles para que puedas relajarte y disfrutar al máximo de tu aventura europea.
+
+                En Paradise Travel Air Agency, nos comprometemos a proporcionarte un servicio excepcional y una atención al cliente incomparable. Tu satisfacción es nuestra prioridad número uno, y nos esforzamos por superar tus expectativas en cada aspecto de tu viaje.
+
+                ¿Estás listo para comenzar tu viaje hacia el paraíso de Europa? ¡Únete a nosotros en Paradise Travel Air Agency y descubre todo lo que este fascinante continente tiene para ofrecerte!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ol class="list-group list-group-numbered">
+                @for (conte of bDestinos.continentes; track conte) {
+                    @if (conte.nombre=="Europa") {
+                        @for (paises of conte.destinos | slice : 0 : 3; track paises) {
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                  <div class="fw-bold">{{paises.nombre}}</div>
+                                  {{paises.pais}}
+                                </div>
+                                <span class="badge text-bg-primary rounded-pill">{{paises.calificacion}}</span>
+                              </li>
+    
+
+                        }
+                        
+                    }
+                    
+
+                }
+               
+              </ol>
+        </div>
+        <div class="col">
+            paises
+        </div>
+    </div>
+</div>

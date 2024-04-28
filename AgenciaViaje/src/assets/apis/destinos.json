@@ -1,0 +1,319 @@
+
+{
+  "continentes": [
+    {
+      "nombre": "Europa",
+      "descripcion": "Europa es conocida por su rica historia, su diversidad cultural y su impresionante arquitectura. Desde las majestuosas catedrales góticas hasta los pintorescos pueblos costeros, este continente ofrece una experiencia única a cada visitante.",
+      "destinos": [
+        {
+          "nombre": "París",
+          "pais": "Francia",
+          "descripcion": "La ciudad del amor y la luz.",
+          "atracciones": ["Torre Eiffel", "Museo del Louvre", "Catedral de Notre-Dame"],
+          "imagen": "paris.jpg",
+          "precio": 500,
+          "calificacion": 4.5
+        },
+        {
+          "nombre": "Roma",
+          "pais": "Italia",
+          "descripcion": "La ciudad eterna, llena de historia y cultura.",
+          "atracciones": ["Coliseo", "Vaticano", "Fontana di Trevi"],
+          "imagen": "roma.jpg",
+          "precio": 800,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Barcelona",
+          "pais": "España",
+          "descripcion": "La ciudad cosmopolita con arquitectura impresionante y vida nocturna vibrante.",
+          "atracciones": ["Sagrada Familia", "Parque Güell", "Las Ramblas"],
+          "imagen": "barcelona.jpg",
+          "precio": 650,
+          "calificacion": 4.6
+        },
+        {
+          "nombre": "Londres",
+          "pais": "Reino Unido",
+          "descripcion": "La capital del Reino Unido, rica en historia y cultura.",
+          "atracciones": ["Palacio de Buckingham", "Abadía de Westminster", "London Eye"],
+          "imagen": "londres.jpg",
+          "precio": 950,
+          "calificacion": 4.8
+        },
+        {
+          "nombre": "Madrid",
+          "pais": "España",
+          "descripcion": "La vibrante capital de España, llena de arte, historia y vida nocturna.",
+          "atracciones": ["Museo del Prado", "Plaza Mayor", "Parque del Retiro"],
+          "imagen": "madrid.jpg",
+          "precio": 900,
+          "calificacion": 4.6
+        },
+        {
+          "nombre": "Praga",
+          "pais": "República Checa",
+          "descripcion": "La ciudad de las cien torres, con un encanto medieval incomparable.",
+          "atracciones": ["Puente de Carlos", "Castillo de Praga", "Plaza de la Ciudad Vieja"],
+          "imagen": "praga.jpg",
+          "precio": 700,
+          "calificacion": 4.4
+        },
+        {
+          "nombre": "Venecia",
+          "pais": "Italia",
+          "descripcion": "La ciudad de los canales, el romance y el arte.",
+          "atracciones": ["Piazza San Marco", "Gran Canal", "Puente de Rialto"],
+          "imagen": "venecia.jpg",
+          "precio": 850,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Berlín",
+          "pais": "Alemania",
+          "descripcion": "La ciudad que combina historia, cultura alternativa y vida nocturna animada.",
+          "atracciones": ["Muro de Berlín", "Puerta de Brandeburgo", "Museo de Pérgamo"],
+          "imagen": "berlin.jpg",
+          "precio": 700,
+          "calificacion": 4.5
+        }
+      ]
+    },
+    {
+      "nombre": "Asia",
+      "descripcion": "Asia es el continente más grande y diverso del mundo, conocido por sus antiguas culturas, su impresionante arquitectura y sus hermosos paisajes naturales. Desde las bulliciosas ciudades modernas hasta los tranquilos templos budistas, Asia ofrece una experiencia única a cada viajero.",
+      "destinos": [
+        {
+          "nombre": "Tokio",
+          "pais": "Japón",
+          "descripcion": "La metrópolis futurista donde tradición y tecnología se mezclan.",
+          "atracciones": ["Torre de Tokio", "Barrio de Harajuku", "Templo Senso-ji"],
+          "imagen": "tokio.jpg",
+          "precio": 1200,
+          "calificacion": 4.8
+        },
+        {
+          "nombre": "Bangkok",
+          "pais": "Tailandia",
+          "descripcion": "La ciudad de los templos dorados y la comida callejera deliciosa.",
+          "atracciones": ["Gran Palacio", "Wat Arun", "Mercado Flotante Damnoen Saduak"],
+          "imagen": "bangkok.jpg",
+          "precio": 1000,
+          "calificacion": 4.6
+        },
+        {
+          "nombre": "Estambul",
+          "pais": "Turquía",
+          "descripcion": "La ciudad que conecta Europa con Asia, llena de historia y cultura.",
+          "atracciones": ["Mezquita Azul", "Gran Bazar", "Palacio de Topkapi"],
+          "imagen": "estambul.jpg",
+          "precio": 1100,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Dubai",
+          "pais": "Emiratos Árabes Unidos",
+          "descripcion": "La ciudad del lujo y la modernidad en medio del desierto.",
+          "atracciones": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
+          "imagen": "dubai.jpg",
+          "precio": 1500,
+          "calificacion": 4.9
+        },
+        {
+          "nombre": "Hong Kong",
+          "pais": "China",
+          "descripcion": "La ciudad que mezcla lo tradicional con lo moderno, llena de rascacielos y templos.",
+          "atracciones": ["Victoria Peak", "Mercado Nocturno de Temple Street", "Avenue of Stars"],
+          "imagen": "hong_kong.jpg",
+          "precio": 1400,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Hanoi",
+          "pais": "Vietnam",
+          "descripcion": "La encantadora capital de Vietnam, con una rica historia y una deliciosa cocina callejera.",
+          "atracciones": ["Casco Antiguo", "Templo de la Literatura", "Lago Hoan Kiem"],
+          "imagen": "hanoi.jpg",
+          "precio": 
+
+1000,
+          "calificacion": 4.5
+        },
+        {
+          "nombre": "Bangalore",
+          "pais": "India",
+          "descripcion": "La ciudad tecnológica de la India, conocida por sus parques y su vibrante escena artística.",
+          "atracciones": ["Palacio de Bangalore", "Lalbagh Botanical Garden", "Cubbon Park"],
+          "imagen": "bangalore.jpg",
+          "precio": 900,
+          "calificacion": 4.4
+        },
+        {
+          "nombre": "Seúl",
+          "pais": "Corea del Sur",
+          "descripcion": "La moderna capital de Corea del Sur, famosa por su tecnología y su cultura pop.",
+          "atracciones": ["Gyeongbokgung", "Torre de Seúl", "Myeong-dong"],
+          "imagen": "seul.jpg",
+          "precio": 1300,
+          "calificacion": 4.6
+        }
+      ]
+    },
+    {
+      "nombre": "América",
+      "descripcion": "América es un continente diverso y vibrante, conocido por su rica historia, sus impresionantes paisajes naturales y su influencia cultural global. Desde las bulliciosas ciudades hasta las selvas tropicales.",
+      "destinos": [
+        {
+          "nombre": "Nueva York",
+          "pais": "Estados Unidos",
+          "descripcion": "La ciudad que nunca duerme.",
+          "atracciones": ["Times Square", "Estátua de la Libertad", "Central Park"],
+          "imagen": "nueva_york.jpg",
+          "precio": 1800,
+          "calificacion": 4.8
+        },
+        {
+          "nombre": "Buenos Aires",
+          "pais": "Argentina",
+          "descripcion": "La ciudad del tango, la carne y la pasión por el fútbol.",
+          "atracciones": ["La Boca", "Recoleta", "Teatro Colón"],
+          "imagen": "buenos_aires.jpg",
+          "precio": 1300,
+          "calificacion": 4.5
+        },
+        {
+          "nombre": "Ciudad del Cabo",
+          "pais": "Sudáfrica",
+          "descripcion": "La ciudad con una belleza natural espectacular y una mezcla cultural vibrante.",
+          "atracciones": ["Table Mountain", "Cabo de Buena Esperanza", "Victoria & Alfred Waterfront"],
+          "imagen": "ciudad_del_cabo.jpg",
+          "precio": 2200,
+          "calificacion": 4.9
+        },
+        {
+          "nombre": "Rio de Janeiro",
+          "pais": "Brasil",
+          "descripcion": "La ciudad de la samba, las playas y el Carnaval.",
+          "atracciones": ["Cristo Redentor", "Playa de Copacabana", "Pan de Azúcar"],
+          "imagen": "rio_de_janeiro.jpg",
+          "precio": 2000,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Los Ángeles",
+          "pais": "Estados Unidos",
+          "descripcion": "La ciudad de las estrellas de cine, las playas y los parques temáticos.",
+          "atracciones": ["Hollywood", "Universal Studios", "Santa Mónica Pier"],
+          "imagen": "los_angeles.jpg",
+          "precio": 1900,
+          "calificacion": 4.6
+        },
+        {
+          "nombre": "Toronto",
+          "pais": "Canadá",
+          "descripcion": "La ciudad multicultural situada en la orilla norte del lago Ontario.",
+          "atracciones": ["Torre CN", "Cataratas del Niágara", "Distrito de Entretenimiento"],
+          "imagen": "toronto.jpg",
+          "precio": 1700,
+          "calificacion": 4.5
+        },
+        {
+          "nombre": "Santiago",
+          "pais": "Chile",
+          "descripcion": "La capital chilena, rodeada de montañas y viñedos.",
+          "atracciones": ["Cerro San Cristóbal", "Barrio Bellavista", "Plaza de Armas"],
+          "imagen": "santiago.jpg",
+          "precio": 1500,
+          "calificacion": 4.4
+        },
+        {
+          "nombre": "Cancún",
+          "pais": "México",
+          "descripcion": "El paraíso del Caribe, famoso por sus playas de arena blanca y aguas turquesas.",
+          "atracciones": ["Zona Hotelera", "Chichén Itzá", "Isla Mujeres"],
+          "imagen": "cancun.jpg",
+          "precio": 2100,
+          "calificacion": 4.8
+        },
+        {
+          "nombre": "Caracas",
+          "pais": "Venezuela",
+          "descripcion": "La bulliciosa capital de Venezuela, ubicada en un valle rodeado de montañas.",
+          "atracciones": ["El Ávila", "Plaza Bolívar", "Teleférico de Caracas"],
+          "imagen": "caracas.jpg",
+          "precio": 1500,
+          "calificacion": 4.3
+        },
+        {
+          "nombre": "La Habana",
+          "pais": "Cuba",
+          "descripcion": "La ciudad caribeña llena de color, música y arquitectura colonial.",
+          "atracciones": ["La Habana Vieja", "Malecón", "Plaza de la Revolución"],
+          "imagen": "la_habana.jpg",
+          "precio": 1400,
+          "calificacion": 4.2
+        }
+      ]
+    },
+    {
+      "nombre": "África",
+      "descripcion": "África es un continente de una belleza natural impresionante, con una rica diversidad de culturas, paisajes y vida salvaje. Desde las vastas llanuras del Serengeti hasta las montañas nevadas del Kilimanjaro, África ofrece una experiencia única e inolvidable.",
+      "destinos": [
+        {
+          "nombre": "Ciudad del Cabo",
+          "pais": "Sudáfrica",
+          "descripcion": "La ciudad con una belleza natural espectacular y una mezcla cultural vibrante.",
+          "atracciones": ["Table Mountain", "Cabo de Buena Esperanza", "Victoria & Alfred Waterfront"],
+          "imagen": "ciudad_del_cabo.jpg",
+          "precio": 2200,
+          "calificacion": 4.9
+        },
+        {
+          "nombre": "El Cairo",
+          "pais": "Egipto",
+          "descripcion": "La ciudad de los faraones, las pirámides y el río Nilo.",
+          "atracciones": ["Pirámides de Giza", "Museo Egipcio", "Ciudadela de Saladino"],
+          "imagen": "el_cairo.jpg",
+          "precio": 2000,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Marrakech",
+          "pais": "Marruecos",
+          "descripcion": "La ciudad de los zocos, los jardines exuberantes y la arquitectura islámica.",
+          "atracciones": ["Medina de Marrakech", "Jardines Majorelle", "Palacio Bahía"],
+          "imagen": "marrakech.jpg",
+          "precio": 1800,
+          "calificacion": 4.6
+        },
+        {
+          "nombre": "Nairobi",
+          "pais": "Kenia",
+          "descripcion": "La puerta de entrada al safari africano, con una rica vida salvaje y una vibrante cultura urbana.",
+          "atracciones": ["Parque Nacional de Nairobi", "Giraffe Centre", "Museo Nacional de Nairobi"],
+          "imagen": "nairobi.jpg",
+          "precio": 2100,
+          "calificacion": 4.8
+        },
+        {
+          "nombre": "Casablanca",
+          "pais": "Marruecos",
+          "descripcion": "La moderna ciudad costera conocida por su mezcla de arquitectura histórica y contemporánea.",
+          "atracciones": ["Mezquita Hassan II", "Casco antiguo de Casablanca", "Corniche Ain Diab"],
+          "imagen": "casablanca.jpg",
+          "precio": 1900,
+          "calificacion": 4.7
+        },
+        {
+          "nombre": "Johannesburgo",
+          "pais": "Sudáfrica",
+          "descripcion": "La vibrante metrópolis sudafricana, llena de historia, arte y cultura.",
+          "atracciones": ["Museo del Apartheid", "Soweto", "Parque Nacional Kruger"],
+          "imagen": "johannesburgo.jpg",
+          "precio": 2300,
+          "calificacion": 4.9
+        }
+      ]
+    }
+  ]
+}

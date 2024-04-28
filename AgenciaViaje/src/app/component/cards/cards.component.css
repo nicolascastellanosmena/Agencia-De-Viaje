@@ -1,23 +1,102 @@
 .container-fluid{
     padding: 0;
 }
-#cartas{
-    padding: 0;
+
+.row{
     margin: 0;
+    padding: 0;
 }
-.col{
+
+a{
+color: #333;
+text-decoration: none;    
+}
+.transparente{
+    color:whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.transparente:hover{
+    transform: scale(1.02);
+}
+#arriba{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.card{
-    width: 400px;
+
+
+#abajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card:hover{
-    transform: scale(1.05);
+.col{
+    
+    width: 100vh;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-img:hover{
-    filter: blur(1px); 
+
+#africa{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-image: url('../../../assets/imagenes/fondo/Africa2.JPG');
+    background-size: cover;
+    background-position: center;
+    
 }
-#Argentina,#Cuba{
-    margin-top: 60px;
+#europa{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-image: url('../../../assets/imagenes/fondo/Europa2.JPG');
+    background-size: cover;
+    background-position: center;
+    
+    
 }
+#america{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-image: url('../../../assets/imagenes/fondo/Latam3.JPG');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+#asia{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-image: url('../../../assets/imagenes/fondo/Asia.JPG');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+#vermas{
+    text-decoration: none;
+    border: solid;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: blue;
+    color: whitesmoke;
+    border-color: blue;
+}
+
+#vermas:hover{
+    
+    color: black;
+}
+

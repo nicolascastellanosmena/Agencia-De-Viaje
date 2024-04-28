@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
-import { Destino, Destinos } from '../../common/destinos';
-import { DestinosService } from '../../services/destinos.service';
-import { AfricaComponent } from '../../page/catalogo/africa/africa.component';
+import { Destinos } from '../../../common/destinos';
+import { DestinosService } from '../../../services/destinos.service';
+import { SlicePipe } from '@angular/common';
 
 @Component({
-  selector: 'app-cards',
+  selector: 'app-europa',
   standalone: true,
-  imports: [RouterLink],
-  templateUrl: './cards.component.html',
-  styleUrl: './cards.component.css'
+  imports: [SlicePipe],
+  templateUrl: './europa.component.html',
+  styleUrl: './europa.component.css'
 })
-export class CardsComponent implements OnInit{
+export class EuropaComponent implements OnInit {
+
   bDestinos:Destinos={continentes:[]};
 
   constructor(private servicio:DestinosService){}
@@ -38,8 +38,6 @@ export class CardsComponent implements OnInit{
         }
       }
     )
-
-
   }
 
 }
