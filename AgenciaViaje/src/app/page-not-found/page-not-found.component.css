@@ -1,0 +1,16 @@
+#e404{
+    min-height: 100vh;
+    background: url("../../../../AgenciaViaje/src/assets/imagenes/404.jpg") no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    position: absolute;
+}
+h1, p{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    text-shadow: 5px 13px 4px rgba(27, 5, 5, 0.5)
+}
+.yes{
+    margin-top: 8rem;
+}

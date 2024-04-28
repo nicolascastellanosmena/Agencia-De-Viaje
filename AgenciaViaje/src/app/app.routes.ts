@@ -6,6 +6,7 @@ import { DestinosComponent } from './page/destinos/destinos.component';
 import { IniciosesionComponent } from './page/iniciosesion/iniciosesion.component';
 import { RegistroComponent } from './page/registro/registro.component';
 import { ReservasComponent } from './page/reservas/reservas.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
     {path:'',component:HomeComponent},
@@ -16,5 +17,6 @@ export const routes: Routes = [
     {path:'iniciosesion',component:IniciosesionComponent},
     {path:'registro',component:RegistroComponent},
     {path:'reservas',component:ReservasComponent},
+    {path: '**', component: PageNotFoundComponent},
 
 ];
