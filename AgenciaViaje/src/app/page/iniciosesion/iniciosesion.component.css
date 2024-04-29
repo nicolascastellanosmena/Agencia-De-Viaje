@@ -93,7 +93,13 @@ body{
     color: #333;
     font-weight: 600;
 }
- 
+.wrapper .btn:hover {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333; 
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.9); 
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out; 
+}
+
 .wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
