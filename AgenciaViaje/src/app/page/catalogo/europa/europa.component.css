@@ -3,21 +3,43 @@ app-footer{
 }
 
 #carrus{
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.carousel-inner{
+    border-radius: 8px;
 }
 #descrip{
-    padding: 10px;
+    padding: 30px;
 }
 #ranking{
     padding: 20px;
     margin: 15px;
+   
+    
+}
+
+
+.lista1,.lista2{
+    margin: 20px;
 }
 #tarjetas{
-    padding: 20px;
-    margin: 15px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding:55px;
+     
 }
+#carta1:hover{
+    transform: scale(1.1);
+
+}
+
+#carta2:hover{
+    transform: scale(1.1);
+
+}
+
+
+
 
 
 #btnVolver{

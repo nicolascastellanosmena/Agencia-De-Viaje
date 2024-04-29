@@ -38,23 +38,23 @@
      
   </div>
   <div class="row">
-      <div class="col">
-          @for (continente of bDestinos.continentes; track continente) {
-              @if (continente.nombre=="África") {
-                  <div class="card" style="width: 100%;height: 100%;" id="africa">
-                      <div class="card-body">
-                        <a >
-                        <div class="transparente">
-                          <h5 class="card-title">{{continente.nombre}}</h5>
-                          <p class="card-text">{{continente.descripcion}}</p>
-                          <a  class="card-link" id="vermas">Ver mas..</a>
-                      </div>
-                      </a>
-                      </div>
-                    </div>
-              }
+    <div class="col">
+      @for (continente of bDestinos.continentes; track continente) {
+          @if (continente.nombre=="África") {
+              <div class="card" style="width: 100%;height: 100%;" id="africa">
+                  <div class="card-body">
+                    <a >
+                    <div class="transparente">
+                      <h5 class="card-title">{{continente.nombre}}</h5>
+                      <p class="card-text">{{continente.descripcion}}</p>
+                      <a  class="card-link" id="vermas">Ver mas..</a>
+                  </div>
+                  </a>   
+                  </div>
+                </div>
           }
-      </div>
+      }
+  </div>
       <div class="col">
           @for (continente of bDestinos.continentes; track continente) {
               @if (continente.nombre=="Asia") {

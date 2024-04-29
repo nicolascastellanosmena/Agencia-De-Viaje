@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Destinos } from '../../../common/destinos';
 import { DestinosService } from '../../../services/destinos.service';
-import { SlicePipe } from '@angular/common';
+import { CurrencyPipe, SlicePipe } from '@angular/common';
 import { FooterComponent } from '../../../component/footer/footer.component';
 
 @Component({
   selector: 'app-europa',
   standalone: true,
-  imports: [SlicePipe,FooterComponent],
+  imports: [SlicePipe,CurrencyPipe,FooterComponent],
   templateUrl: './europa.component.html',
   styleUrl: './europa.component.css'
 })

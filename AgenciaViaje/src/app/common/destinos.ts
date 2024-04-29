@@ -16,4 +16,14 @@ export interface Destino {
   imagen: string
   precio: number
   calificacion: number
+  hoteles: Hoteles[]
+}
+
+export interface Hoteles {
+  nombre: string
+  ubicacion: string
+  precio_minimo: number
+  precio_maximo: number
+  calificacion: number
+  servicios: string[]
 }
