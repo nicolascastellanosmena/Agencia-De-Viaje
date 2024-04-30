@@ -16,7 +16,7 @@ import { EuropaComponent } from './page/catalogo/europa/europa.component';
 export const routes: Routes = [
     {path:'',component:HomeComponent},
     {path:'catalogo',component:CatalogoComponent},
-    {path:'catalogo/europa',component:EuropaComponent},
+    {path:'europa',component:EuropaComponent},
     {path:'contactanos',component:ContactanosComponent},
     {path:'home',component:HomeComponent},
     {path:'iniciosesion',component:IniciosesionComponent},
