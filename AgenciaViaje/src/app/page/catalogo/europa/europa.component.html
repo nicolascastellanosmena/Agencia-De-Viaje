@@ -1,14 +1,22 @@
 <div class="container-fluid">
   <div class="row" id="titulo">
     <div class="col" id="btnVolver">
-      <a href="">Volver</a>
+      <a routerLink="/catalogo">
+        <i class="bi bi-arrow-left-circle fs-2"></i>
+      </a>
+
       <h1>Europa</h1>
     </div>
   </div>
-  <div class="row">
+  <div class="row justify-content-center" >
     <div class="col-xl-6" id="carrus">
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="max-width: 1000px;">
-        <div class="carousel-inner" >
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="max-width: 1200px"
+      >
+        <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img
               src="../../../../assets/imagenes/fondo/Europa4.jpg"
@@ -99,7 +107,7 @@
               <div class="fw-bold">{{ paises.nombre }}</div>
               {{ paises.pais }}
             </div>
-            <span class="badge text-bg-primary rounded-pill">{{
+            <span class="badge text-bg-primary rounded-pill">⭐{{
               paises.calificacion
             }}</span>
           </li>
@@ -125,7 +133,7 @@
                 hotel.precio_maximo | currency
               }}
             </div>
-            <span class="badge text-bg-primary rounded-pill">{{
+            <span class="badge text-bg-primary rounded-pill">⭐{{
               hotel.calificacion
             }}</span>
           </li>
@@ -134,12 +142,13 @@
         </ol>
       </div>
     </div>
+
     <div class="col" id="tarjetas">
       <h3>Paises que no te puedes perder....</h3>
       @for (elem of bDestinos.continentes; track elem) { @if
-      (elem.nombre=="Europa") { @for (pais of elem.destinos |slice:2:4; track
+      (elem.nombre=="Europa") { @for (pais of elem.destinos|slice :2:6; track
       pais) {
-      <div class="card mb-3" style="max-width: 800px" id="carta1">
+      <div class="card mb-3" style="max-width: 840px" id="carta2">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="..." class="img-fluid rounded-start" alt="..." />
@@ -157,27 +166,7 @@
           </div>
         </div>
       </div>
-      } } } @for (elem of bDestinos.continentes; track elem) { @if
-      (elem.nombre=="Europa") { @for (pais of elem.destinos |slice:4:6; track
-      pais) {
-      <div class="card mb-3" style="max-width: 800px" id="carta2">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{{ pais.nombre }}, {{ pais.pais }}</h5>
-              <p class="card-text">{{ pais.descripcion }}</p>
-              <p class="card-text">
-                <small class="text-body-secondary">{{
-                  pais.precio | currency
-                }}</small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+
       } } }
     </div>
   </div>

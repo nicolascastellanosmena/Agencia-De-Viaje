@@ -3,11 +3,12 @@ import { Destinos } from '../../../common/destinos';
 import { DestinosService } from '../../../services/destinos.service';
 import { CurrencyPipe, SlicePipe } from '@angular/common';
 import { FooterComponent } from '../../../component/footer/footer.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-europa',
   standalone: true,
-  imports: [SlicePipe,CurrencyPipe,FooterComponent],
+  imports: [RouterLink,SlicePipe,CurrencyPipe,FooterComponent],
   templateUrl: './europa.component.html',
   styleUrl: './europa.component.css'
 })

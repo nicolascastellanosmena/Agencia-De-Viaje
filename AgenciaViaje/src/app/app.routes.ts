@@ -9,6 +9,8 @@ import { ReservasComponent } from './page/reservas/reservas.component';
 import { AfricaComponent } from './page/catalogo/africa/africa.component';
 import { Component } from '@angular/core';
 import { EuropaComponent } from './page/catalogo/europa/europa.component';
+import { AsiaComponent } from './page/catalogo/asia/asia.component';
+import { AmericaComponent } from './page/catalogo/america/america.component';
 
 
 
@@ -17,6 +19,9 @@ export const routes: Routes = [
     {path:'',component:HomeComponent},
     {path:'catalogo',component:CatalogoComponent},
     {path:'europa',component:EuropaComponent},
+    {path:'asia',component:AsiaComponent},
+    {path:'america',component:AmericaComponent},
+    {path:'africa',component:AfricaComponent},
     {path:'contactanos',component:ContactanosComponent},
     {path:'home',component:HomeComponent},
     {path:'iniciosesion',component:IniciosesionComponent},

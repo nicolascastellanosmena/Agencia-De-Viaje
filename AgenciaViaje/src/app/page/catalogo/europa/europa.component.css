@@ -3,12 +3,14 @@ app-footer{
 }
 
 #carrus{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 .carousel-inner{
     border-radius: 8px;
+    box-shadow: rgb(122, 122, 122) 5px 5px 15px 5px;
 }
 #descrip{
     padding: 30px;
@@ -19,6 +21,7 @@ app-footer{
    
     
 }
+ 
 
 
 .lista1,.lista2{
@@ -28,10 +31,7 @@ app-footer{
     padding:55px;
      
 }
-#carta1:hover{
-    transform: scale(1.1);
 
-}
 
 #carta2:hover{
     transform: scale(1.1);
@@ -54,5 +54,6 @@ app-footer{
     margin-bottom: 10px;
 
 }
+
 
   

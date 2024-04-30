@@ -1357,7 +1357,7 @@
           "pais": "Argentina",
           "descripcion": "La ciudad del tango, la carne y la pasión por el fútbol.",
           "atracciones": ["La Boca", "Recoleta", "Teatro Colón"],
-          "imagen": "buenos_aires.jpg",
+          "imagen": "./assets/imagenes/Tarjetas/Buenos Aires.jpeg",
           "precio": 1300,
           "calificacion": 4.5,
           "hoteles": [
@@ -1437,7 +1437,7 @@
             "Playa de Copacabana",
             "Pan de Azúcar"
           ],
-          "imagen": "rio_de_janeiro.jpg",
+          "imagen": "./assets/imagenes/Tarjetas/Rio.jpeg",
           "precio": 2000,
           "calificacion": 4.7,
           "hoteles": [
@@ -1517,7 +1517,7 @@
             "Universal Studios",
             "Santa Mónica Pier"
           ],
-          "imagen": "los_angeles.jpg",
+          "imagen": "./assets/imagenes/Tarjetas/LA.jpeg",
           "precio": 1900,
           "calificacion": 4.6,
           "hoteles": [
@@ -1597,7 +1597,7 @@
             "Cataratas del Niágara",
             "Distrito de Entretenimiento"
           ],
-          "imagen": "toronto.jpg",
+          "imagen": "./assets/imagenes/Tarjetas/Toronto.jpeg",
           "precio": 1700,
           "calificacion": 4.5,
           "hoteles": [
@@ -2090,7 +2090,42 @@
                       "servicios": ["Ubicación en el Cabo de Buena Esperanza", "Piscina infinita", "Restaurante con vistas al mar", "Servicio de habitaciones las 24 horas"]
                   }
               ]
-          }
+          },
+          {
+            "nombre": "Marrakech",
+            "pais": "Marruecos",
+            "descripcion": "La Ciudad Roja, conocida por sus mercados bulliciosos y su fascinante arquitectura.",
+            "atracciones": ["Plaza Jemaa el-Fna", "Palacio de la Bahía", "Jardines de Majorelle"],
+            "imagen": "marrakech.jpg",
+            "precio": 1700,
+            "calificacion": 4.7,
+            "hoteles": [
+                {
+                    "nombre": "Hotel Riad Palacio de las Rosas",
+                    "ubicacion": "Marrakech, Marruecos",
+                    "precio_minimo": 250,
+                    "precio_maximo": 500,
+                    "calificacion": 4.6,
+                    "servicios": ["Decoración tradicional marroquí", "Patio interior con fuente", "Restaurante de cocina local", "Excursiones organizadas al desierto"]
+                },
+                {
+                    "nombre": "Hotel La Mamounia",
+                    "ubicacion": "Marrakech, Marruecos",
+                    "precio_minimo": 500,
+                    "precio_maximo": 1000,
+                    "calificacion": 4.9,
+                    "servicios": ["Jardines exuberantes", "Piscina al aire libre", "Spa de lujo", "Vistas a las montañas del Atlas"]
+                },
+                {
+                    "nombre": "Hotel Riad Star",
+                    "ubicacion": "Marrakech, Marruecos",
+                    "precio_minimo": 200,
+                    "precio_maximo": 400,
+                    "calificacion": 4.5,
+                    "servicios": ["Ubicación en el corazón de la medina", "Terraza panorámica", "Baños turcos", "Wi-Fi gratuito"]
+                }
+            ]
+        }
       ]
   }
 
