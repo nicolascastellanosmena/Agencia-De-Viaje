@@ -1,0 +1,34 @@
+.container-fluid{
+    padding-left: 0;
+    
+}
+
+.row h1{
+    padding-top: 20px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    border-bottom: solid 2.5px;
+    border-color: black;
+    width: fit-content;
+    color: black;
+}
+#titulo_catalogo{
+    border-bottom: solid;
+    border-color: black;
+    justify-content: center;
+}
+
+
+app-cards{
+    min-height: 100vh;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+
+app-footer{
+    padding-right: 0;
+}
+
+
