@@ -3,6 +3,15 @@
     {
       "nombre": "Europa",
       "descripcion": "Europa es conocida por su rica historia, su diversidad cultural y su impresionante arquitectura. Desde las majestuosas catedrales góticas hasta los pintorescos pueblos costeros, este continente ofrece una experiencia única a cada visitante.",
+      "titulo":"Cuna de la Cultura",
+      "slogan":"Donde la historia y la innovación se entrelazan",
+      "imagenes_destacadas": [{
+        "img1":"./assets/imagenes/Europa/EuropaCA1.jpeg", 
+        "img2":"./assets/imagenes/Europa/EuropaCA2.jpeg", 
+        "img3":"./assets/imagenes/Europa/EuropaCA3.jpeg" 
+
+      } 
+      ],
       "destinos": [
         {
           "nombre": "París",
@@ -13,7 +22,7 @@
             "Museo del Louvre",
             "Catedral de Notre-Dame"
           ],
-          "imagen": "paris.jpg",
+          "imagen": "./assets/imagenes/Europa/Paris.jpeg",
           "precio": 500,
           "calificacion": 4.5,
           "hoteles": [
@@ -89,7 +98,7 @@
           "pais": "Italia",
           "descripcion": "La ciudad eterna, llena de historia y cultura.",
           "atracciones": ["Coliseo", "Vaticano", "Fontana di Trevi"],
-          "imagen": "roma.jpg",
+          "imagen": "./assets/imagenes/Europa/Roma.jpeg",
           "precio": 800,
           "calificacion": 4.7,
           "hoteles": [
@@ -165,7 +174,7 @@
           "pais": "España",
           "descripcion": "La ciudad cosmopolita con arquitectura impresionante y vida nocturna vibrante.",
           "atracciones": ["Sagrada Familia", "Parque Güell", "Las Ramblas"],
-          "imagen": "barcelona.jpg",
+          "imagen": "./assets/imagenes/Europa/Barcelona.jpeg",
           "precio": 650,
           "calificacion": 4.6,
           "hoteles": [
@@ -245,7 +254,7 @@
             "Abadía de Westminster",
             "London Eye"
           ],
-          "imagen": "londres.jpg",
+          "imagen": "./assets/imagenes/Europa/LondresCa.jpeg",
           "precio": 950,
           "calificacion": 4.8,
           "hoteles": [
@@ -325,7 +334,7 @@
             "Plaza Mayor",
             "Parque del Retiro"
           ],
-          "imagen": "madrid.jpg",
+          "imagen": "./assets/imagenes/Europa/Madrid.jpeg",
           "precio": 900,
           "calificacion": 4.6,
           "hoteles": [
@@ -481,7 +490,7 @@
           "pais": "Italia",
           "descripcion": "La ciudad de los canales, el romance y el arte.",
           "atracciones": ["Piazza San Marco", "Gran Canal", "Puente de Rialto"],
-          "imagen": "venecia.jpg",
+          "imagen": "./assets/imagenes/Europa/Venecia.jpeg",
           "precio": 850,
           "calificacion": 4.7,
           "hoteles": [
@@ -637,6 +646,15 @@
     {
       "nombre": "Asia",
       "descripcion": "Asia es el continente más grande y diverso del mundo, conocido por sus antiguas culturas, su impresionante arquitectura y sus hermosos paisajes naturales. Desde las bulliciosas ciudades modernas hasta los tranquilos templos budistas, Asia ofrece una experiencia única a cada viajero.",
+      "titulo":"Encrucijada de Civilizaciones",
+      "slogan":"Tradición y modernidad en armonía",
+      "imagenes_destacadas": [{
+        "img1":"./assets/imagenes/Asia/AsiaCA1.jpeg", 
+        "img2":"./assets/imagenes/Asia/AsiaCA2.jpeg", 
+        "img3":"./assets/imagenes/Asia/AsiaCA3.jpeg" 
+
+      } 
+      ],
       "destinos": [
         {
           "nombre": "Tokio",
@@ -647,7 +665,7 @@
             "Barrio de Harajuku",
             "Templo Senso-ji"
           ],
-          "imagen": "tokio.jpg",
+          "imagen": "./assets/imagenes/Asia/Tokio.jpeg",
           "precio": 1200,
           "calificacion": 4.8,
           "hoteles": [
@@ -727,7 +745,7 @@
             "Wat Arun",
             "Mercado Flotante Damnoen Saduak"
           ],
-          "imagen": "bangkok.jpg",
+          "imagen": "./assets/imagenes/Asia/Bankog.jpeg",
           "precio": 1000,
           "calificacion": 4.6,
           "hoteles": [
@@ -803,7 +821,7 @@
           "pais": "Turquía",
           "descripcion": "La ciudad que conecta Europa con Asia, llena de historia y cultura.",
           "atracciones": ["Mezquita Azul", "Gran Bazar", "Palacio de Topkapi"],
-          "imagen": "estambul.jpg",
+          "imagen": "./assets/imagenes/Asia/Estambul.jpeg",
           "precio": 1100,
           "calificacion": 4.7,
           "hoteles": [
@@ -879,7 +897,7 @@
           "pais": "Emiratos Árabes Unidos",
           "descripcion": "La ciudad del lujo y la modernidad en medio del desierto.",
           "atracciones": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
-          "imagen": "dubai.jpg",
+          "imagen": "./assets/imagenes/Asia/Dubai.jpeg",
           "precio": 1500,
           "calificacion": 4.9,
           "hoteles": [
@@ -1271,6 +1289,15 @@
     {
       "nombre": "América",
       "descripcion": "Descubre la diversidad de América, desde las majestuosas montañas de los Andes hasta las playas tropicales del Caribe. Sumérgete en su rica historia y cultura, desde las antiguas civilizaciones hasta las vibrantes ciudades modernas. Explora su biodiversidad única y déjate cautivar por sus paisajes impresionantes.",
+      "titulo":"Unión en la Diversidad",
+      "slogan":"De la Patagonia a Alaska, un continente lleno de vida y color",
+      "imagenes_destacadas": [{
+        "img1":"./assets/imagenes/America/aCarrusel1.jpg", 
+        "img2":"./assets/imagenes/America/AmericaCarrusel2.jpg", 
+        "img3":"./assets/imagenes/America/Toronto.jpeg" 
+
+      } 
+      ],
       "destinos": [
         {
           "nombre": "Nueva York",
@@ -1281,7 +1308,7 @@
             "Estátua de la Libertad",
             "Central Park"
           ],
-          "imagen": "nueva_york.jpg",
+          "imagen": "./assets/imagenes/America/NY.jpeg",
           "precio": 1800,
           "calificacion": 4.8,
           "hoteles": [
@@ -1357,7 +1384,7 @@
           "pais": "Argentina",
           "descripcion": "La ciudad del tango, la carne y la pasión por el fútbol.",
           "atracciones": ["La Boca", "Recoleta", "Teatro Colón"],
-          "imagen": "./assets/imagenes/Tarjetas/Buenos Aires.jpeg",
+          "imagen": "./assets/imagenes/America/Buenos Aires.jpeg",
           "precio": 1300,
           "calificacion": 4.5,
           "hoteles": [
@@ -1437,7 +1464,7 @@
             "Playa de Copacabana",
             "Pan de Azúcar"
           ],
-          "imagen": "./assets/imagenes/Tarjetas/Rio.jpeg",
+          "imagen": "./assets/imagenes/America/Rio.jpeg",
           "precio": 2000,
           "calificacion": 4.7,
           "hoteles": [
@@ -1517,7 +1544,7 @@
             "Universal Studios",
             "Santa Mónica Pier"
           ],
-          "imagen": "./assets/imagenes/Tarjetas/LA.jpeg",
+          "imagen": "./assets/imagenes/America/LA.jpeg",
           "precio": 1900,
           "calificacion": 4.6,
           "hoteles": [
@@ -1985,13 +2012,22 @@
     {
       "nombre": "África",
       "descripcion": "  Descubre la fascinante diversidad de África, desde las llanuras del Serengeti hasta las pirámides de Egipto. Sumérgete en su rica cultura y observa la vida salvaje en su hábitat natural. ¡Embárcate en una aventura única con nuestra agencia de viajes especializada en África",
+      "titulo":"Riqueza de Raíces",
+      "slogan":"Un continente, innumerables historias",
+      "imagenes_destacadas": [{
+        "img1":"./assets/imagenes/Africa/africaCA1.jpeg", 
+        "img2":"./assets/imagenes/Africa/AfricaCA2.jpeg", 
+        "img3":"./assets/imagenes/Africa/africaCA3.jpeg" 
+
+      } 
+      ],
       "destinos": [
           {
               "nombre": "El Cairo",
               "pais": "Egipto",
               "descripcion": "La ciudad milenaria a orillas del Nilo.",
               "atracciones": ["Pirámides de Giza", "Museo Egipcio", "Khan el-Khalili"],
-              "imagen": "el_cairo.jpg",
+              "imagen": "./assets/imagenes/Africa/ELCAiro.jpeg",
               "precio": 1500,
               "calificacion": 4.7,
               "hoteles": [
@@ -2026,7 +2062,7 @@
               "pais": "Kenia",
               "descripcion": "La capital de Kenia, en el corazón de la sabana africana.",
               "atracciones": ["Parque Nacional de Nairobi", "Giraffe Centre", "Museo Nacional de Kenia"],
-              "imagen": "nairobi.jpg",
+              "imagen": "./assets/imagenes/Africa/nairobi.jpeg",
               "precio": 1600,
               "calificacion": 4.6,
               "hoteles": [
@@ -2061,7 +2097,7 @@
               "pais": "Sudáfrica",
               "descripcion": "La ciudad cosmopolita en la punta de África.",
               "atracciones": ["Table Mountain", "V&A Waterfront", "Cabo de Buena Esperanza"],
-              "imagen": "ciudad_del_cabo.jpg",
+              "imagen": "./assets/imagenes/Africa/ElCabo.jpeg",
               "precio": 1800,
               "calificacion": 4.8,
               "hoteles": [
@@ -2096,7 +2132,7 @@
             "pais": "Marruecos",
             "descripcion": "La Ciudad Roja, conocida por sus mercados bulliciosos y su fascinante arquitectura.",
             "atracciones": ["Plaza Jemaa el-Fna", "Palacio de la Bahía", "Jardines de Majorelle"],
-            "imagen": "marrakech.jpg",
+            "imagen": "./assets/imagenes/Africa/Marrakech.jpeg",
             "precio": 1700,
             "calificacion": 4.7,
             "hoteles": [

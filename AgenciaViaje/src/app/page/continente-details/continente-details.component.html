@@ -1,0 +1,115 @@
+
+<div class="container-fluid">
+    <div class="row justify-content-center" id="carruselll">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        @for (titulo of bDestinos.continentes; track titulo) {
+            <div class="carousel-inner">
+                @for (img of titulo.imagenes_destacadas; track img) {
+                    <div class="carousel-item active">
+                        <img src="{{img.img1}}" class="d-block w-100" style="height: 700px;" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{{img.img2}}" class="d-block w-100" style="height: 700px;" alt="..">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{{img.img3}}" class="d-block w-100" style="height: 700px;" alt="...">
+                      </div>
+                }
+                
+              </div>
+              <div class="carousel-caption">
+                <h1>{{titulo.nombre}}, {{titulo.titulo}}</h1>
+                <p>{{titulo.slogan}}</p>
+              </div>
+        }
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" id="ranking">
+        <div class="lista1">
+          <h3>Clasificación de Países según Experiencia de Viaje</h3>
+          <ol class="list-group list-group-numbered">
+            @for (conte of bDestinos.continentes; track conte) { @for (paises of conte.destinos | slice : 0
+            : 4; track paises) {
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">{{ paises.nombre }}</div>
+                {{ paises.pais }}
+              </div>
+              <span class="badge text-bg-primary rounded-pill">⭐{{
+                paises.calificacion
+              }}</span>
+            </li>
+            } } 
+          </ol>
+        </div>
+  
+        <div class="lista2">
+          <h3>
+            Los Mejores Hoteles: Clasificación de Lujo, Confort y Experiencia
+          </h3>
+          <ol class="list-group list-group-numbered">
+            @for (conte of bDestinos.continentes; track conte) 
+             { @for (paises of conte.destinos | slice : 0
+            : 4; track paises) { @for (hotel of paises.hoteles |slice :0:1; track
+            hotel) {
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">{{ hotel.nombre }}</div>
+                {{ hotel.precio_minimo | currency }}-{{
+                  hotel.precio_maximo | currency
+                }}
+              </div>
+              <span class="badge text-bg-primary rounded-pill">⭐{{
+                hotel.calificacion
+              }}</span>
+            </li>
+  
+            } } } 
+          </ol>
+        </div>
+      </div>
+  
+      <div class="col" id="tarjetas">
+        <h3>Paises que no te puedes perder....</h3>
+        @for (elem of bDestinos.continentes; track elem) { @for (pais of elem.destinos|slice :0:4; track
+        pais) {
+        <div class="card mb-3" style="max-width: 840px" id="carta2">
+          <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{{pais.imagen}}" class="img-fluid rounded-start" style="height: 100%" alt="..." /> 
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{ pais.nombre }}, {{ pais.pais }}</h5>
+                <p class="card-text">{{ pais.descripcion }}</p>
+                <p class="card-text">
+                  <small class="text-body-secondary">{{
+                    pais.precio | currency
+                  }}</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        } } 
+      </div>
+    </div>
+    <div class="row" id="footer">
+      <app-footer></app-footer>
+    </div>
+  </div>

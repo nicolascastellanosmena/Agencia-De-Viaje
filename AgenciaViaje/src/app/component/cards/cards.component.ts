@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Destino, Destinos } from '../../common/destinos';
 import { DestinosService } from '../../services/destinos.service';
-import { AfricaComponent } from '../../page/catalogo/africa/africa.component';
 
 @Component({
   selector: 'app-cards',

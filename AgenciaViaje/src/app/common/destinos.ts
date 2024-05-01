@@ -5,7 +5,16 @@ export interface Destinos {
 export interface Continente {
   nombre: string
   descripcion: string
+  titulo: string
+  slogan: string
+  imagenes_destacadas: ImagenesDestacada[]
   destinos: Destino[]
+}
+
+export interface ImagenesDestacada {
+  img1: string
+  img2: string
+  img3: string
 }
 
 export interface Destino {
@@ -16,10 +25,10 @@ export interface Destino {
   imagen: string
   precio: number
   calificacion: number
-  hoteles: Hoteles[]
+  hoteles: Hotele[]
 }
 
-export interface Hoteles {
+export interface Hotele {
   nombre: string
   ubicacion: string
   precio_minimo: number
