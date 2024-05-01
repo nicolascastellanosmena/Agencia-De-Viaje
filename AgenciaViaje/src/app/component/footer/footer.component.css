@@ -44,7 +44,7 @@ span{
 }
 
 #footerAbajo{
-    background-color:#FFD700;
+    background: linear-gradient(to bottom, #FFD700, #DAA520);
 }  
 #izq{
  text-align: center;
