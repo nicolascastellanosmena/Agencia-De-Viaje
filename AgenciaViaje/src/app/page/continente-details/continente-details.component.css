@@ -1,39 +1,37 @@
-app-footer{
-    padding: 0;
+app-footer {
+  padding: 0;
 }
-#footer{
-    padding: 0;
+#footer {
+  padding: 0;
 }
-.carousel-inner{
-    
-    box-shadow: rgb(122, 122, 122) 5px 5px 15px 5px;
+.carousel-inner {
+  box-shadow: rgb(122, 122, 122) 5px 5px 15px 5px;
 }
-#descrip{
-    padding: 30px;
+#descrip {
+  padding: 30px;
 }
-#ranking{
-    padding: 20px;
-    margin: 15px;   
+#ranking {
+  padding: 20px;
+  margin: 15px;
 }
-#carouselExampleRide{
-    padding: 0;
+#carouselExampleRide {
+  padding: 0;
 }
-.lista1,.lista2{
-    margin: 20px;
+.lista1,
+.lista2 {
+  margin: 20px;
 }
-#tarjetas{
-    padding:55px;
-     
+#tarjetas {
+  padding: 55px;
 }
-#carta2:hover{
-    transform: scale(1.1);
-
+#carta2:hover {
+  transform: scale(1.1);
 }
 .carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-  }
-  main{
-    min-height: 100vh;
+  top: 50%;
+  transform: translateY(-50%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+main {
+  min-height: 100vh;
 }
