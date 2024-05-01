@@ -62,89 +62,24 @@
             <div class="Ofertas">
                 <h2>OFERTAS MAS VENDIDAS</h2>
                 <div class="carta_ofertas">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
+                    @for (conte of bDestinos.continentes; track conte) 
+                    { @for (paises of conte.destinos | slice : 0 : 2; track paises) {
+                        <div class="col-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="{{paises.imagen}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vuelos a {{paises.nombre}}</h5>
+                                    
+                                    <p class="card-text">Ida y vuelta desde</p>
+                                    <a href="#" class="btn btn-outline-secondary" ng>{{paises.precio}}$</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Vuelos a ?</h5>
-                                <p class="card-text">Ida y vuelta desde</p>
-                                <a href="#" class="btn btn-outline-secondary">?$</a>
-                            </div>
-                        </div>
-                    </div>
+                        }
+                    }
                 </div>
                 <div class="vermas">
-                    <a href="">ver mas ofertas</a>
+                    <a href="catalogo">ver mas ofertas</a>
                 </div>
             </div>
         </div>
