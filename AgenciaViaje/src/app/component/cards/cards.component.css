@@ -19,6 +19,7 @@ text-decoration: none;
     border: 2px solid rgba(255,255,255,.2);
     backdrop-filter: blur(15px);
     box-shadow: 0 0 10px rgba(0,0,0,.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .transparente:hover{
@@ -90,13 +91,15 @@ text-decoration: none;
     border: solid;
     border-radius: 8px;
     padding: 8px;
-    background-color: blue;
+    background-color: rgb(43, 43, 202);
     color: whitesmoke;
     border-color: blue;
 }
 
 #vermas:hover{
-    
-    color: black;
+    background-color: rgb(39, 39, 160);
+    border-color: rgb(37, 37, 131);
+
+    color: #FFD700;
 }
 
