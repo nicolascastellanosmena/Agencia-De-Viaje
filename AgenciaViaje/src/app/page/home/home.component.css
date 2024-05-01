@@ -1,0 +1,82 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+main{
+    min-height: 100vh;
+}
+#div_buscador{
+    width: 100%;
+    position: absolute;
+    bottom: 420px;
+}
+.input-group input, .input-group button{
+    height: 3.5em;
+    font-size: large;
+}
+.form-control{
+    color: black;
+}
+#carouselExampleCaptions{
+    position: relative;
+}
+/* #mensajecarru {
+    border-radius: 8px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+} */
+#img_carrousel{
+    height: 600px;
+}
+.Centrar{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.col-3{
+    height: fit-content;
+    width: fit-content;
+    margin: 1%;
+}
+.Ofertas{
+    width: 75%;
+    margin: 3%;
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 2%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.carta_ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vermas{
+    margin-right: 14%;
+    text-align: right;
+}
+
+#aboutUS{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#TextoAbout{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 4%;
+}
+#imgAbout{
+    
+    margin: 1%;
+}
+
+#imgAbout img{
+    width: 800px;
+    height: auto;
+}
