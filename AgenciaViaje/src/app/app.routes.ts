@@ -6,16 +6,20 @@ import { IniciosesionComponent } from './page/iniciosesion/iniciosesion.componen
 import { RegistroComponent } from './page/registro/registro.component';
 import { ReservasComponent } from './page/reservas/reservas.component';
 import { ContinenteDetailsComponent } from './page/continente-details/continente-details.component';
+import { PaisDetailsComponent } from './page/pais-details/pais-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
 export const routes: Routes = [
     {path:'',component:HomeComponent},
     {path:'catalogo',component:CatalogoComponent},
     {path:'catalogo/:continenteId',component:ContinenteDetailsComponent},
+    {path:'pais',component:PaisDetailsComponent},
     {path:'contactanos',component:ContactanosComponent},
     {path:'home',component:HomeComponent},
     {path:'iniciosesion',component:IniciosesionComponent},
     {path:'registro',component:RegistroComponent},
     {path:'reservas',component:ReservasComponent},
     {path: '**', component: PageNotFoundComponent},
+
 
 ];

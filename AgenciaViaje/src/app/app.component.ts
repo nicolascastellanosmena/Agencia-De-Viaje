@@ -3,6 +3,7 @@ import { RouterOutlet,RouterLink } from '@angular/router';
 import { NavbarComponent } from './component/navbar/navbar.component';
 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
