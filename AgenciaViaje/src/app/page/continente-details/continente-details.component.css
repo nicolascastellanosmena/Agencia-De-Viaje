@@ -14,7 +14,7 @@ app-footer {
   padding: 20px;
   margin: 15px;
 }
-#carouselExampleRide {
+#carouselExampleControls {
   padding: 0;
 }
 .lista1,
@@ -27,15 +27,15 @@ app-footer {
 #carta2:hover {
   transform: scale(1.1);
 }
-.carousel-caption {
+.carousel-caption  {
   top: 50%;
+  font-size: 1.8rem;
   transform: translateY(-50%);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  h1{
+    font-size: 4rem;
+  }
 }
 main {
   min-height: 100vh;
-}
-a{
-  text-decoration: none;
-  color: #000;
 }

@@ -10,16 +10,14 @@ import { PaisDetailsComponent } from './page/pais-details/pais-details.component
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
-    {path:'',component:HomeComponent},
-    {path:'catalogo',component:CatalogoComponent},
+    {path:'',title:"Home",component:HomeComponent},
+    {path:'catalogo',title:"Catálogo",component:CatalogoComponent},
     {path:'catalogo/:continenteId',component:ContinenteDetailsComponent},
-    {path:'pais',component:PaisDetailsComponent},
-    {path:'contactanos',component:ContactanosComponent},
-    {path:'home',component:HomeComponent},
-    {path:'iniciosesion',component:IniciosesionComponent},
-    {path:'registro',component:RegistroComponent},
-    {path:'reservas',component:ReservasComponent},
-    {path: '**', component: PageNotFoundComponent},
-
-
+    {path:'catalogo/:continenteId/:parametro',title:'Tu destino',component:PaisDetailsComponent},
+    {path:'contactanos',title:"Contáctanos",component:ContactanosComponent},
+    {path:'home',title:"Home",component:HomeComponent},
+    {path:'iniciosesion',title:"Iniciar Sesión",component:IniciosesionComponent},
+    {path:'registro',title:"Regístrate",component:RegistroComponent},
+    {path:'reservas',title:"Reservas",component:ReservasComponent},
+    {path: '**', title:"ERROR 404",component: PageNotFoundComponent},
 ];

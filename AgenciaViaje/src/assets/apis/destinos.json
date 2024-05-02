@@ -3,14 +3,14 @@
     {
       "nombre": "Europa",
       "descripcion": "Europa es conocida por su rica historia, su diversidad cultural y su impresionante arquitectura. Desde las majestuosas catedrales góticas hasta los pintorescos pueblos costeros, este continente ofrece una experiencia única a cada visitante.",
-      "titulo":"Cuna de la Cultura",
-      "slogan":"Donde la historia y la innovación se entrelazan",
-      "imagenes_destacadas": [{
-        "img1":"./assets/imagenes/Europa/EuropaCA1.jpeg", 
-        "img2":"./assets/imagenes/Europa/EuropaCA2.jpeg", 
-        "img3":"./assets/imagenes/Europa/EuropaCA3.jpeg" 
-
-      } 
+      "titulo": "Cuna de la Cultura",
+      "slogan": "Donde la historia y la innovación se entrelazan",
+      "imagenes_destacadas": [
+        {
+          "img1": "./assets/imagenes/Europa/EuropaCA1.jpeg",
+          "img2": "./assets/imagenes/Europa/EuropaCA2.jpeg",
+          "img3": "./assets/imagenes/Europa/EuropaCA3.jpeg"
+        }
       ],
       "destinos": [
         {
@@ -22,7 +22,13 @@
             "Museo del Louvre",
             "Catedral de Notre-Dame"
           ],
-          "imagen": "./assets/imagenes/Europa/Paris.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Paris1.jpeg",
+              "img2": "./assets/imagenes/Europa/Paris2.jpg",
+              "img3": "./assets/imagenes/Europa/Paris3.jpg"
+            }
+          ],
           "precio": 500,
           "calificacion": 4.5,
           "hoteles": [
@@ -98,7 +104,13 @@
           "pais": "Italia",
           "descripcion": "La ciudad eterna, llena de historia y cultura.",
           "atracciones": ["Coliseo", "Vaticano", "Fontana di Trevi"],
-          "imagen": "./assets/imagenes/Europa/Roma.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Roma.jpeg",
+              "img2": "./assets/imagenes/Europa/Roma2.jpg",
+              "img3": "./assets/imagenes/Europa/Roma3.jpg"
+            }
+          ],
           "precio": 800,
           "calificacion": 4.7,
           "hoteles": [
@@ -174,7 +186,13 @@
           "pais": "España",
           "descripcion": "La ciudad cosmopolita con arquitectura impresionante y vida nocturna vibrante.",
           "atracciones": ["Sagrada Familia", "Parque Güell", "Las Ramblas"],
-          "imagen": "./assets/imagenes/Europa/Barcelona.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Barcelona.jpeg",
+              "img2": "./assets/imagenes/Europa/bcn2.jpg",
+              "img3": "./assets/imagenes/Europa/bcn3.jpg"
+            }
+          ],
           "precio": 650,
           "calificacion": 4.6,
           "hoteles": [
@@ -254,7 +272,13 @@
             "Abadía de Westminster",
             "London Eye"
           ],
-          "imagen": "./assets/imagenes/Europa/LondresCa.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/LondresCa.jpeg",
+              "img2": "./assets/imagenes/Europa/londres2.jpg",
+              "img3": "./assets/imagenes/Europa/londres3.jpg"
+            }
+          ],
           "precio": 950,
           "calificacion": 4.8,
           "hoteles": [
@@ -334,7 +358,13 @@
             "Plaza Mayor",
             "Parque del Retiro"
           ],
-          "imagen": "./assets/imagenes/Europa/Madrid.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Madrid.jpeg",
+              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
+              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+            }
+          ],
           "precio": 900,
           "calificacion": 4.6,
           "hoteles": [
@@ -414,7 +444,13 @@
             "Castillo de Praga",
             "Plaza de la Ciudad Vieja"
           ],
-          "imagen": "praga.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Paris1.jpeg",
+              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
+              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+            }
+          ],
           "precio": 700,
           "calificacion": 4.4,
           "hoteles": [
@@ -490,7 +526,13 @@
           "pais": "Italia",
           "descripcion": "La ciudad de los canales, el romance y el arte.",
           "atracciones": ["Piazza San Marco", "Gran Canal", "Puente de Rialto"],
-          "imagen": "./assets/imagenes/Europa/Venecia.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Venecia.jpeg",
+              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
+              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+            }
+          ],
           "precio": 850,
           "calificacion": 4.7,
           "hoteles": [
@@ -570,7 +612,13 @@
             "Puerta de Brandeburgo",
             "Museo de Pérgamo"
           ],
-          "imagen": "berlin.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Europa/Paris1.jpeg",
+              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
+              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+            }
+          ],
           "precio": 700,
           "calificacion": 4.5,
           "hoteles": [
@@ -646,14 +694,14 @@
     {
       "nombre": "Asia",
       "descripcion": "Asia es el continente más grande y diverso del mundo, conocido por sus antiguas culturas, su impresionante arquitectura y sus hermosos paisajes naturales. Desde las bulliciosas ciudades modernas hasta los tranquilos templos budistas, Asia ofrece una experiencia única a cada viajero.",
-      "titulo":"Encrucijada de Civilizaciones",
-      "slogan":"Tradición y modernidad en armonía",
-      "imagenes_destacadas": [{
-        "img1":"./assets/imagenes/Asia/AsiaCA1.jpeg", 
-        "img2":"./assets/imagenes/Asia/AsiaCA2.jpeg", 
-        "img3":"./assets/imagenes/Asia/AsiaCA3.jpeg" 
-
-      } 
+      "titulo": "Encrucijada de Civilizaciones",
+      "slogan": "Tradición y modernidad en armonía",
+      "imagenes_destacadas": [
+        {
+          "img1": "./assets/imagenes/Asia/AsiaCA1.jpeg",
+          "img2": "./assets/imagenes/Asia/AsiaCA2.jpeg",
+          "img3": "./assets/imagenes/Asia/AsiaCA3.jpeg"
+        }
       ],
       "destinos": [
         {
@@ -665,7 +713,13 @@
             "Barrio de Harajuku",
             "Templo Senso-ji"
           ],
-          "imagen": "./assets/imagenes/Asia/Tokio.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Tokio.jpeg",
+              "img2": "./assets/imagenes/Asia/tokio2.jpg",
+              "img3": "./assets/imagenes/Asia/tokio3.jpg"
+            }
+          ],
           "precio": 1200,
           "calificacion": 4.8,
           "hoteles": [
@@ -745,7 +799,13 @@
             "Wat Arun",
             "Mercado Flotante Damnoen Saduak"
           ],
-          "imagen": "./assets/imagenes/Asia/Bankog.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Bankog.jpeg",
+              "img2": "./assets/imagenes/Asia/bangkok2.jpg",
+              "img3": "./assets/imagenes/Asia/bangkok3.jpg"
+            }
+          ],
           "precio": 1000,
           "calificacion": 4.6,
           "hoteles": [
@@ -821,7 +881,13 @@
           "pais": "Turquía",
           "descripcion": "La ciudad que conecta Europa con Asia, llena de historia y cultura.",
           "atracciones": ["Mezquita Azul", "Gran Bazar", "Palacio de Topkapi"],
-          "imagen": "./assets/imagenes/Asia/Estambul.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Estambul.jpeg",
+              "img2": "./assets/imagenes/Asia/estambul2.jpg",
+              "img3": "./assets/imagenes/Asia/estambul3.jpg"
+            }
+          ],
           "precio": 1100,
           "calificacion": 4.7,
           "hoteles": [
@@ -897,7 +963,13 @@
           "pais": "Emiratos Árabes Unidos",
           "descripcion": "La ciudad del lujo y la modernidad en medio del desierto.",
           "atracciones": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"],
-          "imagen": "./assets/imagenes/Asia/Dubai.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img2": "./assets/imagenes/Asia/Dubai2.jpeg",
+              "img3": "./assets/imagenes/Asia/Dubai3.jpg"
+            }
+          ],
           "precio": 1500,
           "calificacion": 4.9,
           "hoteles": [
@@ -977,7 +1049,13 @@
             "Mercado Nocturno de Temple Street",
             "Avenue of Stars"
           ],
-          "imagen": "hong_kong.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+            }
+          ],
           "precio": 1400,
           "calificacion": 4.7,
           "hoteles": [
@@ -1057,7 +1135,13 @@
             "Templo de la Literatura",
             "Lago Hoan Kiem"
           ],
-          "imagen": "hanoi.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+            }
+          ],
           "precio": 1000,
           "calificacion": 4.5,
           "hoteles": [
@@ -1137,7 +1221,13 @@
             "Lalbagh Botanical Garden",
             "Cubbon Park"
           ],
-          "imagen": "bangalore.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+            }
+          ],
           "precio": 900,
           "calificacion": 4.4,
           "hoteles": [
@@ -1213,7 +1303,13 @@
           "pais": "Corea del Sur",
           "descripcion": "La moderna capital de Corea del Sur, famosa por su tecnología y su cultura pop.",
           "atracciones": ["Gyeongbokgung", "Torre de Seúl", "Myeong-dong"],
-          "imagen": "seul.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
+              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+            }
+          ],
           "precio": 1300,
           "calificacion": 4.6,
           "hoteles": [
@@ -1289,14 +1385,14 @@
     {
       "nombre": "América",
       "descripcion": "Descubre la diversidad de América, desde las majestuosas montañas de los Andes hasta las playas tropicales del Caribe. Sumérgete en su rica historia y cultura, desde las antiguas civilizaciones hasta las vibrantes ciudades modernas. Explora su biodiversidad única y déjate cautivar por sus paisajes impresionantes.",
-      "titulo":"Unión en la Diversidad",
-      "slogan":"De la Patagonia a Alaska, un continente lleno de vida y color",
-      "imagenes_destacadas": [{
-        "img1":"./assets/imagenes/America/aCarrusel1.jpg", 
-        "img2":"./assets/imagenes/America/AmericaCarrusel2.jpg", 
-        "img3":"./assets/imagenes/America/Toronto.jpeg" 
-
-      } 
+      "titulo": "Unión en la Diversidad",
+      "slogan": "De la Patagonia a Alaska, un continente lleno de vida y color",
+      "imagenes_destacadas": [
+        {
+          "img1": "./assets/imagenes/America/aCarrusel1.jpg",
+          "img2": "./assets/imagenes/America/AmericaCarrusel2.jpg",
+          "img3": "./assets/imagenes/America/Toronto.jpeg"
+        }
       ],
       "destinos": [
         {
@@ -1308,7 +1404,14 @@
             "Estátua de la Libertad",
             "Central Park"
           ],
-          "imagen": "./assets/imagenes/America/NY.jpeg",
+
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/America/NY.jpeg",
+              "img2": "./assets/imagenes/America/NY1.jpeg",
+              "img3": "./assets/imagenes/America/NY2.JPG"
+            }
+          ],
           "precio": 1800,
           "calificacion": 4.8,
           "hoteles": [
@@ -1384,7 +1487,13 @@
           "pais": "Argentina",
           "descripcion": "La ciudad del tango, la carne y la pasión por el fútbol.",
           "atracciones": ["La Boca", "Recoleta", "Teatro Colón"],
-          "imagen": "./assets/imagenes/America/Buenos Aires.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/America/Buenos Aires.jpeg",
+              "img2": "./assets/imagenes/America/arg1.jpg",
+              "img3": "./assets/imagenes/America/arg2.jpeg"
+            }
+          ],
           "precio": 1300,
           "calificacion": 4.5,
           "hoteles": [
@@ -1464,7 +1573,13 @@
             "Playa de Copacabana",
             "Pan de Azúcar"
           ],
-          "imagen": "./assets/imagenes/America/Rio.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/America/Rio.jpeg",
+              "img2": "./assets/imagenes/America/rio1.jpg",
+              "img3": "./assets/imagenes/America/rio2.jpg"
+            }
+          ],
           "precio": 2000,
           "calificacion": 4.7,
           "hoteles": [
@@ -1544,7 +1659,13 @@
             "Universal Studios",
             "Santa Mónica Pier"
           ],
-          "imagen": "./assets/imagenes/America/LA.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/America/LA.jpeg",
+              "img2": "./assets/imagenes/America/LA2.jpg",
+              "img3": "./assets/imagenes/America/LA3.jpeg"
+            }
+          ],
           "precio": 1900,
           "calificacion": 4.6,
           "hoteles": [
@@ -1624,7 +1745,14 @@
             "Cataratas del Niágara",
             "Distrito de Entretenimiento"
           ],
-          "imagen": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+            }
+          ],
           "precio": 1700,
           "calificacion": 4.5,
           "hoteles": [
@@ -1704,7 +1832,13 @@
             "Barrio Bellavista",
             "Plaza de Armas"
           ],
-          "imagen": "santiago.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+            }
+          ],
           "precio": 1500,
           "calificacion": 4.4,
           "hoteles": [
@@ -1780,7 +1914,13 @@
           "pais": "México",
           "descripcion": "El paraíso del Caribe, famoso por sus playas de arena blanca y aguas turquesas.",
           "atracciones": ["Zona Hotelera", "Chichén Itzá", "Isla Mujeres"],
-          "imagen": "cancun.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+            }
+          ],
           "precio": 2100,
           "calificacion": 4.8,
           "hoteles": [
@@ -1856,7 +1996,13 @@
           "pais": "Venezuela",
           "descripcion": "La bulliciosa capital de Venezuela, ubicada en un valle rodeado de montañas.",
           "atracciones": ["El Ávila", "Plaza Bolívar", "Teleférico de Caracas"],
-          "imagen": "caracas.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+            }
+          ],
           "precio": 1500,
           "calificacion": 4.3,
           "hoteles": [
@@ -1936,7 +2082,13 @@
             "Malecón",
             "Plaza de la Revolución"
           ],
-          "imagen": "la_habana.jpg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
+              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+            }
+          ],
           "precio": 1400,
           "calificacion": 4.2,
           "hoteles": [
@@ -2006,164 +2158,264 @@
               ]
             }
           ]
-        }  
+        }
       ]
     },
     {
       "nombre": "África",
       "descripcion": "  Descubre la fascinante diversidad de África, desde las llanuras del Serengeti hasta las pirámides de Egipto. Sumérgete en su rica cultura y observa la vida salvaje en su hábitat natural. ¡Embárcate en una aventura única con nuestra agencia de viajes especializada en África",
-      "titulo":"Riqueza de Raíces",
-      "slogan":"Un continente, innumerables historias",
-      "imagenes_destacadas": [{
-        "img1":"./assets/imagenes/Africa/africaCA1.jpeg", 
-        "img2":"./assets/imagenes/Africa/AfricaCA2.jpeg", 
-        "img3":"./assets/imagenes/Africa/africaCA3.jpeg" 
-
-      } 
+      "titulo": "Riqueza de Raíces",
+      "slogan": "Un continente, innumerables historias",
+      "imagenes_destacadas": [
+        {
+          "img1": "./assets/imagenes/Africa/africaCA1.jpeg",
+          "img2": "./assets/imagenes/Africa/AfricaCA2.jpeg",
+          "img3": "./assets/imagenes/Africa/africaCA3.jpeg"
+        }
       ],
       "destinos": [
-          {
-              "nombre": "El Cairo",
-              "pais": "Egipto",
-              "descripcion": "La ciudad milenaria a orillas del Nilo.",
-              "atracciones": ["Pirámides de Giza", "Museo Egipcio", "Khan el-Khalili"],
-              "imagen": "./assets/imagenes/Africa/ELCAiro.jpeg",
-              "precio": 1500,
-              "calificacion": 4.7,
-              "hoteles": [
-                  {
-                      "nombre": "Hotel Nile View",
-                      "ubicacion": "El Cairo, Egipto",
-                      "precio_minimo": 200,
-                      "precio_maximo": 400,
-                      "calificacion": 4.6,
-                      "servicios": ["Vistas al río Nilo", "Piscina en la azotea", "Restaurante con menú local", "Wi-Fi gratuito"]
-                  },
-                  {
-                      "nombre": "Hotel Pyramid Oasis",
-                      "ubicacion": "El Cairo, Egipto",
-                      "precio_minimo": 250,
-                      "precio_maximo": 450,
-                      "calificacion": 4.8,
-                      "servicios": ["Cerca de las Pirámides de Giza", "Spa y centro de bienestar", "Bar con terraza", "Servicio de lavandería"]
-                  },
-                  {
-                      "nombre": "Hotel Khan el-Khalili",
-                      "ubicacion": "El Cairo, Egipto",
-                      "precio_minimo": 180,
-                      "precio_maximo": 380,
-                      "calificacion": 4.5,
-                      "servicios": ["Ubicado en el bazar de Khan el-Khalili", "Desayuno buffet continental", "Servicio de habitaciones las 24 horas", "Wi-Fi gratuito"]
-                  }
-              ]
-          },
-          {
-              "nombre": "Nairobi",
-              "pais": "Kenia",
-              "descripcion": "La capital de Kenia, en el corazón de la sabana africana.",
-              "atracciones": ["Parque Nacional de Nairobi", "Giraffe Centre", "Museo Nacional de Kenia"],
-              "imagen": "./assets/imagenes/Africa/nairobi.jpeg",
-              "precio": 1600,
+        {
+          "nombre": "El Cairo",
+          "pais": "Egipto",
+          "descripcion": "La ciudad milenaria a orillas del Nilo.",
+          "atracciones": [
+            "Pirámides de Giza",
+            "Museo Egipcio",
+            "Khan el-Khalili"
+          ],
+          "imagen": "./assets/imagenes/Africa/ELCAiro.jpeg",
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Africa/ELCAiro.jpeg",
+              "img2": "./assets/imagenes/Africa/cairo2.jpeg",
+              "img3": "./assets/imagenes/Africa/cairo3.jpg"
+            }
+          ],
+          "precio": 1500,
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Nile View",
+              "ubicacion": "El Cairo, Egipto",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
               "calificacion": 4.6,
-              "hoteles": [
-                  {
-                      "nombre": "Hotel Savannah View",
-                      "ubicacion": "Nairobi, Kenia",
-                      "precio_minimo": 220,
-                      "precio_maximo": 420,
-                      "calificacion": 4.5,
-                      "servicios": ["Vistas al Parque Nacional de Nairobi", "Piscina al aire libre", "Restaurante con cocina local", "Wi-Fi gratuito"]
-                  },
-                  {
-                      "nombre": "Hotel Giraffe Manor",
-                      "ubicacion": "Nairobi, Kenia",
-                      "precio_minimo": 350,
-                      "precio_maximo": 600,
-                      "calificacion": 4.9,
-                      "servicios": ["Interacción con jirafas en el hotel", "Desayuno con jirafas", "Spa y centro de bienestar", "Wi-Fi gratuito"]
-                  },
-                  {
-                      "nombre": "Hotel Serengeti Retreat",
-                      "ubicacion": "Nairobi, Kenia",
-                      "precio_minimo": 280,
-                      "precio_maximo": 500,
-                      "calificacion": 4.7,
-                      "servicios": ["Ambiente de safari en el hotel", "Piscina temática", "Bar con vistas a la sabana", "Servicio de lavandería"]
-                  }
+              "servicios": [
+                "Vistas al río Nilo",
+                "Piscina en la azotea",
+                "Restaurante con menú local",
+                "Wi-Fi gratuito"
               ]
-          },
-          {
-              "nombre": "Ciudad del Cabo",
-              "pais": "Sudáfrica",
-              "descripcion": "La ciudad cosmopolita en la punta de África.",
-              "atracciones": ["Table Mountain", "V&A Waterfront", "Cabo de Buena Esperanza"],
-              "imagen": "./assets/imagenes/Africa/ElCabo.jpeg",
-              "precio": 1800,
+            },
+            {
+              "nombre": "Hotel Pyramid Oasis",
+              "ubicacion": "El Cairo, Egipto",
+              "precio_minimo": 250,
+              "precio_maximo": 450,
               "calificacion": 4.8,
-              "hoteles": [
-                  {
-                      "nombre": "Hotel Table Mountain Vista",
-                      "ubicacion": "Ciudad del Cabo, Sudáfrica",
-                      "precio_minimo": 300,
-                      "precio_maximo": 600,
-                      "calificacion": 4.7,
-                      "servicios": ["Vistas a la Table Mountain", "Piscina con terraza", "Restaurante gourmet", "Wi-Fi gratuito"]
-                  },
-                  {
-                      "nombre": "Hotel Waterfront Retreat",
-                      "ubicacion": "Ciudad del Cabo, Sudáfrica",
-                      "precio_minimo": 350,
-                      "precio_maximo": 650,
-                      "calificacion": 4.9,
-                      "servicios": ["Cerca del V&A Waterfront", "Spa y centro de bienestar", "Bar en la piscina", "Servicio de traslado al aeropuerto"]
-                  },
-                  {
-                      "nombre": "Hotel Peninsula Oasis",
-                      "ubicacion": "Ciudad del Cabo, Sudáfrica",
-                      "precio_minimo": 400,
-                      "precio_maximo": 700,
-                      "calificacion": 4.8,
-                      "servicios": ["Ubicación en el Cabo de Buena Esperanza", "Piscina infinita", "Restaurante con vistas al mar", "Servicio de habitaciones las 24 horas"]
-                  }
+              "servicios": [
+                "Cerca de las Pirámides de Giza",
+                "Spa y centro de bienestar",
+                "Bar con terraza",
+                "Servicio de lavandería"
               ]
-          },
-          {
-            "nombre": "Marrakech",
-            "pais": "Marruecos",
-            "descripcion": "La Ciudad Roja, conocida por sus mercados bulliciosos y su fascinante arquitectura.",
-            "atracciones": ["Plaza Jemaa el-Fna", "Palacio de la Bahía", "Jardines de Majorelle"],
-            "imagen": "./assets/imagenes/Africa/Marrakech.jpeg",
-            "precio": 1700,
-            "calificacion": 4.7,
-            "hoteles": [
-                {
-                    "nombre": "Hotel Riad Palacio de las Rosas",
-                    "ubicacion": "Marrakech, Marruecos",
-                    "precio_minimo": 250,
-                    "precio_maximo": 500,
-                    "calificacion": 4.6,
-                    "servicios": ["Decoración tradicional marroquí", "Patio interior con fuente", "Restaurante de cocina local", "Excursiones organizadas al desierto"]
-                },
-                {
-                    "nombre": "Hotel La Mamounia",
-                    "ubicacion": "Marrakech, Marruecos",
-                    "precio_minimo": 500,
-                    "precio_maximo": 1000,
-                    "calificacion": 4.9,
-                    "servicios": ["Jardines exuberantes", "Piscina al aire libre", "Spa de lujo", "Vistas a las montañas del Atlas"]
-                },
-                {
-                    "nombre": "Hotel Riad Star",
-                    "ubicacion": "Marrakech, Marruecos",
-                    "precio_minimo": 200,
-                    "precio_maximo": 400,
-                    "calificacion": 4.5,
-                    "servicios": ["Ubicación en el corazón de la medina", "Terraza panorámica", "Baños turcos", "Wi-Fi gratuito"]
-                }
-            ]
+            },
+            {
+              "nombre": "Hotel Khan el-Khalili",
+              "ubicacion": "El Cairo, Egipto",
+              "precio_minimo": 180,
+              "precio_maximo": 380,
+              "calificacion": 4.5,
+              "servicios": [
+                "Ubicado en el bazar de Khan el-Khalili",
+                "Desayuno buffet continental",
+                "Servicio de habitaciones las 24 horas",
+                "Wi-Fi gratuito"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Nairobi",
+          "pais": "Kenia",
+          "descripcion": "La capital de Kenia, en el corazón de la sabana africana.",
+          "atracciones": [
+            "Parque Nacional de Nairobi",
+            "Giraffe Centre",
+            "Museo Nacional de Kenia"
+          ],
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Africa/nairobi.jpeg",
+              "img2": "./assets/imagenes/Africa/nairobi2.jpg",
+              "img3": "./assets/imagenes/Africa/nairobi3.jpg"
+            }
+          ],
+          "precio": 1600,
+          "calificacion": 4.6,
+          "hoteles": [
+            {
+              "nombre": "Hotel Savannah View",
+              "ubicacion": "Nairobi, Kenia",
+              "precio_minimo": 220,
+              "precio_maximo": 420,
+              "calificacion": 4.5,
+              "servicios": [
+                "Vistas al Parque Nacional de Nairobi",
+                "Piscina al aire libre",
+                "Restaurante con cocina local",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Giraffe Manor",
+              "ubicacion": "Nairobi, Kenia",
+              "precio_minimo": 350,
+              "precio_maximo": 600,
+              "calificacion": 4.9,
+              "servicios": [
+                "Interacción con jirafas en el hotel",
+                "Desayuno con jirafas",
+                "Spa y centro de bienestar",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Serengeti Retreat",
+              "ubicacion": "Nairobi, Kenia",
+              "precio_minimo": 280,
+              "precio_maximo": 500,
+              "calificacion": 4.7,
+              "servicios": [
+                "Ambiente de safari en el hotel",
+                "Piscina temática",
+                "Bar con vistas a la sabana",
+                "Servicio de lavandería"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Ciudad del Cabo",
+          "pais": "Sudáfrica",
+          "descripcion": "La ciudad cosmopolita en la punta de África.",
+          "atracciones": [
+            "Table Mountain",
+            "V&A Waterfront",
+            "Cabo de Buena Esperanza"
+          ],
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Africa/ElCabo.jpeg",
+              "img2": "./assets/imagenes/Africa/cabo2.jpg",
+              "img3": "./assets/imagenes/Africa/cabo3.jpg"
+            }
+          ],
+          "precio": 1800,
+          "calificacion": 4.8,
+          "hoteles": [
+            {
+              "nombre": "Hotel Table Mountain Vista",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 300,
+              "precio_maximo": 600,
+              "calificacion": 4.7,
+              "servicios": [
+                "Vistas a la Table Mountain",
+                "Piscina con terraza",
+                "Restaurante gourmet",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Waterfront Retreat",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 350,
+              "precio_maximo": 650,
+              "calificacion": 4.9,
+              "servicios": [
+                "Cerca del V&A Waterfront",
+                "Spa y centro de bienestar",
+                "Bar en la piscina",
+                "Servicio de traslado al aeropuerto"
+              ]
+            },
+            {
+              "nombre": "Hotel Peninsula Oasis",
+              "ubicacion": "Ciudad del Cabo, Sudáfrica",
+              "precio_minimo": 400,
+              "precio_maximo": 700,
+              "calificacion": 4.8,
+              "servicios": [
+                "Ubicación en el Cabo de Buena Esperanza",
+                "Piscina infinita",
+                "Restaurante con vistas al mar",
+                "Servicio de habitaciones las 24 horas"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Marrakech",
+          "pais": "Marruecos",
+          "descripcion": "La Ciudad Roja, conocida por sus mercados bulliciosos y su fascinante arquitectura.",
+          "atracciones": [
+            "Plaza Jemaa el-Fna",
+            "Palacio de la Bahía",
+            "Jardines de Majorelle"
+          ],
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/Africa/Marrakech.jpeg",
+              "img2": "./assets/imagenes/Africa/marra2.jpg",
+              "img3": "./assets/imagenes/Africa/marra3.jpg"
+            }
+          ],
+          "precio": 1700,
+          "calificacion": 4.7,
+          "hoteles": [
+            {
+              "nombre": "Hotel Riad Palacio de las Rosas",
+              "ubicacion": "Marrakech, Marruecos",
+              "precio_minimo": 250,
+              "precio_maximo": 500,
+              "calificacion": 4.6,
+              "servicios": [
+                "Decoración tradicional marroquí",
+                "Patio interior con fuente",
+                "Restaurante de cocina local",
+                "Excursiones organizadas al desierto"
+              ]
+            },
+            {
+              "nombre": "Hotel La Mamounia",
+              "ubicacion": "Marrakech, Marruecos",
+              "precio_minimo": 500,
+              "precio_maximo": 1000,
+              "calificacion": 4.9,
+              "servicios": [
+                "Jardines exuberantes",
+                "Piscina al aire libre",
+                "Spa de lujo",
+                "Vistas a las montañas del Atlas"
+              ]
+            },
+            {
+              "nombre": "Hotel Riad Star",
+              "ubicacion": "Marrakech, Marruecos",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.5,
+              "servicios": [
+                "Ubicación en el corazón de la medina",
+                "Terraza panorámica",
+                "Baños turcos",
+                "Wi-Fi gratuito"
+              ]
+            }
+          ]
         }
       ]
-  }
-
+    }
   ]
 }

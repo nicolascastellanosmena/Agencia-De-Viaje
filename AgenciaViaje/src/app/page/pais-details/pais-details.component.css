@@ -10,13 +10,8 @@ main{
     transition: box-shadow 0.3s ease; 
      
 }
-
-#infoBox:hover {
-    box-shadow: 0 0 10px 5px rgba(22, 10, 189, 0.5); 
-}
-#infoBox2:hover {
-    box-shadow: 0 0 10px 5px rgba(22, 10, 189, 0.5); 
-}
+ 
+ 
 
 h1{
     border-bottom: 2px solid #007bff; 

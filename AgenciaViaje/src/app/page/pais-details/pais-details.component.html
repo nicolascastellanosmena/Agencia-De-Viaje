@@ -1,5 +1,7 @@
 <div class="container-fluid">
     <main>
+        @for (content of bDestinos.continentes; track content)
+        {
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -10,24 +12,27 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="../../../assets/imagenes/images (1).jpeg" class="img-fluid" alt="..."
-                        style="width: 100%; height: 50%;">
+                @for (pais of content.destinos; track pais) {
+                @for (carusel of pais.imagenes_pais; track carusel) {
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="{{carusel.img1}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="../../../assets/imagenes/images (1).jpeg" class="img-fluid" alt="..."
-                        style="width: 100%; height: 50%;">
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="{{carusel.img2}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="../../../assets/imagenes/images (1).jpeg" class="img-fluid" alt="..."
-                        style="width: 100%; height: 50%;">
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="{{carusel.img3}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
+                }
+
+                }
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="prev">
@@ -44,30 +49,57 @@
         <section id="cajas" class="py-5 text-center container">
             <div class="row">
                 <div class="col">
-                    <div class="row py-lg-5">
+                    <div class="row py-lg-12">
+                        @for (pais of content.destinos; track pais) {
                         <div id="infoBox" class="col-lg-6 col-md-8">
-                            <h1 class="fw-light">Nombre del sitio</h1>
-                            <p class="lead text-muted">Descripcion del sitio que vas a visitar. Blablablablablablablablablablablablablabla
-                                blablablablablablabla.</p>
+                            <h1 class="fw-light">{{pais.nombre}}</h1>
+                            <p class="lead text-muted">{{pais.descripcion}}</p>
                             <p>
-                                <a href="reservas" class="btn btn-success my-2">Reserva ya</a>
+                                <a routerLink="/reservas" class="btn btn-success my-2">Reserva ya</a>
                             </p>
                         </div>
+                        }
+
                         <div class="col">
-                            <div id="lista" class="col-lg-6 col-md-4" style="margin-left: 10rem;">
-                                <div id="infoBox2" class="list-group">
-                                    <a href="#" class="list-group-item list-group-item-action">Atracción turística 1</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Atracción turística 2</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Atracción turística 3</a>
-                                    <a href="#" class="list-group-item list-group-item-action">Atracción turística 4</a>
-                                </div>
+                            <div id="lista" class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                                    Atracciones Turísticas
+                                </a>
+                                @for (pais of content.destinos; track pais) {
+                                @for (dest of pais.atracciones; track dest) {
+                                <a href="#" class="list-group-item list-group-item-action">{{dest}}</a>
+                                }
+                                }
+
                             </div>
+                            <ol class="list-group list-group-numbered">
+                                @for (conte of bDestinos.continentes; track conte)
+                                { @for (paises of conte.destinos
+                                ; track paises) { @for ( hotel of paises.hoteles; track
+                                hotel) {
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">{{ hotel.nombre }}</div>
+                                        {{ hotel.precio_minimo | currency }}-{{
+                                        hotel.precio_maximo | currency
+                                        }}
+                                    </div>
+                                    <span class="badge text-bg-primary rounded-pill">⭐{{
+                                        hotel.calificacion
+                                        }}</span>
+                                </li>
+
+                                } } }
+                            </ol>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
+        }
+
+
 
 
 

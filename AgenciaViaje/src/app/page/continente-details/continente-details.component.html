@@ -2,7 +2,7 @@
 <div class="container-fluid">
   <main>
     <div class="row justify-content-center" id="carruselll">
-      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
         @for (titulo of bDestinos.continentes; track titulo) {
             <div class="carousel-inner">
                 @for (img of titulo.imagenes_destacadas; track img) {
@@ -16,7 +16,6 @@
                         <img src="{{img.img3}}" class="d-block w-100" style="height: 700px;" alt="...">
                       </div>
                 }
-                
               </div>
               <div class="carousel-caption">
                 <h1>{{titulo.nombre}}, {{titulo.titulo}}</h1>
@@ -88,11 +87,12 @@
         <h3>Paises que no te puedes perder....</h3>
         @for (elem of bDestinos.continentes; track elem) { @for (pais of elem.destinos|slice :0:4; track
         pais) {
-        <div class="card mb-3" style="max-width: 840px" id="carta2">
-          <a href="pais">
+        <div class="card mb-3" style="max-width: 840px" id="carta2" [routerLink]="['/catalogo', elem.nombre,pais.nombre]">
             <div class="row g-0">
             <div class="col-md-4">
-                <img src="{{pais.imagen}}" class="img-fluid rounded-start" style="height: 100%" alt="..." /> 
+                @for (img of pais.imagenes_pais; track img) {
+                  <img src="{{img.img1}}" class="img-fluid rounded-start" style="height: 100%" alt="..." /> 
+                }
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -106,7 +106,6 @@
               </div>
             </div>
           </div>
-          </a>
           
         </div>
   
