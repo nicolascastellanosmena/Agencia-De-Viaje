@@ -10,7 +10,7 @@ import { PaisDetailsComponent } from './page/pais-details/pais-details.component
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 export const routes: Routes = [
-    {path:'',title:"Home",component:HomeComponent},
+    {path:'',title:"/home",component:HomeComponent},
     {path:'catalogo',title:"Catálogo",component:CatalogoComponent},
     {path:'catalogo/:continenteId',component:ContinenteDetailsComponent},
     {path:'catalogo/:continenteId/:parametro',title:'Tu destino',component:PaisDetailsComponent},
