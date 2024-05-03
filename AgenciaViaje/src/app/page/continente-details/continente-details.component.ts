@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Destinos } from '../../common/destinos';
 import { DestinosService } from '../../services/destinos.service';
 import { CurrencyPipe, SlicePipe } from '@angular/common';
@@ -17,7 +17,7 @@ export class ContinenteDetailsComponent implements OnInit {
   
   bDestinos: Destinos = { continentes: [] };
 
-  constructor(private route: ActivatedRoute, private servicio: DestinosService) { }
+  constructor(private route: ActivatedRoute, private servicio: DestinosService,private router:Router) { }
   
   ngOnInit(): void {
     this.load();
@@ -34,9 +34,10 @@ export class ContinenteDetailsComponent implements OnInit {
           if (continenteEncontrado) {
             
             this.bDestinos.continentes = [continenteEncontrado]; 
-            console.log('Destinos del continente:', this.bDestinos.continentes);
+            console.log('Continentes Cargados');
           } else {
             console.error('Continente no encontrado');
+            this.router.navigate(['/error-404']);
           }
         },
         error: (error) => {

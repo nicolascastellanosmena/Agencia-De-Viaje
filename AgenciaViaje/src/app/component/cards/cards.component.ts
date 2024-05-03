@@ -24,7 +24,6 @@ export class CardsComponent implements OnInit{
       {
         next: (destino) => {
           this.bDestinos = destino;
-          console.log(destino);
            
         },
         error: (error) => {

@@ -3,11 +3,11 @@ import { FooterComponent } from '../../component/footer/footer.component';
 import { RouterLink } from '@angular/router';
 import { Destinos } from '../../common/destinos';
 import { DestinosService } from '../../services/destinos.service';
-import { SlicePipe } from '@angular/common';
+import { CurrencyPipe, SlicePipe } from '@angular/common';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [FooterComponent, RouterLink, SlicePipe],
+  imports: [FooterComponent, RouterLink, SlicePipe,CurrencyPipe],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

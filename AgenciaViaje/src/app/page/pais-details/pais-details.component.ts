@@ -26,7 +26,6 @@ export class PaisDetailsComponent {
   
     this.servicio.getDestino(parametro).subscribe({
       next: (data) => {
-        console.log(data);
         if (data) {
           this.bDestinos = { continentes: [{
             destinos: [data],
@@ -39,6 +38,7 @@ export class PaisDetailsComponent {
         } else {
   
           console.error('El destino no se encontró.');
+          this.router.navigate(['/error-404']);
         }
       },
       error: (err) => {
