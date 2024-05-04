@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
+## REVISIÓN MAQUETACION
+
+1. Solo les recomiendo que o todos los textos en ingles o todos en español
+
+## REVISIÓN DOCUMENTACION
+
+lo vemos el lunes
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
