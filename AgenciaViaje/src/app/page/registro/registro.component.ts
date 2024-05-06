@@ -14,7 +14,7 @@ import { FormsModule } from '@angular/forms';
 export class RegistroComponent {
   nuevoUsuario: Usuario = {
     nombre: '',
-    apellido:'',
+    apellido: '',
     email: '',
     contraseya: '',
     id: 0
@@ -26,12 +26,11 @@ export class RegistroComponent {
     this.authService.registrarUsuario(this.nuevoUsuario).subscribe({
       next: (usuario) => {
         console.log('Usuario registrado correctamente:', usuario);
-        this.router.navigate(['/login']);
+        this.router.navigate(['/iniciosesion']);
        
       },
       error: (error) => {
         console.error('Error al registrar usuario:', error);
-        
       }
     });
   }

@@ -128,3 +128,7 @@ body{
     margin: 1rem;
     
 }
+#ERROR{
+    margin: 15px;
+    font-weight: bold;
+}

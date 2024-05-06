@@ -1,14 +1,21 @@
 <body>
     <div class="a">
         <div class="wrapper">
-            <form action="">
+            <form (ngSubmit)="iniciarSesion()" #loginForm="ngForm">
                 <h1>Login</h1>
+                <div id="ERROR" class="error-message">
+                    @if (error) {
+                        ❌Usuario o contraseña incorrectos. Por favor, inténtalo de nuevo.❌
+                    }
+                </div>
                 <div class="input-box">
-                    <input type="text" placeholder="Nombre de Usuario / E-mail" required>
+                    <input type="text" placeholder="Nombre de Usuario / E-mail" required
+                        [(ngModel)]="credenciales.email" name="email">
                     <i class="bi bi-person"></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Contraseña" required>
+                    <input type="password" placeholder="Contraseña" required
+                        [(ngModel)]="credenciales.contraseya" name="contraseña">
                     <i class="bi bi-lock"></i>
                 </div>
                 <div class="remember-forgot">
