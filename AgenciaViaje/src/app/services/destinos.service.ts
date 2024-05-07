@@ -31,4 +31,18 @@ export class DestinosService {
       })
     );
   }
+  public buscarContinentePorDestino(destino: string): Observable<string | null> {
+    return this.http.get<Destinos>(this.urlJson).pipe(
+      map(destinos => {
+        for (const continente of destinos.continentes) {
+          for (const destinoItem of continente.destinos) {
+            if (destinoItem.nombre === destino) {
+              return continente.nombre;
+            }
+          }
+        }
+        return null;
+      })
+    );
+  }
 }

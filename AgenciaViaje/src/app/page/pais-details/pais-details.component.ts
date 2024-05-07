@@ -53,4 +53,5 @@ export class PaisDetailsComponent {
     this.router.navigate([`/catalogo/${continenteId}/${id}`]);
   }
   
+  
 }
