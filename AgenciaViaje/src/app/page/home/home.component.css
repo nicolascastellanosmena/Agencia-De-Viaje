@@ -10,7 +10,7 @@ main{
     position: absolute;
     bottom: 420px;
 }
-.input-group input, .input-group button{
+.input-group input, .input-group button,#desplegable1,#desplegable2{
     height: 3.5em;
     font-size: large;
 }

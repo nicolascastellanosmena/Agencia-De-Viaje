@@ -5,12 +5,30 @@
                 <div class="row justify-content-center" id="div_buscador">
                     <div class="col">
                         <div class="input-group" id="buscador">
-                            <input type="text" aria-label="Origen" class="form-control" placeholder="Origen">
-                            <input type="text" aria-label="Destino" class="form-control" placeholder="Destino" [(ngModel)]="selectedDestino">
+                                <div>
+                                  <select aria-label="Origen" class="form-control" [(ngModel)]="selectedOrigen" (change)="cambiarOrigen(selectedOrigen)" id="desplegable1">
+                                    <option value="">Selecciona origen</option>
+                                    @for (origen of bDestinos.continentes; track origen) {
+                                        @for(destino of origen.destinos; track destino){
+                                            <option [value]="origen.nombre">{{ destino.nombre }}</option>
+                                        }
+                                    }
+                                  </select>
+                                </div>
+                                <div>
+                                  <select aria-label="Destino" class="form-control" [(ngModel)]="selectedDestino" id="desplegable2">
+                                    <option value="">Selecciona destino</option>
+                                    @for (origen of bDestinos.continentes; track origen) {
+                                        @for (destino of origen.destinos; track destino) {
+                                            <option  [value]="destino.nombre">{{ destino.nombre }}</option>
+                                        }
+                                    }
+                                  </select>
+                                </div>
                             <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha ida">
                             <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha Vuelta">
                             <input type="number" aria-label="Destino" class="form-control" placeholder="Pasajeros">
-                            <button class="btn btn-primary" type="button" id="button-addon2" (click)="buscarDestino()">Buscar</button>
+                            <button class="btn btn-primary" type="button" id="button-addon2" (click)="navegarADestino()">Buscar</button>
                         </div>
                     </div>
                 </div>
