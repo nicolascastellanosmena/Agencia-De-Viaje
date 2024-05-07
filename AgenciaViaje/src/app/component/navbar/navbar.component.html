@@ -14,9 +14,23 @@
           <div class="navbar-nav ms-auto">
             <a class="nav-link" routerLink="/home">Inicio</a>
             <a class="nav-link" routerLink="/catalogo"> Catálogo</a>
-            <a class="nav-link" routerLink="/reservas">Reservas</a>
+            @if(authService.loger){
+              <a class="nav-link" routerLink="/reservas">Reservas</a>
+            }
             <a class="nav-link" routerLink="/contactanos">Contáctanos</a>
-            <a class="nav-link" routerLink="/iniciosesion">Iniciar Sesión</a>
+            @if (!authService.loger) {
+              <a  class="nav-link" routerLink="/iniciosesion">Iniciar sesión</a>
+            }
+            @if (authService.loger) {
+              <a  class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ authService.nombreUsuario + ' ' + authService.apellidoUsuario }}
+              </a>
+            }
+            @if (authService.loger) {
+              <ul  class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink" id="desplega">
+                <li><a class="dropdown-item" routerLink="/home" (click)="authService.cerrarSesion()" >Cerrar Sesión</a></li>
+             </ul>
+            }  
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@
     text-align: center;
     padding: 10px;
 }
+
 .navbar-toggler{
     background-color: white;
 }
@@ -28,3 +29,16 @@ img:hover{
     justify-content: center;
     align-items: center;
 }
+.dropdown-item:hover {
+    background-color: white;
+    transform: scale(1.2);
+    color: black !important;
+    
+  }
+  li{
+    padding: 10px;
+    
+  }
+  #desplega{
+    background-color:#03182F ;
+  }

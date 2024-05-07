@@ -26,8 +26,9 @@ export class IniciosesionComponent {
     this.authService.iniciarSesion(this.credenciales.email, this.credenciales.contraseya).subscribe({
       next: (usuario) => {
         if (usuario) {
-          console.log('Inicio de sesión exitoso:', usuario);
+          console.log('Inicio de sesión exitoso:');
           this.router.navigate(['/home']);
+          this.authService.loger=true;
 
           
         } else {
