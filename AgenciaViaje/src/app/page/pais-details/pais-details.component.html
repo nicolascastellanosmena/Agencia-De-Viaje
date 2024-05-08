@@ -1,104 +1,120 @@
 <div class="container-fluid">
     <main>
-        @for (content of bDestinos.continentes; track content)
-        {
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+        <div class="row">
+            @for (content of bDestinos.continentes; track content)
+            {
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    @for (pais of content.destinos; track pais) {
+                    @for (carusel of pais.imagenes_pais; track carusel) {
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="{{carusel.img1}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="{{carusel.img2}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="{{carusel.img3}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    }
+    
+                    }
+    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                @for (pais of content.destinos; track pais) {
-                @for (carusel of pais.imagenes_pais; track carusel) {
-                <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="{{carusel.img1}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="{{carusel.img2}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="{{carusel.img3}}" class="img-fluid" alt="..." style="width: 100%; height: 750px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                }
-
-                }
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            }
         </div>
-
-        <section id="cajas" class="py-5 text-center container">
-            <div class="row">
-                <div class="col">
-                    <div class="row py-lg-12">
-                        @for (pais of content.destinos; track pais) {
-                        <div id="infoBox" class="col-lg-6 col-md-8">
-                            <h1 class="fw-light">{{pais.nombre}}</h1>
-                            <p class="lead text-muted">{{pais.descripcion}}</p>
-                            <p>
-                                <a routerLink="/reservas" class="btn btn-success my-2">Reserva ya</a>
-                            </p>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                          Featured
                         </div>
-                        }
-
-                        <div class="col">
-                            <div id="lista" class="list-group">
-                                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                                    Atracciones Turísticas
-                                </a>
-                                @for (pais of content.destinos; track pais) {
-                                @for (dest of pais.atracciones; track dest) {
-                                <a href="#" class="list-group-item list-group-item-action">{{dest}}</a>
-                                }
-                                }
-
-                            </div>
-                            <ol class="list-group list-group-numbered">
-                                @for (conte of bDestinos.continentes; track conte)
-                                { @for (paises of conte.destinos
-                                ; track paises) { @for ( hotel of paises.hoteles; track
-                                hotel) {
-                                <li class="list-group-item d-flex justify-content-between align-items-start">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">{{ hotel.nombre }}</div>
-                                        {{ hotel.precio_minimo | currency }}-{{
-                                        hotel.precio_maximo | currency
-                                        }}
-                                    </div>
-                                    <span class="badge text-bg-primary rounded-pill">⭐{{
-                                        hotel.calificacion
-                                        }}</span>
-                                </li>
-
-                                } } }
-                            </ol>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                    </div>
+                      </div>
+                </div>
+                <div class="row">
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                          </div>
+                          <span class="badge text-bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                          </div>
+                          <span class="badge text-bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                          </div>
+                          <span class="badge text-bg-primary rounded-pill">14</span>
+                        </li>
+                      </ol>
+
                 </div>
             </div>
-        </section>
-
-        }
-
+            <div class="col" id="tarjeta">
+                <h1>Disfruta de los mejores hoteles....</h1>
+                @for (continet of bDestinos.continentes; track continet) {
+                    @for (pais of continet.destinos; track pais) {
+                        @for (hotel of pais.hoteles|slice:0:4; track hotel) {
+                            <div class="card" style="width: 18rem;">
+                                <img src="../.././../assets/imagenes/America/LA2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">{{hotel.nombre}}</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item"><strong>Ubicación:</strong> {{hotel.ubicacion}}</li>
+                                  <li class="list-group-item"><strong>Servicios:</strong> {{hotel.servicios}}</li>
+                                  <li class="list-group-item"><strong>Clasificacion:</strong> {{hotel.calificacion}} ⭐</li>
+                                </ul>
+                                <div class="card-body" id="agregar">
+                                  <a href="#" class="card-link">Agregar</a>
+                                  <li class="list-group-item">{{hotel.precio_maximo|currency}}</li>
+                                </div>
+                              </div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+       
 
 
 

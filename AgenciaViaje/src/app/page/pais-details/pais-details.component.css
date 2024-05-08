@@ -10,6 +10,7 @@ main{
     transition: box-shadow 0.3s ease; 
      
 }
+
  
  
 
@@ -17,5 +18,21 @@ h1{
     border-bottom: 2px solid #007bff; 
     padding-bottom: 10px; 
     margin-bottom: 20px; 
+}
+.row{
+    
+    margin: 0;
+}
+#agregar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tarjeta{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
  

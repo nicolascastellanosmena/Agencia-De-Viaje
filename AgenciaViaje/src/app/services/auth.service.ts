@@ -29,9 +29,11 @@ export class AuthService {
 
   iniciarSesion(email: string, contraseña: string): Observable<Usuario | null> {
     const usuario = this.usuarios.find(u => u.email === email && u.contraseya === contraseña);
-    this.loger = true;
-    this.nombreUsuario=usuario?.nombre
-    this.apellidoUsuario=usuario?.apellido || '';
+    if (usuario) {
+      this.loger = true;
+      this.nombreUsuario = usuario.nombre;
+      this.apellidoUsuario = usuario.apellido || '';
+    }
     return of(usuario || null);
   }
   cerrarSesion() {

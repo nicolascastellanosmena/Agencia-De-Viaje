@@ -3,11 +3,11 @@ import { FooterComponent } from '../../component/footer/footer.component';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Destinos } from '../../common/destinos';
 import { DestinosService } from '../../services/destinos.service';
-import { CurrencyPipe } from '@angular/common';
+import { CurrencyPipe, SlicePipe } from '@angular/common';
 @Component({
   selector: 'app-pais-details',
   standalone: true,
-  imports: [FooterComponent, RouterLink, CurrencyPipe],
+  imports: [FooterComponent, RouterLink, CurrencyPipe,SlicePipe],
   templateUrl: './pais-details.component.html',
   styleUrl: './pais-details.component.css'
 })
