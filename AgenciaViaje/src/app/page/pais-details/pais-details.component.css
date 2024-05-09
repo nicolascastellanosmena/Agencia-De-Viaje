@@ -32,6 +32,7 @@ h1{
 #tarjeta{
     margin: 20px;
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 3rem;
 }

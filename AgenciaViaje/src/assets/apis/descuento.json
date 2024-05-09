@@ -1,0 +1,21 @@
+{
+    "promociones_vuelos": [
+      {
+        "codigo": "VUELA10",
+        "descuento": "10%"
+      },
+      {
+        "codigo": "DESTINO20",
+        "descuento": "20%"
+      },
+      {
+        "codigo": "VERANO25",
+        "descuento": "25%"
+      },
+      {
+        "codigo": "NEGOCIOS30",
+        "descuento": "30%"
+      }
+    ]
+  }
+  

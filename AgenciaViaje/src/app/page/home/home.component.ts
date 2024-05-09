@@ -19,6 +19,10 @@ export class HomeComponent {
   destinosActuales: Destino[] = [];
   selectedDestino: string = '';
   selectedOrigen: string = '';
+  selecteOrigenPais:string='';
+  fechaIda: string='';
+  fechaVuelta: string='';
+  numPasajeros: number=0;
   
   constructor(private servicio: DestinosService, private router: Router, private activaRouter: ActivatedRoute) { }
   
@@ -43,7 +47,6 @@ export class HomeComponent {
   cambiarOrigen(origen: string | undefined) {
     if (origen) {
       this.selectedOrigen = origen;
-      this.actualizarDestinos();
     } else {
       console.log('Origen no encontrado')
     }
@@ -61,6 +64,7 @@ export class HomeComponent {
       this.destinosActuales = [];
     }
   }
+
   
   cambiarDestino(destino: string) {
     if (this.selectedOrigen && destino) {
@@ -81,7 +85,15 @@ export class HomeComponent {
   }
   navegarADestino() {
     if (this.selectedOrigen && this.selectedDestino) {
-      this.router.navigate([`/catalogo/${this.selectedOrigen}/${this.selectedDestino}`]);
+      this.router.navigate([`/catalogo/${this.selectedOrigen}/${this.selectedDestino}`], {
+        queryParams: {
+          origen:this.selectedOrigen,
+          destino:this.selectedDestino,
+          fechaIda: this.fechaIda,
+          fechaVuelta: this.fechaVuelta,
+          numPasajeros: this.numPasajeros
+        }
+      });
     } else {
       console.error('No se ha seleccionado origen o destino.');
     }

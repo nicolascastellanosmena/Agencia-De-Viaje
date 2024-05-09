@@ -10,7 +10,7 @@
                                     <option value="">Selecciona origen</option>
                                     @for (origen of bDestinos.continentes; track origen) {
                                         @for(destino of origen.destinos; track destino){
-                                            <option [value]="origen.nombre">{{ destino.nombre }}</option>
+                                            <option [value]="destino.nombre">{{ destino.nombre }}</option>
                                         }
                                     }
                                   </select>
@@ -25,9 +25,9 @@
                                     }
                                   </select>
                                 </div>
-                            <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha ida">
-                            <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha Vuelta">
-                            <input type="number" aria-label="Destino" class="form-control" placeholder="Pasajeros">
+                            <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha ida" [(ngModel)]="fechaIda">
+                            <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha Vuelta" [(ngModel)]=" fechaVuelta">
+                            <input type="number" aria-label="Destino" class="form-control" placeholder="Pasajeros"[(ngModel)]=" numPasajeros" >
                             <button class="btn btn-primary" type="button" id="button-addon2" (click)="navegarADestino()">Buscar</button>
                         </div>
                     </div>
