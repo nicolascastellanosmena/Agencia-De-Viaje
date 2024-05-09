@@ -8,6 +8,7 @@ import { ReservasComponent } from './page/reservas/reservas.component';
 import { ContinenteDetailsComponent } from './page/continente-details/continente-details.component';
 import { PaisDetailsComponent } from './page/pais-details/pais-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TerminosYCondicionesComponent } from './page/terminos-y-condiciones/terminos-y-condiciones.component';
 
 export const routes: Routes = [
     {path:'',title:"Home",component:HomeComponent},
@@ -19,5 +20,6 @@ export const routes: Routes = [
     {path:'iniciosesion',title:"Iniciar Sesión",component:IniciosesionComponent},
     {path:'registro',title:"Regístrate",component:RegistroComponent},
     {path:'reservas',title:"Reservas",component:ReservasComponent},
+    {path:'terminos-condiciones',title:"Política de Empresa",component:TerminosYCondicionesComponent},
     {path: '**', title:"ERROR 404",component: PageNotFoundComponent},
 ];
