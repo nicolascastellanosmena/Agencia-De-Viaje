@@ -41,5 +41,6 @@ export interface Hotele {
   precio_minimo: number
   precio_maximo: number
   calificacion: number
+  imagen:string
   servicios: string[]
 }

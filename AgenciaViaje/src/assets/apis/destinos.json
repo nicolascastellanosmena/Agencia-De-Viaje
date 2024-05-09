@@ -38,6 +38,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-belle epoque.jpg",
               "servicios": [
                 "Wi-Fi gratuito",
                 "Desayuno continental",
@@ -51,6 +52,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Spa de lujo",
                 "Restaurante gourmet",
@@ -64,6 +66,7 @@
               "precio_minimo": 120,
               "precio_maximo": 250,
               "calificacion": 4.3,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-charmart.jpg",
               "servicios": [
                 "Desayuno buffet",
                 "Bar en la azotea",
@@ -77,6 +80,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-royal.jpg",
               "servicios": [
                 "Centro de negocios",
                 "Salas de reuniones",
@@ -90,6 +94,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-etoile.jpg",
               "servicios": [
                 "Acceso para discapacitados",
                 "Terraza con vistas panorámicas",
@@ -120,6 +125,7 @@
               "precio_minimo": 120,
               "precio_maximo": 250,
               "calificacion": 4.4,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Excursiones guiadas",
                 "Alquiler de coches",
@@ -133,6 +139,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Spa y centro de bienestar",
                 "Restaurante con estrellas Michelin",
@@ -146,6 +153,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Piscina al aire libre",
                 "Jacuzzi privado en algunas habitaciones",
@@ -159,6 +167,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Gimnasio con entrenador personal",
                 "Servicio de transporte al aeropuerto",
@@ -172,6 +181,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Sala de conferencias",
                 "Centro de negocios",
@@ -202,6 +212,7 @@
               "precio_minimo": 100,
               "precio_maximo": 200,
               "calificacion": 4.3,
+              "imagen":"./assets/imagenes/hoteles/Europa/barcelona-mediterraneo.jpg",
               "servicios": [
                 "Terraza con vistas al mar",
                 "Piscina al aire libre",
@@ -215,6 +226,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Decoración modernista",
                 "Desayuno buffet",
@@ -228,6 +240,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/barcelona-ramblas.jpg",
               "servicios": [
                 "Ubicación céntrica en Las Ramblas",
                 "Restaurante de tapas",
@@ -241,6 +254,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.4,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-Westminster.jpg",
               "servicios": [
                 "Piscina en la azotea",
                 "Sauna y baño turco",
@@ -254,6 +268,7 @@
               "precio_minimo": 160,
               "precio_maximo": 320,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/barcelona-Gothic.jpg",
               "servicios": [
                 "Vistas a la Catedral de Barcelona",
                 "Decoración gótica",
@@ -288,6 +303,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-Buckingham.jpg",
               "servicios": [
                 "Vistas al Palacio de Buckingham",
                 "Desayuno inglés completo",
@@ -301,6 +317,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-Westminster.jpg",
               "servicios": [
                 "Acceso exclusivo al spa",
                 "Restaurante con chef galardonado",
@@ -314,6 +331,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-Thames.jpg",
               "servicios": [
                 "Terraza con vistas al río Támesis",
                 "Gimnasio abierto las 24 horas",
@@ -327,6 +345,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.4,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-bridge.jpg",
               "servicios": [
                 "Recepción abierta las 24 horas",
                 "Alquiler de bicicletas",
@@ -340,6 +359,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-Garden.jpg",
               "servicios": [
                 "Ubicación céntrica en Covent Garden",
                 "Servicio de habitaciones las 24 horas",
@@ -374,6 +394,7 @@
               "precio_minimo": 180,
               "precio_maximo": 300,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/madrid.jpg",
               "servicios": [
                 "Ubicación cerca del Museo del Prado",
                 "Wi-Fi gratuito",
@@ -387,6 +408,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/madrid-plazaMayor.jpg",
               "servicios": [
                 "Vistas a la Plaza Mayor",
                 "Restaurante de tapas",
@@ -400,6 +422,7 @@
               "precio_minimo": 220,
               "precio_maximo": 380,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/madrid-retiro.jpg",
               "servicios": [
                 "Jardines privados",
                 "Piscina al aire libre",
@@ -413,6 +436,7 @@
               "precio_minimo": 190,
               "precio_maximo": 350,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/berlin-gate.jpg",
               "servicios": [
                 "Ubicación en la Gran Vía",
                 "Centro de negocios",
@@ -426,6 +450,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.4,
+              "imagen":"./assets/imagenes/hoteles/Europa/madrid-princesa.jpg",
               "servicios": [
                 "Sala de conferencias",
                 "Servicio de cambio de divisas",
@@ -460,6 +485,7 @@
               "precio_minimo": 2000,
               "precio_maximo": 4000,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/praga-bridge.jpg",
               "servicios": [
                 "Vistas al Puente de Carlos",
                 "Desayuno buffet",
@@ -473,6 +499,7 @@
               "precio_minimo": 2500,
               "precio_maximo": 4500,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/praga-Square.jpg",
               "servicios": [
                 "Ubicación en la Plaza de la Ciudad Vieja",
                 "Terraza con vistas panorámicas",
@@ -486,6 +513,7 @@
               "precio_minimo": 1800,
               "precio_maximo": 3600,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/praga-Castle.jpg",
               "servicios": [
                 "Cerca del Castillo de Praga",
                 "Restaurante de cocina tradicional checa",
@@ -499,6 +527,7 @@
               "precio_minimo": 2100,
               "precio_maximo": 3900,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/londres-Garden.jpg",
               "servicios": [
                 "En la Plaza de Wenceslao",
                 "Spa y centro de bienestar",
@@ -512,6 +541,7 @@
               "precio_minimo": 2200,
               "precio_maximo": 4000,
               "calificacion": 4.4,
+              "imagen":"./assets/imagenes/hoteles/Europa/praga-josefov.jpg",
               "servicios": [
                 "Cerca del barrio judío de Josefov",
                 "Recepción 24 horas",
@@ -542,6 +572,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/venecia-canal.jpg",
               "servicios": [
                 "Vistas al Gran Canal",
                 "Desayuno buffet",
@@ -555,6 +586,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/venecia-SanMarco.jpg",
               "servicios": [
                 "Cerca de la Piazza San Marco",
                 "Restaurante italiano",
@@ -568,6 +600,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/venecia-Rialto.jpg",
               "servicios": [
                 "Vistas al Puente de Rialto",
                 "Desayuno continental",
@@ -581,6 +614,7 @@
               "precio_minimo": 220,
               "precio_maximo": 380,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/venecia-Romantic.jpg",
               "servicios": [
                 "Ambiente romántico",
                 "Servicio de spa",
@@ -594,6 +628,7 @@
               "precio_minimo": 190,
               "precio_maximo": 360,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/venecia-murano.jpg",
               "servicios": [
                 "Cerca de la isla de Murano",
                 "Piscina en la azotea",
@@ -628,6 +663,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.4,
+              "imagen":"./assets/imagenes/hoteles/Europa/berlin-gate.jpg",
               "servicios": [
                 "Cerca de la Puerta de Brandeburgo",
                 "Desayuno buffet",
@@ -641,6 +677,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Europa/berlin-museum.jpg",
               "servicios": [
                 "Vistas al Museo de Pérgamo",
                 "Spa y centro de bienestar",
@@ -654,6 +691,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Vistas al Muro de Berlín",
                 "Bar de cócteles",
@@ -667,6 +705,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Europa/berlin-alexanderplatz.jpg",
               "servicios": [
                 "Ubicación en Alexanderplatz",
                 "Terraza panorámica",
@@ -680,6 +719,7 @@
               "precio_minimo": 190,
               "precio_maximo": 360,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Europa/berlin-tiergaten.jpg",
               "servicios": [
                 "Cerca del parque Tiergarten",
                 "Piscina cubierta",
@@ -2200,6 +2240,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Africa/Cairo-nile.jpg",
               "servicios": [
                 "Vistas al río Nilo",
                 "Piscina en la azotea",
@@ -2213,6 +2254,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Africa/cairo.jpg",
               "servicios": [
                 "Cerca de las Pirámides de Giza",
                 "Spa y centro de bienestar",
@@ -2226,6 +2268,7 @@
               "precio_minimo": 180,
               "precio_maximo": 380,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Africa/cairo-khan.jpg",
               "servicios": [
                 "Ubicado en el bazar de Khan el-Khalili",
                 "Desayuno buffet continental",
@@ -2260,6 +2303,7 @@
               "precio_minimo": 220,
               "precio_maximo": 420,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Africa/nairobi savannah.jpg",
               "servicios": [
                 "Vistas al Parque Nacional de Nairobi",
                 "Piscina al aire libre",
@@ -2273,6 +2317,7 @@
               "precio_minimo": 350,
               "precio_maximo": 600,
               "calificacion": 4.9,
+              "imagen":"./assets/imagenes/hoteles/Africa/nairobi-girafe.jpg",
               "servicios": [
                 "Interacción con jirafas en el hotel",
                 "Desayuno con jirafas",
@@ -2286,6 +2331,7 @@
               "precio_minimo": 280,
               "precio_maximo": 500,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Africa/nairobi-serengueti.jpg",
               "servicios": [
                 "Ambiente de safari en el hotel",
                 "Piscina temática",
@@ -2320,6 +2366,7 @@
               "precio_minimo": 300,
               "precio_maximo": 600,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Africa/cabo-mountain.jpg",
               "servicios": [
                 "Vistas a la Table Mountain",
                 "Piscina con terraza",
@@ -2333,6 +2380,7 @@
               "precio_minimo": 350,
               "precio_maximo": 650,
               "calificacion": 4.9,
+              "imagen":"./assets/imagenes/hoteles/Africa/cabo-waterFront.jpg",
               "servicios": [
                 "Cerca del V&A Waterfront",
                 "Spa y centro de bienestar",
@@ -2346,6 +2394,7 @@
               "precio_minimo": 400,
               "precio_maximo": 700,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Africa/cabo-oasis.jpg",
               "servicios": [
                 "Ubicación en el Cabo de Buena Esperanza",
                 "Piscina infinita",
@@ -2380,6 +2429,7 @@
               "precio_minimo": 250,
               "precio_maximo": 500,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Africa/marruecos-riadRosas.jpg",
               "servicios": [
                 "Decoración tradicional marroquí",
                 "Patio interior con fuente",
@@ -2393,6 +2443,7 @@
               "precio_minimo": 500,
               "precio_maximo": 1000,
               "calificacion": 4.9,
+              "imagen":"./assets/imagenes/hoteles/Africa/marruecos-mamounia.jpg",
               "servicios": [
                 "Jardines exuberantes",
                 "Piscina al aire libre",
@@ -2406,6 +2457,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Africa/marruecos-riadStar.jpg",
               "servicios": [
                 "Ubicación en el corazón de la medina",
                 "Terraza panorámica",

@@ -125,7 +125,7 @@
                     @for (pais of continet.destinos; track pais) {
                         @for (hotel of pais.hoteles|slice:0:4; track hotel) {
                             <div class="card" style="width: 18rem;">
-                                <img src="../.././../assets/imagenes/America/LA2.jpg" class="card-img-top" alt="...">
+                                <img src="{{hotel.imagen}}" class="card-img-top" alt="foto de hotel" style="height: 100%;">
                                 <div class="card-body">
                                   <h5 class="card-title">{{hotel.nombre}}</h5>
                                 </div>
