@@ -26,6 +26,7 @@ app-footer {
 }
 #carta2:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 .carousel-caption  {
   top: 50%;

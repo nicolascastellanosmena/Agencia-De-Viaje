@@ -769,6 +769,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.6,
+              "imagen":"./assets/imagenes/hoteles/Asia/shinjuku.jpg",
               "servicios": [
                 "Cerca del Barrio de Shinjuku",
                 "Restaurante japonés tradicional",
@@ -782,6 +783,7 @@
               "precio_minimo": 300,
               "precio_maximo": 500,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/Asia/ginza view.png",
               "servicios": [
                 "Ubicación en el distrito de Ginza",
                 "Terraza con vistas panorámicas",
@@ -795,6 +797,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
+              "imagen":"./assets/imagenes/hoteles/Asia/asakusa.jpg",
               "servicios": [
                 "Cerca del Templo Senso-ji",
                 "Desayuno buffet japonés",
@@ -808,6 +811,7 @@
               "precio_minimo": 220,
               "precio_maximo": 380,
               "calificacion": 4.8,
+              "imagen":"./assets/imagenes/hoteles/Asia/shibuya.jpg",
               "servicios": [
                 "Ubicación en el distrito de Shibuya",
                 "Bar de sake",
@@ -1612,7 +1616,7 @@
               "precio_minimo": 180,
               "precio_maximo": 320,
               "calificacion": 4.5,
-              "imagen":"./AgenciaViaje/src/assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
+              "imagen":"./assets/imagenes/hoteles/America/Caracas-Hotel Ávila Retreat.jpg",
               "servicios": [
                 "Vistas al Teatro Colón",
                 "Desayuno buffet internacional",
@@ -1767,6 +1771,7 @@
               "precio_minimo": 350,
               "precio_maximo": 600,
               "calificacion": 4.7,
+              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "Cerca de Hollywood Walk of Fame",
                 "Piscina al aire libre con bar",
@@ -1794,7 +1799,7 @@
               "precio_minimo": 380,
               "precio_maximo": 650,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
+              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
               "servicios": [
                 "Vistas panorámicas del centro de la ciudad",
                 "Gimnasio abierto las 24 horas",
