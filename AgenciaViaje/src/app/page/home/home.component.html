@@ -4,7 +4,7 @@
             <div class="carousel-indicators">
                 <div class="row justify-content-center" id="div_buscador">
                     <div class="col">
-                        <div class="input-group" id="buscador">
+                            <div class="input-group" id="buscador">
                                 <div>
                                   <select aria-label="Origen" class="form-control" [(ngModel)]="selectedOrigen" (change)="cambiarOrigen(selectedOrigen)" id="desplegable1">
                                     <option value="">Selecciona origen</option>
@@ -30,6 +30,7 @@
                             <input type="number" aria-label="Destino" class="form-control" placeholder="Pasajeros"[(ngModel)]=" numPasajeros" >
                             <button class="btn btn-primary" type="button" id="button-addon2" (click)="navegarADestino()">Buscar</button>
                         </div>
+                        
                     </div>
                 </div>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"

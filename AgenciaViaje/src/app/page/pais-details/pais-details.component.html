@@ -53,69 +53,65 @@
                 <div class="row">
                       @for (continen of bDestinos.continentes; track continen) {
                         @for (pais of continen.destinos; track pais) {
-                          <div class="col-md-5 col-lg-4 order-md-last" style="width: 100%;">
-                            <h4 class="d-flex justify-content-between align-items-center mb-3">
-                              <span class="text-primary">Tu destino</span>
-                            </h4>
-                            <ul class="list-group mb-3">
-                              <li class="list-group-item d-flex justify-content-between lh-sm">
-                                <div>
-                                  <h4 class="my-0">{{origen}}<i class="bi bi-arrows" style="font-size: 1em;align-items: center;"></i>{{destino}}</h4>
-                                  <small class="text-body-secondary">{{numPasajeros}}</small>
-                                </div>
-                                <span class="text-body-secondary">{{pais.precio|currency}}</span>
-                              </li>
-                              <li class="list-group-item d-flex justify-content-between lh-sm">
-                                <div>
-                                  
-                                  <h6 class="my-0">{{pais.hoteles[1].nombre}}</h6>
-                                  <small class="text-body-secondary">{{pais.hoteles[1].ubicacion}}</small>
-                                </div>
-                                <span class="text-body-secondary">{{pais.hoteles[1].precio_maximo|currency}}</span>
-                              </li>
-                              <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-                                <div class="text-success">
-                                  <h6 class="my-0">Código Promocional</h6>
-                                  <div class="input-group input-group-sm mb-3">
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                          @if (busquedaValida) {
+                            <div class="col-md-5 col-lg-4 order-md-last" style="width: 100%;">
+                              <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="text-primary">Tu destino</span>
+                              </h4>
+                              <ul class="list-group mb-3">
+                                <li class="list-group-item d-flex justify-content-between lh-sm">
+                                  <div>
+                                    <h4 class="my-0">{{origen}}<i class="bi bi-arrows" style="font-size: 1em;align-items: center;"></i>{{destino}}</h4>
+                                    <small class="text-body-secondary">{{fechaIda}}--{{fechaVuelta}}</small>
                                   </div>
-                                </div>
-                                <span class="text-success"></span>
-                              </li>
-                              <li class="list-group-item d-flex justify-content-between">
-                                <span>Total (USD)</span>
-                                <strong>precioTotal</strong>
-                              </li>
-                              <button type="button" class="btn btn-success">Reservar</button>
-                            </ul>
-                          </div>
+                                  <span class="text-body-secondary">{{pais.precio|currency}}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-sm">
+                                  <div>
+                                    
+                                    <h6 class="my-0">{{pais.hoteles[1].nombre}}</h6>
+                                    <small class="text-body-secondary">{{pais.hoteles[1].ubicacion}}</small>
+                                  </div>
+                                  <span class="text-body-secondary">{{pais.hoteles[1].precio_maximo|currency}}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                                  <div class="text-success">
+                                    <h6 class="my-0">Código Promocional</h6>
+                                    <div class="input-group input-group-sm mb-3">
+                                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                    </div>
+                                  </div>
+                                  <span class="text-success"></span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                  <span>Total (USD)</span>
+                                  <strong>precioTotal</strong>
+                                </li>
+                                <button type="button" class="btn btn-success">Reservar</button>
+                              </ul>
+                            </div>
+
+                          }   
                         }
                       }      
                 </div>
                 <div class="row">
-                    <ol class="list-group list-group-numbered">
+                  <h1>Otros destinos.</h1>
+                 
+                      <ol class="list-group list-group-numbered">
                         <li class="list-group-item d-flex justify-content-between align-items-start">
                           <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
-                            Content for list item
-                          </div>
-                          <span class="badge text-bg-primary rounded-pill">14</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                          <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
-                            Content for list item
-                          </div>
-                          <span class="badge text-bg-primary rounded-pill">14</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                          <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subheading</div>
+                            <div class="fw-bold">hola</div>
                             Content for list item
                           </div>
                           <span class="badge text-bg-primary rounded-pill">14</span>
                         </li>
                       </ol>
+
+                    
+                  
+                  
+                   
 
                 </div>
             </div>

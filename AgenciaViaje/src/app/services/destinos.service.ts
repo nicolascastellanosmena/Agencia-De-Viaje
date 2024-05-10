@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { get } from 'http';
-import { Observable, map } from 'rxjs';
+import { BehaviorSubject, Observable, map } from 'rxjs';
 import { Destino, Destinos } from '../common/destinos';
 
 @Injectable({
@@ -10,6 +10,8 @@ import { Destino, Destinos } from '../common/destinos';
 export class DestinosService {
 
   urlJson='./assets/apis/destinos.json'
+  private _busquedaValida: boolean = false;
+
 
   constructor(private http:HttpClient) { }
 
@@ -45,4 +47,21 @@ export class DestinosService {
       })
     );
   }
+  set busquedaValida(value: boolean) {
+    this._busquedaValida = value;
+  }
+  get busquedaValida(): boolean {
+    return this._busquedaValida;
+  }
+  public getDestinosPorContinente(continente: string): Observable<Destinos> {
+    return this.http.get<Destinos>(this.urlJson).pipe(
+      map(destinos => ({
+        continentes: destinos.continentes.filter(cont => cont.nombre === continente)
+      }))
+    );
+  }
+
+  
+
+
 }

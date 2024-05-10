@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
 import { FooterComponent } from '../../component/footer/footer.component';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Destino, Destinos } from '../../common/destinos';
@@ -23,6 +23,8 @@ export class HomeComponent {
   fechaIda: string='';
   fechaVuelta: string='';
   numPasajeros: number=0;
+  busquedaValida:boolean=false;
+ 
   
   constructor(private servicio: DestinosService, private router: Router, private activaRouter: ActivatedRoute) { }
   
@@ -84,7 +86,8 @@ export class HomeComponent {
     }
   }
   navegarADestino() {
-    if (this.selectedOrigen && this.selectedDestino) {
+    if (this.selectedOrigen && this.selectedDestino && this.fechaIda && this.fechaVuelta && this.numPasajeros ) {
+      this.servicio.busquedaValida = true;
       this.router.navigate([`/catalogo/${this.selectedOrigen}/${this.selectedDestino}`], {
         queryParams: {
           origen:this.selectedOrigen,
@@ -96,9 +99,17 @@ export class HomeComponent {
       });
     } else {
       console.error('No se ha seleccionado origen o destino.');
+      this.servicio.busquedaValida=false;
     }
   }
+  
 }
+
+  
+  
+
+
+
 
   
 

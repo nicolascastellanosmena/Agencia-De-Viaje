@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { FooterComponent } from '../../component/footer/footer.component';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Destinos } from '../../common/destinos';
@@ -13,22 +13,31 @@ import { CurrencyPipe, SlicePipe } from '@angular/common';
 })
 export class PaisDetailsComponent {
   bDestinos: Destinos={continentes:[]};
+
   origen: string='';
   destino: string='';
   fechaIda: string='';
   fechaVuelta: string='';
   numPasajeros: number=0;
+  
+ 
+
 
   constructor(private servicio: DestinosService, private router: Router, private activaRouter: ActivatedRoute) {}
   
   ngOnInit(): void {
     this.loadDestino();
     this.navegar();
+    
+   
   }
+
+  busquedaValida=this.servicio.busquedaValida;
   
   loadDestino() {
     const continenteId = this.activaRouter.snapshot.params['continenteId'];
     const parametro = this.activaRouter.snapshot.params['parametro'];
+
   
     this.servicio.getDestino(parametro).subscribe({
       next: (data) => {
@@ -54,6 +63,10 @@ export class PaisDetailsComponent {
     });
   }
   
+ 
+  
+  
+  
   cambiarDestino(id: string) {
     const continenteId = this.activaRouter.snapshot.params['continenteId'];
     this.router.navigate([`/catalogo/${continenteId}/${id}`]);
@@ -68,7 +81,13 @@ export class PaisDetailsComponent {
       });
   }
 
+  }
+
+ 
+
+  
+
   
   
   
-}
+
