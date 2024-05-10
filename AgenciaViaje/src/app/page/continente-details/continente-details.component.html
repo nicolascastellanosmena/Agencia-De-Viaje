@@ -87,7 +87,7 @@
         <h3>Paises que no te puedes perder....</h3>
         @for (elem of bDestinos.continentes; track elem) { @for (pais of elem.destinos|slice :0:4; track
         pais) {
-        <div class="card mb-3" style="max-width: 840px" id="carta2" [routerLink]="['/catalogo', elem.nombre,pais.nombre]">
+        <div class="card mb-3" style="max-width: 840px" id="carta2" [routerLink]="['/catalogo', elem.nombre,pais.nombre]" (click)="navegarADestino()">
             <div class="row g-0">
             <div class="col-md-4">
                 @for (img of pais.imagenes_pais; track img) {
