@@ -61,6 +61,10 @@ export class ContinenteDetailsComponent implements OnInit {
         });
     });
 }
+
+navegarADestino() {
+  this.servicio.busquedaValida = false;
+}
 }
 
   
