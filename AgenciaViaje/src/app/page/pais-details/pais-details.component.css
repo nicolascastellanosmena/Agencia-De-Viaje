@@ -36,6 +36,21 @@ h1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
+    h1{
+        margin-bottom: 0;
+    }
+}
+
+#listaPais{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    h1{
+        margin-bottom: 30px;
+    }
+}
+
+#tablaSeleccion{
+    margin-top: 20px;
 }
  

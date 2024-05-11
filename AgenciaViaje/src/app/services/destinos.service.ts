@@ -19,20 +19,22 @@ export class DestinosService {
      return this.http.get<Destinos>(this.urlJson)
   }
 
-  public getDestino(nombre: string): Observable<Destino | undefined> {
+  public getDestino(nombre: string): Observable<{ destino: Destino | undefined, nombreContinente: string | undefined }> {
     return this.http.get<Destinos>(this.urlJson).pipe(
       map(destinos => {
         for (const continente of destinos.continentes) {
           for (const destino of continente.destinos) {
             if (destino.nombre === nombre) {
-              return destino;
+              return { destino, nombreContinente: continente.nombre };
             }
           }
         }
-        return undefined;
+        return { destino: undefined, nombreContinente: undefined };
       })
     );
   }
+  
+  
   public buscarContinentePorDestino(destino: string): Observable<string | null> {
     return this.http.get<Destinos>(this.urlJson).pipe(
       map(destinos => {
