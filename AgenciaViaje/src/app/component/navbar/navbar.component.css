@@ -12,7 +12,9 @@
     text-align: center;
     padding: 10px;
 }
-
+#titulo{
+     text-decoration: none;
+}
 .navbar-toggler{
     background-color: white;
 }

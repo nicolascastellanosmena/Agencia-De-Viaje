@@ -13,7 +13,9 @@ main{
 .card-img-top{
     cursor: pointer;
 }
- 
+#carouselExampleDark{
+padding: 0;
+} 
  
 
 h1{
@@ -37,5 +39,19 @@ h1{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 3rem;
+}
+#boton{
+    text-decoration: none;
+    border: solid;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgb(43, 43, 202);
+    color: whitesmoke;
+    border-color: blue;
+}
+#boton:hover{
+    background-color: rgb(39, 39, 160);
+    border-color: rgb(37, 37, 131);
+    color: #FFD700;
 }
  

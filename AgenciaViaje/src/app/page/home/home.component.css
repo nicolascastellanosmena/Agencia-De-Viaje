@@ -122,4 +122,9 @@ main{
 .img-container:hover .overlay {
     opacity: 1;
 }
- 
+select:hover{
+    cursor: pointer;
+} 
+input:hover{
+    cursor: pointer;
+} 
