@@ -38,7 +38,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-belle epoque.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-belle epoque.jpg",
               "servicios": [
                 "Wi-Fi gratuito",
                 "Desayuno continental",
@@ -52,7 +52,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Spa de lujo",
                 "Restaurante gourmet",
@@ -66,7 +66,7 @@
               "precio_minimo": 120,
               "precio_maximo": 250,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-charmart.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-charmart.jpg",
               "servicios": [
                 "Desayuno buffet",
                 "Bar en la azotea",
@@ -80,7 +80,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-royal.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-royal.jpg",
               "servicios": [
                 "Centro de negocios",
                 "Salas de reuniones",
@@ -94,7 +94,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-etoile.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-etoile.jpg",
               "servicios": [
                 "Acceso para discapacitados",
                 "Terraza con vistas panorámicas",
@@ -125,7 +125,7 @@
               "precio_minimo": 120,
               "precio_maximo": 250,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Europa/Roma Hotel Bella Vista.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/Roma Hotel Bella Vista.jpg",
               "servicios": [
                 "Excursiones guiadas",
                 "Alquiler de coches",
@@ -139,7 +139,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/Roma Hotel Dolce Vita.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/Roma Hotel Dolce Vita.jpg",
               "servicios": [
                 "Spa y centro de bienestar",
                 "Restaurante con estrellas Michelin",
@@ -153,7 +153,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/Roma Hotel Coliseum.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/Roma Hotel Coliseum.jpg",
               "servicios": [
                 "Piscina al aire libre",
                 "Jacuzzi privado en algunas habitaciones",
@@ -167,7 +167,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/Roma Hotel Paradiso.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/Roma Hotel Paradiso.jpg",
               "servicios": [
                 "Gimnasio con entrenador personal",
                 "Servicio de transporte al aeropuerto",
@@ -181,7 +181,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/Roma Hotel Pantheon.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/Roma Hotel Pantheon.jpg",
               "servicios": [
                 "Sala de conferencias",
                 "Centro de negocios",
@@ -212,7 +212,7 @@
               "precio_minimo": 100,
               "precio_maximo": 200,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/Europa/barcelona-mediterraneo.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/barcelona-mediterraneo.jpg",
               "servicios": [
                 "Terraza con vistas al mar",
                 "Piscina al aire libre",
@@ -226,7 +226,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Decoración modernista",
                 "Desayuno buffet",
@@ -240,7 +240,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/barcelona-ramblas.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/barcelona-ramblas.jpg",
               "servicios": [
                 "Ubicación céntrica en Las Ramblas",
                 "Restaurante de tapas",
@@ -254,7 +254,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-Westminster.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-Westminster.jpg",
               "servicios": [
                 "Piscina en la azotea",
                 "Sauna y baño turco",
@@ -268,7 +268,7 @@
               "precio_minimo": 160,
               "precio_maximo": 320,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/barcelona-Gothic.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/barcelona-Gothic.jpg",
               "servicios": [
                 "Vistas a la Catedral de Barcelona",
                 "Decoración gótica",
@@ -303,7 +303,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-Buckingham.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-Buckingham.jpg",
               "servicios": [
                 "Vistas al Palacio de Buckingham",
                 "Desayuno inglés completo",
@@ -317,7 +317,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-Westminster.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-Westminster.jpg",
               "servicios": [
                 "Acceso exclusivo al spa",
                 "Restaurante con chef galardonado",
@@ -331,7 +331,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-Thames.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-Thames.jpg",
               "servicios": [
                 "Terraza con vistas al río Támesis",
                 "Gimnasio abierto las 24 horas",
@@ -345,7 +345,7 @@
               "precio_minimo": 130,
               "precio_maximo": 280,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-bridge.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-bridge.jpg",
               "servicios": [
                 "Recepción abierta las 24 horas",
                 "Alquiler de bicicletas",
@@ -359,7 +359,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-Garden.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-Garden.jpg",
               "servicios": [
                 "Ubicación céntrica en Covent Garden",
                 "Servicio de habitaciones las 24 horas",
@@ -381,8 +381,8 @@
           "imagenes_pais": [
             {
               "img1": "./assets/imagenes/Europa/Madrid.jpeg",
-              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
-              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+              "img2": "./assets/imagenes/Europa/Madrid.jpg",
+              "img3": "./assets/imagenes/Europa/Madrid2.jpg"
             }
           ],
           "precio": 900,
@@ -394,7 +394,7 @@
               "precio_minimo": 180,
               "precio_maximo": 300,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/madrid.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/madrid.jpg",
               "servicios": [
                 "Ubicación cerca del Museo del Prado",
                 "Wi-Fi gratuito",
@@ -408,7 +408,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/madrid-plazaMayor.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/madrid-plazaMayor.jpg",
               "servicios": [
                 "Vistas a la Plaza Mayor",
                 "Restaurante de tapas",
@@ -422,7 +422,7 @@
               "precio_minimo": 220,
               "precio_maximo": 380,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/madrid-retiro.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/madrid-retiro.jpg",
               "servicios": [
                 "Jardines privados",
                 "Piscina al aire libre",
@@ -436,7 +436,7 @@
               "precio_minimo": 190,
               "precio_maximo": 350,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/berlin-gate.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/berlin-gate.jpg",
               "servicios": [
                 "Ubicación en la Gran Vía",
                 "Centro de negocios",
@@ -450,7 +450,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Europa/madrid-princesa.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/madrid-princesa.jpg",
               "servicios": [
                 "Sala de conferencias",
                 "Servicio de cambio de divisas",
@@ -471,9 +471,9 @@
           ],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Europa/Paris1.jpeg",
-              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
-              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+              "img1": "./assets/imagenes/Europa/praga1.png",
+              "img2": "./assets/imagenes/Europa/praga2.png",
+              "img3": "./assets/imagenes/Europa/praga3.png"
             }
           ],
           "precio": 700,
@@ -485,7 +485,7 @@
               "precio_minimo": 2000,
               "precio_maximo": 4000,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/praga-bridge.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/praga-bridge.jpg",
               "servicios": [
                 "Vistas al Puente de Carlos",
                 "Desayuno buffet",
@@ -499,7 +499,7 @@
               "precio_minimo": 2500,
               "precio_maximo": 4500,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/praga-Square.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/praga-Square.jpg",
               "servicios": [
                 "Ubicación en la Plaza de la Ciudad Vieja",
                 "Terraza con vistas panorámicas",
@@ -513,7 +513,7 @@
               "precio_minimo": 1800,
               "precio_maximo": 3600,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/praga-Castle.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/praga-Castle.jpg",
               "servicios": [
                 "Cerca del Castillo de Praga",
                 "Restaurante de cocina tradicional checa",
@@ -527,7 +527,7 @@
               "precio_minimo": 2100,
               "precio_maximo": 3900,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/londres-Garden.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/londres-Garden.jpg",
               "servicios": [
                 "En la Plaza de Wenceslao",
                 "Spa y centro de bienestar",
@@ -541,7 +541,7 @@
               "precio_minimo": 2200,
               "precio_maximo": 4000,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Europa/praga-josefov.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/praga-josefov.jpg",
               "servicios": [
                 "Cerca del barrio judío de Josefov",
                 "Recepción 24 horas",
@@ -559,8 +559,8 @@
           "imagenes_pais": [
             {
               "img1": "./assets/imagenes/Europa/Venecia.jpeg",
-              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
-              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+              "img2": "./assets/imagenes/Europa/venecia2.png",
+              "img3": "./assets/imagenes/Europa/venecia3.png"
             }
           ],
           "precio": 850,
@@ -572,7 +572,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/venecia-canal.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/venecia-canal.jpg",
               "servicios": [
                 "Vistas al Gran Canal",
                 "Desayuno buffet",
@@ -586,7 +586,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/venecia-SanMarco.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/venecia-SanMarco.jpg",
               "servicios": [
                 "Cerca de la Piazza San Marco",
                 "Restaurante italiano",
@@ -600,7 +600,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/venecia-Rialto.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/venecia-Rialto.jpg",
               "servicios": [
                 "Vistas al Puente de Rialto",
                 "Desayuno continental",
@@ -614,7 +614,7 @@
               "precio_minimo": 220,
               "precio_maximo": 380,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/venecia-Romantic.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/venecia-Romantic.jpg",
               "servicios": [
                 "Ambiente romántico",
                 "Servicio de spa",
@@ -628,7 +628,7 @@
               "precio_minimo": 190,
               "precio_maximo": 360,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/venecia-murano.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/venecia-murano.jpg",
               "servicios": [
                 "Cerca de la isla de Murano",
                 "Piscina en la azotea",
@@ -649,9 +649,9 @@
           ],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Europa/Paris1.jpeg",
-              "img2": "./assets/imagenes/Europa/Paris2.jpeg",
-              "img3": "./assets/imagenes/Europa/Paris3.jpeg"
+              "img1": "./assets/imagenes/Europa/berlin1.png",
+              "img2": "./assets/imagenes/Europa/berlin2.png",
+              "img3": "./assets/imagenes/Europa/berlin3.png"
             }
           ],
           "precio": 700,
@@ -663,7 +663,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Europa/berlin-gate.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/berlin-gate.jpg",
               "servicios": [
                 "Cerca de la Puerta de Brandeburgo",
                 "Desayuno buffet",
@@ -677,7 +677,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Europa/berlin-museum.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/berlin-museum.jpg",
               "servicios": [
                 "Vistas al Museo de Pérgamo",
                 "Spa y centro de bienestar",
@@ -691,7 +691,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/paris-lumiere.jpg",
               "servicios": [
                 "Vistas al Muro de Berlín",
                 "Bar de cócteles",
@@ -705,7 +705,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Europa/berlin-alexanderplatz.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/berlin-alexanderplatz.jpg",
               "servicios": [
                 "Ubicación en Alexanderplatz",
                 "Terraza panorámica",
@@ -719,7 +719,7 @@
               "precio_minimo": 190,
               "precio_maximo": 360,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Europa/berlin-tiergaten.jpg",
+              "imagen": "./assets/imagenes/hoteles/Europa/berlin-tiergaten.jpg",
               "servicios": [
                 "Cerca del parque Tiergarten",
                 "Piscina cubierta",
@@ -769,7 +769,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/shinjuku.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/shinjuku.jpg",
               "servicios": [
                 "Cerca del Barrio de Shinjuku",
                 "Restaurante japonés tradicional",
@@ -783,7 +783,7 @@
               "precio_minimo": 300,
               "precio_maximo": 500,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/ginza view.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/ginza view.png",
               "servicios": [
                 "Ubicación en el distrito de Ginza",
                 "Terraza con vistas panorámicas",
@@ -797,7 +797,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Asia/asakusa.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/asakusa.jpg",
               "servicios": [
                 "Cerca del Templo Senso-ji",
                 "Desayuno buffet japonés",
@@ -811,7 +811,7 @@
               "precio_minimo": 220,
               "precio_maximo": 380,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/shibuya.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/shibuya.jpg",
               "servicios": [
                 "Ubicación en el distrito de Shibuya",
                 "Bar de sake",
@@ -859,7 +859,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Cuba-Revolucion.png",
+              "imagen": "./assets/imagenes/hoteles/America/Cuba-Revolucion.png",
               "servicios": [
                 "Vistas al río Chao Phraya",
                 "Piscina al aire libre",
@@ -873,7 +873,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/HongKong-oasis.jpeg",
+              "imagen": "./assets/imagenes/hoteles/Asia/HongKong-oasis.jpeg",
               "servicios": [
                 "Cerca del distrito de Sukhumvit",
                 "Spa y centro de bienestar",
@@ -887,7 +887,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/Seul-Hotel Palace View.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Seul-Hotel Palace View.jpg",
               "servicios": [
                 "Ubicación cerca del Gran Palacio",
                 "Desayuno buffet internacional",
@@ -901,7 +901,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Bosphorus.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Bosphorus.png",
               "servicios": [
                 "Cerca del Mercado Chatuchak",
                 "Piscina en la azotea",
@@ -915,7 +915,7 @@
               "precio_minimo": 190,
               "precio_maximo": 360,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Asia/Hotel shinjuku park tokio.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Hotel shinjuku park tokio.png",
               "servicios": [
                 "En el corazón de Siam Square",
                 "Bar de cócteles",
@@ -946,7 +946,7 @@
               "precio_minimo": 180,
               "precio_maximo": 300,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Sultanahmet.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Sultanahmet.png",
               "servicios": [
                 "Vistas a la Mezquita Azul",
                 "Desayuno turco",
@@ -960,7 +960,7 @@
               "precio_minimo": 200,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Bosphorus.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Bosphorus.png",
 
               "servicios": [
                 "Vistas al Bósforo",
@@ -975,7 +975,7 @@
               "precio_minimo": 220,
               "precio_maximo": 400,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Taksim.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Taksim.png",
               "servicios": [
                 "Ubicación en la Plaza Taksim",
                 "Bar en la azotea",
@@ -989,7 +989,7 @@
               "precio_minimo": 190,
               "precio_maximo": 370,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Hotel Galata Tower.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Hotel Galata Tower.jpg",
               "servicios": [
                 "Cerca de la Torre Gálata",
                 "Spa y centro de bienestar",
@@ -1003,7 +1003,7 @@
               "precio_minimo": 210,
               "precio_maximo": 380,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Hotel Karakoy Loft.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Hotel Karakoy Loft.jpg",
               "servicios": [
                 "Ubicación en el barrio de Karakoy",
                 "Bar de cócteles moderno",
@@ -1034,7 +1034,7 @@
               "precio_minimo": 300,
               "precio_maximo": 500,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/Dubai-Hotel Burj View.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Dubai-Hotel Burj View.jpg",
               "servicios": [
                 "Vistas al Burj Khalifa",
                 "Piscina en la azotea",
@@ -1048,7 +1048,7 @@
               "precio_minimo": 350,
               "precio_maximo": 600,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/Chatuchak.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Chatuchak.png",
               "servicios": [
                 "Ubicación en Palm Jumeirah",
                 "Playa privada",
@@ -1062,7 +1062,7 @@
               "precio_minimo": 280,
               "precio_maximo": 480,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Asia/Dubai-Hotel Downtown Oasis.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Dubai-Hotel Downtown Oasis.jpg",
               "servicios": [
                 "Cerca del Dubai Mall",
                 "Gimnasio abierto las 24 horas",
@@ -1076,7 +1076,7 @@
               "precio_minimo": 320,
               "precio_maximo": 550,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/Dubai-Hotel Marina Bay.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Dubai-Hotel Marina Bay.jpg",
               "servicios": [
                 "Vistas al puerto deportivo de Dubái",
                 "Bar en la azotea",
@@ -1090,7 +1090,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Asia/Dubai-Hotel Desert Rose.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Dubai-Hotel Desert Rose.jpg",
               "servicios": [
                 "Retiro en el desierto",
                 "Jardín con palmeras",
@@ -1112,8 +1112,8 @@
           "imagenes_pais": [
             {
               "img1": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+              "img2": "./assets/imagenes/Asia/seul2.png",
+              "img3": "./assets/imagenes/Asia/seul3.png"
             }
           ],
           "precio": 1400,
@@ -1125,7 +1125,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/HongKong-peak.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/HongKong-peak.png",
               "servicios": [
                 "Vistas panorámicas desde Victoria Peak",
                 "Restaurante de dim sum",
@@ -1139,7 +1139,7 @@
               "precio_minimo": 280,
               "precio_maximo": 500,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/HongKong-market.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/HongKong-market.png",
               "servicios": [
                 "Cerca del Mercado Nocturno de Temple Street",
                 "Bar de cócteles temáticos",
@@ -1153,7 +1153,7 @@
               "precio_minimo": 300,
               "precio_maximo": 550,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/HongKong-oasis.jpeg",
+              "imagen": "./assets/imagenes/hoteles/Asia/HongKong-oasis.jpeg",
               "servicios": [
                 "Vistas al puerto de Victoria",
                 "Desayuno buffet internacional",
@@ -1167,7 +1167,7 @@
               "precio_minimo": 260,
               "precio_maximo": 480,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Asia/HongKong-Skyline.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/HongKong-Skyline.png",
               "servicios": [
                 "Vistas al horizonte de Hong Kong",
                 "Restaurante en la azotea",
@@ -1181,7 +1181,7 @@
               "precio_minimo": 220,
               "precio_maximo": 400,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Asia/HongKong-Hotel Temple Street Haven.jpg", 
+              "imagen": "./assets/imagenes/hoteles/Asia/HongKong-Hotel Temple Street Haven.jpg",
               "servicios": [
                 "Cerca del Mercado Nocturno de Temple Street",
                 "Desayuno local en la habitación",
@@ -1202,9 +1202,9 @@
           ],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+              "img1": "./assets/imagenes/Asia/Estambul.jpeg",
+              "img2": "./assets/imagenes/Asia/seul2.png",
+              "img3": "./assets/imagenes/Asia/bangkok2.jpg"
             }
           ],
           "precio": 1000,
@@ -1216,7 +1216,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Asia/vietnam-Hotel Old Quarter Charm.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/vietnam-Hotel Old Quarter Charm.jpg",
               "servicios": [
                 "Ubicación en el casco antiguo",
                 "Desayuno vietnamita tradicional",
@@ -1230,7 +1230,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/vietnam-Hotel Lakeview Retreat.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/vietnam-Hotel Lakeview Retreat.jpg",
               "servicios": [
                 "Vistas al lago Hoan Kiem",
                 "Spa y centro de bienestar",
@@ -1244,7 +1244,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/vietnam-Hotel Literature Square.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/vietnam-Hotel Literature Square.jpg",
               "servicios": [
                 "Cerca del Templo de la Literatura",
                 "Bar de cócteles artesanales",
@@ -1258,7 +1258,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/vietnam-Hotel Riverside Serenity.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/vietnam-Hotel Riverside Serenity.jpg",
               "servicios": [
                 "Vistas al río Rojo",
                 "Piscina al aire libre",
@@ -1272,7 +1272,7 @@
               "precio_minimo": 190,
               "precio_maximo": 360,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Asia/vietnam-Hotel Modern Art Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/vietnam-Hotel Modern Art Haven.jpg",
               "servicios": [
                 "Diseño moderno y contemporáneo",
                 "Galería de arte en el vestíbulo",
@@ -1293,9 +1293,9 @@
           ],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+              "img1": "./assets/imagenes/Asia/tokio2.jpg",
+              "img2": "./assets/imagenes/Asia/AsiaCA3.jpeg",
+              "img3": "./assets/imagenes/Asia/Asia.JPG"
             }
           ],
           "precio": 900,
@@ -1307,7 +1307,7 @@
               "precio_minimo": 120,
               "precio_maximo": 250,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/Asia/India-Hotel tech hub.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/India-Hotel tech hub.png",
               "servicios": [
                 "Ubicación cerca de los parques tecnológicos",
                 "Desayuno buffet internacional",
@@ -1321,7 +1321,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Asia/India-Hotel Garden Retreat.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/India-Hotel Garden Retreat.jpg",
               "servicios": [
                 "Ubicación cerca de los jardines botánicos",
                 "Jardín paisajístico",
@@ -1335,7 +1335,7 @@
               "precio_minimo": 180,
               "precio_maximo": 350,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/India-Hotel Cityscape Oasis.jpeg",
+              "imagen": "./assets/imagenes/hoteles/Asia/India-Hotel Cityscape Oasis.jpeg",
               "servicios": [
                 "Vistas panorámicas de la ciudad",
                 "Bar en la azotea",
@@ -1349,7 +1349,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/India-Hotel Artistic Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/India-Hotel Artistic Haven.jpg",
               "servicios": [
                 "Diseño artístico y contemporáneo",
                 "Galería de arte en el vestíbulo",
@@ -1363,7 +1363,7 @@
               "precio_minimo": 170,
               "precio_maximo": 320,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/India-Hotel Lakeside Serenity.jpeg",
+              "imagen": "./assets/imagenes/hoteles/Asia/India-Hotel Lakeside Serenity.jpeg",
               "servicios": [
                 "Vistas al lago Ulsoor",
                 "Piscina al aire libre",
@@ -1380,9 +1380,9 @@
           "atracciones": ["Gyeongbokgung", "Torre de Seúl", "Myeong-dong"],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img2": "./assets/imagenes/Asia/Dubai.jpeg",
-              "img3": "./assets/imagenes/Asia/Dubai.jpeg"
+              "img1": "./assets/imagenes/Asia/seul1.png",
+              "img2": "./assets/imagenes/Asia/seul2.png",
+              "img3": "./assets/imagenes/Asia/seul3.png"
             }
           ],
           "precio": 1300,
@@ -1394,7 +1394,7 @@
               "precio_minimo": 220,
               "precio_maximo": 400,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Asia/Seul-Hotel Tech Tower.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Seul-Hotel Tech Tower.jpg",
               "servicios": [
                 "Ubicación cerca de la Torre de Seúl",
                 "Wi-Fi gratuito",
@@ -1408,7 +1408,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Asia/Seul-Hotel Palace View.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/Seul-Hotel Palace View.jpg",
               "servicios": [
                 "Vistas al Palacio Gyeongbokgung",
                 "Spa y centro de bienestar",
@@ -1422,7 +1422,7 @@
               "precio_minimo": 280,
               "precio_maximo": 500,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Asia/vietnam-Hotel Literature Square.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/vietnam-Hotel Literature Square.jpg",
               "servicios": [
                 "Cerca de Myeong-dong",
                 "Bar en la azotea",
@@ -1436,7 +1436,7 @@
               "precio_minimo": 300,
               "precio_maximo": 550,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Asia/Estambul-Taksim.png",
+              "imagen": "./assets/imagenes/hoteles/Asia/Estambul-Taksim.png",
               "servicios": [
                 "Diseño inspirado en la cultura K-pop",
                 "Sala de karaoke temática",
@@ -1450,7 +1450,7 @@
               "precio_minimo": 200,
               "precio_maximo": 380,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/Asia/India-Hotel Artistic Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/Asia/India-Hotel Artistic Haven.jpg",
               "servicios": [
                 "Estancia en una casa hanok tradicional",
                 "Clases de cocina coreana",
@@ -1501,7 +1501,7 @@
               "precio_minimo": 300,
               "precio_maximo": 600,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
               "servicios": [
                 "Cerca de Times Square",
                 "Teatro en el hotel",
@@ -1515,7 +1515,7 @@
               "precio_minimo": 350,
               "precio_maximo": 650,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "Vistas a la Estatua de la Libertad",
                 "Gimnasio con entrenador personal",
@@ -1529,7 +1529,7 @@
               "precio_minimo": 400,
               "precio_maximo": 700,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
               "servicios": [
                 "Ubicación frente a Central Park",
                 "Spa y centro de bienestar",
@@ -1543,7 +1543,7 @@
               "precio_minimo": 320,
               "precio_maximo": 600,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Hotel Times Square Retreat.jpeg",
+              "imagen": "./assets/imagenes/hoteles/America/Hotel Times Square Retreat.jpeg",
               "servicios": [
                 "Cerca de Times Square",
                 "Bar en la azotea",
@@ -1557,7 +1557,7 @@
               "precio_minimo": 280,
               "precio_maximo": 550,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/LA-.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-.jpg",
               "servicios": [
                 "Vistas panorámicas del horizonte de Manhattan",
                 "Restaurante de alta cocina",
@@ -1588,7 +1588,7 @@
               "precio_minimo": 150,
               "precio_maximo": 300,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
+              "imagen": "./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
               "servicios": [
                 "Ambiente tanguero",
                 "Restaurante con shows de tango en vivo",
@@ -1602,7 +1602,7 @@
               "precio_minimo": 200,
               "precio_maximo": 350,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Buenos Aires-Recoleta.png",
+              "imagen": "./assets/imagenes/hoteles/America/Buenos Aires-Recoleta.png",
               "servicios": [
                 "Cerca de Recoleta",
                 "Spa y centro de bienestar",
@@ -1616,7 +1616,7 @@
               "precio_minimo": 180,
               "precio_maximo": 320,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Caracas-Hotel Ávila Retreat.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Caracas-Hotel Ávila Retreat.jpg",
               "servicios": [
                 "Vistas al Teatro Colón",
                 "Desayuno buffet internacional",
@@ -1630,7 +1630,7 @@
               "precio_minimo": 170,
               "precio_maximo": 300,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/Buenos Aires-Hotel Sugarloaf Retreat.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Buenos Aires-Hotel Sugarloaf Retreat.jpg",
               "servicios": [
                 "Jardín de estilo tanguero",
                 "Restaurante con asado argentino",
@@ -1644,7 +1644,7 @@
               "precio_minimo": 190,
               "precio_maximo": 340,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/America/Brazil-Redentor.png",
+              "imagen": "./assets/imagenes/hoteles/America/Brazil-Redentor.png",
               "servicios": [
                 "Cerca de La Boca",
                 "Terraza con vistas panorámicas",
@@ -1679,7 +1679,7 @@
               "precio_minimo": 350,
               "precio_maximo": 650,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Brazil-copacabana.png",
+              "imagen": "./assets/imagenes/hoteles/America/Brazil-copacabana.png",
               "servicios": [
                 "Frente a la Playa de Copacabana",
                 "Piscina al aire libre con vistas al mar",
@@ -1693,7 +1693,7 @@
               "precio_minimo": 300,
               "precio_maximo": 550,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
               "servicios": [
                 "Ambiente de samba en el hotel",
                 "Bar en la piscina",
@@ -1707,7 +1707,7 @@
               "precio_minimo": 400,
               "precio_maximo": 700,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel CN Tower View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel CN Tower View.jpg",
               "servicios": [
                 "Vistas al Pan de Azúcar",
                 "Piscina infinita en la azotea",
@@ -1721,7 +1721,7 @@
               "precio_minimo": 380,
               "precio_maximo": 650,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Brazil-Redentor.png",
+              "imagen": "./assets/imagenes/hoteles/America/Brazil-Redentor.png",
               "servicios": [
                 "Vistas al Cristo Redentor",
                 "Gimnasio con vistas panorámicas",
@@ -1735,7 +1735,7 @@
               "precio_minimo": 420,
               "precio_maximo": 750,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
               "servicios": [
                 "Ambiente de carnaval todo el año",
                 "Piscina temática con música en vivo",
@@ -1763,7 +1763,7 @@
           ],
           "precio": 1900,
           "calificacion": 4.6,
-          "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
+          "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
           "hoteles": [
             {
               "nombre": "Hotel Hollywood Star",
@@ -1771,7 +1771,7 @@
               "precio_minimo": 350,
               "precio_maximo": 600,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "Cerca de Hollywood Walk of Fame",
                 "Piscina al aire libre con bar",
@@ -1785,7 +1785,7 @@
               "precio_minimo": 400,
               "precio_maximo": 700,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
               "servicios": [
                 "Frente al mar en Santa Mónica",
                 "Spa de lujo",
@@ -1799,7 +1799,7 @@
               "precio_minimo": 380,
               "precio_maximo": 650,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
               "servicios": [
                 "Vistas panorámicas del centro de la ciudad",
                 "Gimnasio abierto las 24 horas",
@@ -1813,7 +1813,7 @@
               "precio_minimo": 450,
               "precio_maximo": 750,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Lakeside Retreat.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Lakeside Retreat.jpg",
               "servicios": [
                 "Cerca de Universal Studios",
                 "Piscina cubierta climatizada",
@@ -1827,7 +1827,7 @@
               "precio_minimo": 400,
               "precio_maximo": 700,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
               "servicios": [
                 "Vistas al atardecer en Hollywood Hills",
                 "Jardín paisajístico",
@@ -1849,9 +1849,9 @@
 
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+              "img1": "./assets/imagenes/America/Toronto.jpeg",
+              "img2": "./assets/imagenes/America/americaPrueba.jpeg",
+              "img3": "./assets/imagenes/America/LA.jpeg"
             }
           ],
           "precio": 1700,
@@ -1863,7 +1863,7 @@
               "precio_minimo": 250,
               "precio_maximo": 500,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel CN Tower View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel CN Tower View.jpg",
               "servicios": [
                 "Vistas a la Torre CN",
                 "Piscina cubierta con vistas panorámicas",
@@ -1877,7 +1877,7 @@
               "precio_minimo": 300,
               "precio_maximo": 550,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Lakeside Retreat.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Lakeside Retreat.jpg",
               "servicios": [
                 "Frente al lago Ontario",
                 "Spa y centro de bienestar",
@@ -1891,7 +1891,7 @@
               "precio_minimo": 280,
               "precio_maximo": 520,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
               "servicios": [
                 "Cerca del Distrito de Entretenimiento",
                 "Gimnasio con entrenador personal",
@@ -1905,7 +1905,7 @@
               "precio_minimo": 320,
               "precio_maximo": 600,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Niagara Escapes.jpeg",   
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Niagara Escapes.jpeg",
               "servicios": [
                 "Excursiones a las Cataratas del Niágara",
                 "Piscina al aire libre con bar",
@@ -1919,7 +1919,7 @@
               "precio_minimo": 280,
               "precio_maximo": 550,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Entertainment District Gem.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Entertainment District Gem.jpg",
               "servicios": [
                 "Cerca del Distrito de Entretenimiento",
                 "Terraza en la azotea con vistas a la ciudad",
@@ -1940,9 +1940,9 @@
           ],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+              "img1": "./assets/imagenes/America/Santiago1.jpg",
+              "img2": "./assets/imagenes/America/Santiago2.jpeg",
+              "img3": "./assets/imagenes/America/Santiago3.jpg"
             }
           ],
           "precio": 1500,
@@ -1954,7 +1954,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Entertainment District Gem.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Entertainment District Gem.jpg",
               "servicios": [
                 "Vistas a la Cordillera de los Andes",
                 "Piscina al aire libre con bar",
@@ -1968,7 +1968,7 @@
               "precio_minimo": 220,
               "precio_maximo": 450,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel CN Tower View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel CN Tower View.jpg",
               "servicios": [
                 "Ubicación en el Barrio Bellavista",
                 "Spa y centro de bienestar",
@@ -1982,7 +1982,7 @@
               "precio_minimo": 180,
               "precio_maximo": 380,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
               "servicios": [
                 "Cerca de la Plaza de Armas",
                 "Gimnasio abierto las 24 horas",
@@ -1996,7 +1996,7 @@
               "precio_minimo": 250,
               "precio_maximo": 500,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/Brazil-Redentor.png",
+              "imagen": "./assets/imagenes/hoteles/America/Brazil-Redentor.png",
               "servicios": [
                 "Cerca de viñedos locales",
                 "Piscina rodeada de naturaleza",
@@ -2010,7 +2010,7 @@
               "precio_minimo": 200,
               "precio_maximo": 420,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
+              "imagen": "./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
               "servicios": [
                 "Vistas panorámicas de la ciudad",
                 "Terraza en la azotea con bar",
@@ -2027,9 +2027,9 @@
           "atracciones": ["Zona Hotelera", "Chichén Itzá", "Isla Mujeres"],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+              "img1": "./assets/imagenes/America/Cancun1.png",
+              "img2": "./assets/imagenes/America/Cancun2.png",
+              "img3": "./assets/imagenes/America/Cancun3.png"
             }
           ],
           "precio": 2100,
@@ -2041,7 +2041,7 @@
               "precio_minimo": 400,
               "precio_maximo": 800,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
+              "imagen": "./assets/imagenes/hoteles/America/Buenos Aires-Tango.png",
               "servicios": [
                 "Frente a la playa en la Zona Hotelera",
                 "Piscina infinita con vistas al mar",
@@ -2055,7 +2055,7 @@
               "precio_minimo": 380,
               "precio_maximo": 700,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/America/Brazil-Redentor.png",
+              "imagen": "./assets/imagenes/hoteles/America/Brazil-Redentor.png",
               "servicios": [
                 "Ubicación en Isla Mujeres",
                 "Piscina privada en algunas habitaciones",
@@ -2069,7 +2069,7 @@
               "precio_minimo": 350,
               "precio_maximo": 650,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Central Park Oasis.jpg",
               "servicios": [
                 "Cerca de la vida nocturna de la ciudad",
                 "Piscina al aire libre con bar",
@@ -2083,7 +2083,7 @@
               "precio_minimo": 420,
               "precio_maximo": 750,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
               "servicios": [
                 "Rodeado de selva tropical",
                 "Piscina natural con cascadas",
@@ -2097,7 +2097,7 @@
               "precio_minimo": 380,
               "precio_maximo": 700,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Broadway Lights.jpg",
               "servicios": [
                 "Vistas al mar Caribe",
                 "Gimnasio con entrenador personal",
@@ -2114,9 +2114,9 @@
           "atracciones": ["El Ávila", "Plaza Bolívar", "Teleférico de Caracas"],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+              "img1": "./assets/imagenes/America/Caracas1.png",
+              "img2": "./assets/imagenes/America/Caracas2.png",
+              "img3": "./assets/imagenes/America/Caracas3.png"
             }
           ],
           "precio": 1500,
@@ -2128,7 +2128,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
               "servicios": [
                 "Rodeado de naturaleza en El Ávila",
                 "Piscina al aire libre con vistas a las montañas",
@@ -2142,7 +2142,7 @@
               "precio_minimo": 180,
               "precio_maximo": 380,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "En el corazón de la ciudad",
                 "Desayuno buffet continental",
@@ -2156,7 +2156,7 @@
               "precio_minimo": 220,
               "precio_maximo": 450,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "Vistas panorámicas del valle",
                 "Piscina al aire libre con bar",
@@ -2170,7 +2170,7 @@
               "precio_minimo": 210,
               "precio_maximo": 420,
               "calificacion": 4.2,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "Cerca de la Plaza Bolívar",
                 "Gimnasio abierto las 24 horas",
@@ -2184,7 +2184,7 @@
               "precio_minimo": 230,
               "precio_maximo": 480,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
+              "imagen": "./assets/imagenes/hoteles/America/LA-Hotel Liberty View.jpg",
               "servicios": [
                 "Ubicado en la base del Ávila",
                 "Piscina climatizada al aire libre",
@@ -2205,9 +2205,9 @@
           ],
           "imagenes_pais": [
             {
-              "img1": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img2": "./assets/imagenes/Tarjetas/Toronto.jpeg",
-              "img3": "./assets/imagenes/Tarjetas/Toronto.jpeg"
+              "img1": "./assets/imagenes/America/Habana1.png",
+              "img2": "./assets/imagenes/America/Habana2.png",
+              "img3": "./assets/imagenes/America/Habana3.png"
             }
           ],
           "precio": 1400,
@@ -2219,7 +2219,7 @@
               "precio_minimo": 180,
               "precio_maximo": 380,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/America/Cuba-Hotel Colonial Charm.png",
+              "imagen": "./assets/imagenes/hoteles/America/Cuba-Hotel Colonial Charm.png",
               "servicios": [
                 "En el corazón de la Habana Vieja",
                 "Patio colonial con jardín",
@@ -2233,7 +2233,7 @@
               "precio_minimo": 200,
               "precio_maximo": 420,
               "calificacion": 4.4,
-              "imagen":"./assets/imagenes/hoteles/America/Cuba-Malecon.png",
+              "imagen": "./assets/imagenes/hoteles/America/Cuba-Malecon.png",
               "servicios": [
                 "Vistas panorámicas al Malecón",
                 "Piscina en la azotea con bar",
@@ -2247,7 +2247,7 @@
               "precio_minimo": 220,
               "precio_maximo": 450,
               "calificacion": 4.2,
-              "imagen":"./assets/imagenes/hoteles/America/Cuba-Revolucion.png",
+              "imagen": "./assets/imagenes/hoteles/America/Cuba-Revolucion.png",
               "servicios": [
                 "Cerca de la Plaza de la Revolución",
                 "Desayuno buffet continental",
@@ -2261,7 +2261,7 @@
               "precio_minimo": 250,
               "precio_maximo": 500,
               "calificacion": 4.1,
-              "imagen":"./assets/imagenes/hoteles/America/Cuba-Oceanfront.png",
+              "imagen": "./assets/imagenes/hoteles/America/Cuba-Oceanfront.png",
               "servicios": [
                 "Frente al mar Caribe",
                 "Piscina al aire libre con vistas al mar",
@@ -2275,7 +2275,7 @@
               "precio_minimo": 220,
               "precio_maximo": 460,
               "calificacion": 4.3,
-              "imagen":"./assets/imagenes/hoteles/America/Cuba-Hideaway.png",
+              "imagen": "./assets/imagenes/hoteles/America/Cuba-Hideaway.png",
               "servicios": [
                 "En un callejón tranquilo de la Habana Vieja",
                 "Patio interior con plantas tropicales",
@@ -2326,7 +2326,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Africa/Cairo-nile.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/Cairo-nile.jpg",
               "servicios": [
                 "Vistas al río Nilo",
                 "Piscina en la azotea",
@@ -2340,7 +2340,7 @@
               "precio_minimo": 250,
               "precio_maximo": 450,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Africa/cairo.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/cairo.jpg",
               "servicios": [
                 "Cerca de las Pirámides de Giza",
                 "Spa y centro de bienestar",
@@ -2354,7 +2354,7 @@
               "precio_minimo": 180,
               "precio_maximo": 380,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Africa/cairo-khan.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/cairo-khan.jpg",
               "servicios": [
                 "Ubicado en el bazar de Khan el-Khalili",
                 "Desayuno buffet continental",
@@ -2389,7 +2389,7 @@
               "precio_minimo": 220,
               "precio_maximo": 420,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Africa/nairobi savannah.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/nairobi savannah.jpg",
               "servicios": [
                 "Vistas al Parque Nacional de Nairobi",
                 "Piscina al aire libre",
@@ -2403,7 +2403,7 @@
               "precio_minimo": 350,
               "precio_maximo": 600,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Africa/nairobi-girafe.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/nairobi-girafe.jpg",
               "servicios": [
                 "Interacción con jirafas en el hotel",
                 "Desayuno con jirafas",
@@ -2417,7 +2417,7 @@
               "precio_minimo": 280,
               "precio_maximo": 500,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Africa/nairobi-serengueti.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/nairobi-serengueti.jpg",
               "servicios": [
                 "Ambiente de safari en el hotel",
                 "Piscina temática",
@@ -2452,7 +2452,7 @@
               "precio_minimo": 300,
               "precio_maximo": 600,
               "calificacion": 4.7,
-              "imagen":"./assets/imagenes/hoteles/Africa/cabo-mountain.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/cabo-mountain.jpg",
               "servicios": [
                 "Vistas a la Table Mountain",
                 "Piscina con terraza",
@@ -2466,7 +2466,7 @@
               "precio_minimo": 350,
               "precio_maximo": 650,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Africa/cabo-waterFront.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/cabo-waterFront.jpg",
               "servicios": [
                 "Cerca del V&A Waterfront",
                 "Spa y centro de bienestar",
@@ -2480,7 +2480,7 @@
               "precio_minimo": 400,
               "precio_maximo": 700,
               "calificacion": 4.8,
-              "imagen":"./assets/imagenes/hoteles/Africa/cabo-oasis.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/cabo-oasis.jpg",
               "servicios": [
                 "Ubicación en el Cabo de Buena Esperanza",
                 "Piscina infinita",
@@ -2515,7 +2515,7 @@
               "precio_minimo": 250,
               "precio_maximo": 500,
               "calificacion": 4.6,
-              "imagen":"./assets/imagenes/hoteles/Africa/marruecos-riadRosas.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/marruecos-riadRosas.jpg",
               "servicios": [
                 "Decoración tradicional marroquí",
                 "Patio interior con fuente",
@@ -2529,7 +2529,7 @@
               "precio_minimo": 500,
               "precio_maximo": 1000,
               "calificacion": 4.9,
-              "imagen":"./assets/imagenes/hoteles/Africa/marruecos-mamounia.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/marruecos-mamounia.jpg",
               "servicios": [
                 "Jardines exuberantes",
                 "Piscina al aire libre",
@@ -2543,7 +2543,7 @@
               "precio_minimo": 200,
               "precio_maximo": 400,
               "calificacion": 4.5,
-              "imagen":"./assets/imagenes/hoteles/Africa/marruecos-riadStar.jpg",
+              "imagen": "./assets/imagenes/hoteles/Africa/marruecos-riadStar.jpg",
               "servicios": [
                 "Ubicación en el corazón de la medina",
                 "Terraza panorámica",
