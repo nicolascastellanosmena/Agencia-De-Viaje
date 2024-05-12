@@ -22,7 +22,8 @@ ngOnInit(): void {
     this.reserva = reserva;
   });
 }
-
-
+scrollToTop() {
+  window.scrollTo(0, 0);
+}
 
 }
