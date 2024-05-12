@@ -57,37 +57,41 @@
                             <div class="col-md-5 col-lg-4 order-md-last" style="width: 100%;" id="tablaSeleccion">
                               <h4 class="d-flex justify-content-between align-items-center mb-3">
                                 <h1>Tu destino seleccionado:</h1>
-                              </h4>
-                              <ul class="list-group mb-3">
+                              </h4 >
+                              <ul class="list-group mb-3" id="hotelSeleccionado">
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                   <div>
                                     <h4 class="my-0">{{origen}}<i class="bi bi-arrows" style="font-size: 1em;align-items: center;"></i>{{destino}}</h4>
                                     <small class="text-body-secondary">{{fechaIda}}--{{fechaVuelta}}</small>
                                   </div>
-                                  <span class="text-body-secondary">{{pais.precio|currency}}</span>
+                                  <span class="text-body-secondary">{{numPasajeros}} X {{pais.precio|currency}}</span>
                                 </li>
-                                <li class="list-group-item d-flex justify-content-between lh-sm">
-                                  <div>
-                                    
-                                    <h6 class="my-0">{{pais.hoteles[1].nombre}}</h6>
-                                    <small class="text-body-secondary">{{pais.hoteles[1].ubicacion}}</small>
-                                  </div>
-                                  <span class="text-body-secondary">{{pais.hoteles[1].precio_maximo|currency}}</span>
-                                </li>
+                                @for (hotel of hotelesSeleccionados; track hotel) {
+                                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                                    <div >
+                                      <h6 class="my-0">{{hotel.nombre}}</h6>
+                                      <small class="text-body-secondary">{{hotel.ubicacion}}</small>
+                                    </div>
+                                    <button type="button" class="btn btn-danger" (click)="eliminarHotel(hotel)" >Eliminar</button>
+                                    <span class="text-body-secondary">{{numPasajeros}} X {{hotel.precio_maximo|currency}}</span>
+                                  </li>
+
+                                }
                                 <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
                                   <div class="text-success">
                                     <h6 class="my-0">Código Promocional</h6>
                                     <div class="input-group input-group-sm mb-3">
-                                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                      <input type="text" [(ngModel)]="codigoDescuento">
+                                      <button>Aplicar</button>
                                     </div>
                                   </div>
                                   <span class="text-success"></span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between">
                                   <span>Total (USD)</span>
-                                  <strong>precioTotal</strong>
+                                    <strong>{{calcularPrecioTotal() | currency }}</strong>
                                 </li>
-                                <button type="button" class="btn btn-success">Reservar</button>
+                                <button type="button" class="btn btn-success" routerLink="/reservas" (click)="reservar()">Reservar</button>
                               </ul>
                             </div>
                           }   
@@ -129,7 +133,7 @@
                                   <li class="list-group-item"><strong>Clasificacion:</strong> {{hotel.calificacion}} ⭐</li>
                                 </ul>
                                 <div class="card-body" id="agregar">
-                                  <a id="boton" href="#" class="card-link">Agregar</a>
+                                  <a id="boton"  type="button" class="card-link" (click)="agregarHotelYScroll(hotel)">Agregar</a>
                                   <li class="list-group-item">{{hotel.precio_maximo|currency}}</li>
                                 </div>
                               </div>
@@ -138,14 +142,6 @@
                 }
             </div>
         </div>
-       
-
-
-
-
-
     </main>
 </div>
-
-
 <app-footer></app-footer>

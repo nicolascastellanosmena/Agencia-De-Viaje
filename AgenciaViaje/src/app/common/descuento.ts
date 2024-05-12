@@ -4,5 +4,5 @@ export interface Descuento {
 
 export interface PromocionesVuelo {
   codigo: string
-  descuento: string
+  descuento: number
 }

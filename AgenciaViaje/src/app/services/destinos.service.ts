@@ -62,7 +62,15 @@ export class DestinosService {
       }))
     );
   }
+  
 
+  private reservaSubject = new BehaviorSubject<any>(null);
+  reserva$ = this.reservaSubject.asObservable();
+
+
+  enviarReserva(reserva: any) {
+    this.reservaSubject.next(reserva);
+  }
   
 
 

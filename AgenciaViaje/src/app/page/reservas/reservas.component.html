@@ -7,28 +7,28 @@
     <ul class="list-group mb-3">
       <li class="list-group-item d-flex justify-content-between lh-sm">
         <div>
-          <h6 class="my-0">Nombre del producto</h6>
-          <small class="text-body-secondary">Pequeña descripcion</small>
+          <h4 class="my-0">{{reserva.origen}}<i class="bi bi-arrows" style="font-size: 1em;align-items: center;"></i>{{reserva.destino}}</h4>
+          <small class="text-body-secondary">{{reserva.fechaIda}}-{{reserva.fechaVuelta}}</small>
         </div>
-        <span class="text-body-secondary">$12</span>
+            <span class="text-body-secondary">Pasajeros: {{reserva.numPasajeros}}</span>
       </li>
       <li class="list-group-item d-flex justify-content-between lh-sm">
         <div>
-          <h6 class="my-0">Segundo Producto</h6>
-          <small class="text-body-secondary">Pequeña descripcion</small>
+          <h6 class="my-0">{{reserva.hotelSeleccionado.nombre}}</h6>
+          <small class="text-body-secondary">{{reserva.hotelSeleccionado.ubicacion}}</small>
         </div>
-        <span class="text-body-secondary">$8</span>
+        <span class="text-body-secondary">{{reserva.hotelSeleccionado.precio_maximo|currency}}</span>
       </li>
       <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
         <div class="text-success">
           <h6 class="my-0">Código Promocional</h6>
-          <small>CÓDIGOPROMO</small>
+          <small>{{reserva.codigoDescuento}}</small>
         </div>
-        <span class="text-success">−$5</span>
+        <span class="text-success">{{reserva.descuentoAplicado}}%</span>
       </li>
       <li class="list-group-item d-flex justify-content-between">
         <span>Total (USD)</span>
-        <strong>$20</strong>
+        <strong>{{reserva.precioTotal|currency}}</strong>
       </li>
     </ul>
 
