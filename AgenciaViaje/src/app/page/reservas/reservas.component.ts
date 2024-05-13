@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { FooterComponent } from '../../component/footer/footer.component';
-import { ActivatedRoute, Navigation, Router } from '@angular/router';
+import { ActivatedRoute, Navigation, Router, RouterLink } from '@angular/router';
 import { DestinosService } from '../../services/destinos.service';
 import { CurrencyPipe } from '@angular/common';
 import { Destinos } from '../../common/destinos';
 @Component({
   selector: 'app-reservas',
   standalone: true,
-  imports: [FooterComponent,CurrencyPipe],
+  imports: [FooterComponent,CurrencyPipe, RouterLink],
   templateUrl: './reservas.component.html',
   styleUrl: './reservas.component.css'
 })
