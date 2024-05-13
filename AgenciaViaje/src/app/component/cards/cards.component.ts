@@ -30,9 +30,7 @@ export class CardsComponent implements OnInit{
           console.error('Error al cargar los destinos:', error);
          
         },
-        complete: () => {
-          console.log('La carga de destinos se ha completado');
-         
+        complete: () => {         
         }
       }
     )

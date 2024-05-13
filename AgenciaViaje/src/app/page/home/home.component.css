@@ -20,11 +20,7 @@ main{
 #carouselExampleCaptions{
     position: relative;
 }
-/* #mensajecarru {
-    border-radius: 8px;
-    background: transparent;
-    backdrop-filter: blur(10px);
-} */
+
 #img_carrousel{
     height: 600px;
 }

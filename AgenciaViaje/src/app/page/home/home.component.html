@@ -5,7 +5,6 @@
                 <div class="row justify-content-center" id="div_buscador">
                     <div class="col">
                             <div class="input-group" id="buscador">
-                                <div>
                                   <select aria-label="Origen" class="form-control" [(ngModel)]="selectedOrigen" (change)="cambiarOrigen(selectedOrigen)" id="desplegable1">
                                     <option value="">Selecciona origen</option>
                                     @for (origen of bDestinos.continentes; track origen) {
@@ -14,8 +13,6 @@
                                         }
                                     }
                                   </select>
-                                </div>
-                                <div>
                                   <select aria-label="Destino" class="form-control" [(ngModel)]="selectedDestino" id="desplegable2">
                                     <option value="">Selecciona destino</option>
                                     @for (origen of bDestinos.continentes; track origen) {
@@ -24,7 +21,6 @@
                                         }
                                     }
                                   </select>
-                                </div>
                             <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha ida" [(ngModel)]="fechaIda" >
                             <input type="date" aria-label="Destino" class="form-control" placeholder="Fecha Vuelta" [(ngModel)]=" fechaVuelta">
                             <input type="number" aria-label="Destino" class="form-control" placeholder="Pasajeros"[(ngModel)]=" numPasajeros"  min="0">

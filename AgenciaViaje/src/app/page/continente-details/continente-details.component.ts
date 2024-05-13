@@ -34,7 +34,6 @@ export class ContinenteDetailsComponent implements OnInit {
           if (continenteEncontrado) {
             
             this.bDestinos.continentes = [continenteEncontrado]; 
-            console.log('Continentes Cargados');
           } else {
             console.error('Continente no encontrado');
             this.router.navigate(['/error-404']);
@@ -44,7 +43,7 @@ export class ContinenteDetailsComponent implements OnInit {
           console.error('Error al cargar los destinos:', error);
         },
         complete: () => {
-          console.log('La carga de destinos se ha completado');
+          
         }
       });
     });
