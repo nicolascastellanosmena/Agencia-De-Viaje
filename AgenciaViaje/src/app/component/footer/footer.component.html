@@ -63,9 +63,11 @@
                 <li>
                     <a class="nav-link" routerLink="/catalogo" (click)="scrollToTop()"> Catálogo</a>
                 </li>
-                <li>
-                    <a class="nav-link" routerLink="/reservas" (click)="scrollToTop()">Reservas</a>
-                </li>
+                @if(authService.loger){
+                    <li>
+                        <a class="nav-link" routerLink="/reservas" (click)="scrollToTop()">Reservas</a>
+                    </li>
+                }
                 <li>
                     <a class="nav-link" routerLink="/contactanos" (click)="scrollToTop()">Contáctanos</a>
                 </li>

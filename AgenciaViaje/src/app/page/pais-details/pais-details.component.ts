@@ -118,10 +118,11 @@ export class PaisDetailsComponent {
       this.numPasajeros = +params['numPasajeros'];
     });
   }
+
   agregarHotel(hotel: Hotele) {
-    this.hotelesSeleccionados = [hotel];
-    this.hotelAyanido = true;
-  }
+     this.hotelesSeleccionados = [hotel];
+     this.hotelAyanido = true;
+ }
 
   scrollToSection() {
     const element = document.querySelector('#hotelSeleccionado');
@@ -131,15 +132,16 @@ export class PaisDetailsComponent {
   }
   agregarHotelYScroll(hotel: Hotele) {
     this.scrollToSection();
-    this.agregarHotel(hotel);
+     this.agregarHotel(hotel);
   }
-  eliminarHotel(hotel: Hotele): void {
+
+   eliminarHotel(hotel: Hotele): void {
     const index = this.hotelesSeleccionados.indexOf(hotel);
-    if (index !== -1) {
-      this.hotelesSeleccionados.splice(index, 1);
-    }
-    this.hotelAyanido = false;
-  }
+     if (index !== -1) {
+       this.hotelesSeleccionados.splice(index, 1);
+     }
+     this.hotelAyanido = false;
+   }
 
   calcularPrecioVuelo(): number {
     let precio1 = 0;
@@ -162,55 +164,47 @@ export class PaisDetailsComponent {
     let precioVuelo = this.calcularPrecioVuelo();
     let precioHotel = this.hotelAyanido ? this.calcularPrecioHotel() : 0;
     let precioTotalSinDescuento = precioVuelo + precioHotel;
-
+  
     if (this.codigoDescuento) {
       this.descuentoService.obtenerDescuento().subscribe((descuento) => {
         this.descuentoAplicado = 0;
-
+  
         switch (this.codigoDescuento) {
           case 'VUELA10':
-            this.descuentoAplicado =
-              descuento.promociones_vuelos[0].descuento / 100;
+            this.descuentoAplicado = descuento.promociones_vuelos[0].descuento / 100;
             break;
           case 'DESTINO20':
-            this.descuentoAplicado =
-              descuento.promociones_vuelos[1].descuento / 100;
+            this.descuentoAplicado = descuento.promociones_vuelos[1].descuento / 100;
             break;
           case 'VERANO25':
-            this.descuentoAplicado =
-              descuento.promociones_vuelos[2].descuento / 100;
+            this.descuentoAplicado = descuento.promociones_vuelos[2].descuento / 100;
             break;
           case 'NEGOCIOS30':
-            this.descuentoAplicado =
-              descuento.promociones_vuelos[3].descuento / 100;
+            this.descuentoAplicado = descuento.promociones_vuelos[3].descuento / 100;
             break;
           default:
             console.log('Código de descuento no válido');
             break;
         }
-
-        this.precioTotal =
-          precioTotalSinDescuento -
-          precioTotalSinDescuento * this.descuentoAplicado;
+  
+        this.precioTotal = precioTotalSinDescuento - (precioTotalSinDescuento * this.descuentoAplicado);
       });
     } else {
       this.precioTotal = precioTotalSinDescuento;
     }
-
+  
     return this.precioTotal;
   }
-
+  
   reservar() {
+    this.calcularPrecioTotal(); // Llamar al método para calcular el precio total
     const datosReserva = {
       origen: this.origen,
       destino: this.destino,
       fechaIda: this.fechaIda,
       fechaVuelta: this.fechaVuelta,
       numPasajeros: this.numPasajeros,
-      hotelSeleccionado:
-        this.hotelesSeleccionados.length > 0
-          ? this.hotelesSeleccionados[0]
-          : null,
+      hotelSeleccionado: this.hotelesSeleccionados.length > 0 ? this.hotelesSeleccionados[0] : null,
       bdestino: this.bDestinos,
       bDestinos2: this.bDestinos2,
       precioTotal: this.precioTotal,
@@ -221,6 +215,8 @@ export class PaisDetailsComponent {
     this.servicio.enviarReserva(datosReserva);
     this.router.navigate(['/reservas']);
   }
+  
+  
   scrollToTop() {
     window.scrollTo(0, 0);
   }

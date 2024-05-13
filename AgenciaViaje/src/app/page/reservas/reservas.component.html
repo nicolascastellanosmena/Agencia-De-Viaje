@@ -1,44 +1,55 @@
 <div id="carrito" class="row g-5">
-  <div class="col-md-5 col-lg-4 order-md-last">
-    <h4 class="d-flex justify-content-between align-items-center mb-3">
-      <span class="text-primary">Tu carrito</span>
-      <span class="badge bg-primary rounded-pill"><i class="bi bi-cart"></i></span>
-    </h4>
-    <ul class="list-group mb-3">
-      <li class="list-group-item d-flex justify-content-between lh-sm">
-        <div>
-          <h4 class="my-0">{{reserva.origen}}<i class="bi bi-arrows" style="font-size: 1em;align-items: center;"></i>{{reserva.destino}}</h4>
-          <small class="text-body-secondary">{{reserva.fechaIda}}-{{reserva.fechaVuelta}}</small>
+  @if (reserva) {
+    <div class="col-md-5 col-lg-4 order-md-last">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-primary">Tu carrito</span>
+        <span class="badge bg-primary rounded-pill"><i class="bi bi-cart"></i></span>
+      </h4>
+     
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h4 class="my-0">{{reserva.origen}}<i class="bi bi-arrows" style="font-size: 1em;align-items: center;"></i>{{reserva.destino}}</h4>
+            <small class="text-body-secondary">{{reserva.fechaIda}}-{{reserva.fechaVuelta}}</small>
+          </div>
+          <span class="text-body-secondary">Pasajeros: {{reserva.numPasajeros}}</span>
+        </li>
+    
+        @if (reserva.hotelSeleccionado) {
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">{{reserva.hotelSeleccionado.nombre}}</h6>
+              <small class="text-body-secondary">{{reserva.hotelSeleccionado.ubicacion}}</small>
+            </div>
+            <span class="text-body-secondary">{{reserva.hotelSeleccionado.precio_maximo|currency}}</span>
+          </li>
+        }
+        <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+          <div class="text-success">
+            <h6 class="my-0">Código Promocional</h6>
+            <small>{{reserva.codigoDescuento}}</small>
+          </div>
+          <span class="text-success">{{reserva.descuentoAplicado*100}}%</span>
+        </li>
+    
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Total (USD)</span>
+          <strong>{{reserva.precioTotal|currency}}</strong>
+        </li>
+      </ul>
+    
+      <form class="card p-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Código Promocional">
+          <button type="submit" class="btn btn-secondary">Enviar</button>
         </div>
-            <span class="text-body-secondary">Pasajeros: {{reserva.numPasajeros}}</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between lh-sm">
-        <div>
-          <h6 class="my-0">{{reserva.hotelSeleccionado.nombre}}</h6>
-          <small class="text-body-secondary">{{reserva.hotelSeleccionado.ubicacion}}</small>
-        </div>
-        <span class="text-body-secondary">{{reserva.hotelSeleccionado.precio_maximo|currency}}</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-        <div class="text-success">
-          <h6 class="my-0">Código Promocional</h6>
-          <small>{{reserva.codigoDescuento}}</small>
-        </div>
-        <span class="text-success">{{reserva.descuentoAplicado}}%</span>
-      </li>
-      <li class="list-group-item d-flex justify-content-between">
-        <span>Total (USD)</span>
-        <strong>{{reserva.precioTotal|currency}}</strong>
-      </li>
-    </ul>
-
-    <form class="card p-2">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Código Promocional">
-        <button type="submit" class="btn btn-secondary">Enviar</button>
-      </div>
-    </form>
-  </div>
+      </form>
+    </div>
+    
+    
+      
+  }
+ 
   <div class="col-md-7 col-lg-8">
     <h4 class="mb-3">Dirección de Envío</h4>
     <form class="needs-validation" novalidate="">

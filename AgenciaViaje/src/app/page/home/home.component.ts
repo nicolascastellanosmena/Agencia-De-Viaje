@@ -102,7 +102,6 @@ export class HomeComponent {
       this.servicio.busquedaValida=false;
     }
   }
-  
 }
 
   

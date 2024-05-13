@@ -20,8 +20,14 @@ constructor(private service: DestinosService,private router:Router) { }
 ngOnInit(): void {
   this.service.reserva$.subscribe(reserva => {
     this.reserva = reserva;
+    
   });
+  
 }
+
+
+
+
 scrollToTop() {
   window.scrollTo(0, 0);
 }
