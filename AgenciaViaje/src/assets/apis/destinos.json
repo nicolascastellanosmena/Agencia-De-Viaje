@@ -2193,6 +2193,92 @@
               ]
             }
           ]
+        }, {
+          "nombre": "Punta Cana",
+          "pais": "Republica Dominicana",
+          "descripcion": "La belleza de una de las mejores islas del caribe",
+          "atracciones": ["Parque Nacional de los tres ojos", "Teleferico de puerto plata", "Ocean World"],
+          "imagenes_pais": [
+            {
+              "img1": "./assets/imagenes/America/puntaCana2.jpg",
+              "img2": "./assets/imagenes/America/puntaCana2.jpg",
+              "img3": "./assets/imagenes/America/puntaCana2.jpg"
+            }
+          ],
+          "precio": 1500,
+          "calificacion": 4.3,
+          "hoteles": [
+            {
+              "nombre": "Hotel Mountain Retreat",
+              "ubicacion": "Punta Cana, Republica Dominicana",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.4,
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "servicios": [
+                "Rodeado de naturaleza ",
+                "Piscina al aire libre con vistas a las Playa",
+                "Restaurante con menú local",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Mountain Retreat",
+              "ubicacion": "Punta Cana, Republica Dominicana",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.4,
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "servicios": [
+                "Rodeado de naturaleza ",
+                "Piscina al aire libre con vistas a las Playa",
+                "Restaurante con menú local",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Mountain Retreat",
+              "ubicacion": "Punta Cana, Republica Dominicana",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.4,
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "servicios": [
+                "Rodeado de naturaleza ",
+                "Piscina al aire libre con vistas a las Playa",
+                "Restaurante con menú local",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Mountain Retreat",
+              "ubicacion": "Punta Cana, Republica Dominicana",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.4,
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "servicios": [
+                "Rodeado de naturaleza ",
+                "Piscina al aire libre con vistas a las Playa",
+                "Restaurante con menú local",
+                "Wi-Fi gratuito"
+              ]
+            },
+            {
+              "nombre": "Hotel Mountain Retreat",
+              "ubicacion": "Punta Cana, Republica Dominicana",
+              "precio_minimo": 200,
+              "precio_maximo": 400,
+              "calificacion": 4.4,
+              "imagen": "./assets/imagenes/hoteles/America/Toronto-Hotel Downtown Haven.jpg",
+              "servicios": [
+                "Rodeado de naturaleza ",
+                "Piscina al aire libre con vistas a las Playa",
+                "Restaurante con menú local",
+                "Wi-Fi gratuito"
+              ]
+            }
+          ]
         },
         {
           "nombre": "La Habana",

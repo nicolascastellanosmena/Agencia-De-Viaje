@@ -197,7 +197,7 @@ export class PaisDetailsComponent {
   }
   
   reservar() {
-    this.calcularPrecioTotal(); // Llamar al método para calcular el precio total
+    this.calcularPrecioTotal(); 
     const datosReserva = {
       origen: this.origen,
       destino: this.destino,
