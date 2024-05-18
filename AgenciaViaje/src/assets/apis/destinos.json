@@ -9,7 +9,8 @@
         {
           "img1": "./assets/imagenes/Europa/EuropaCA1.jpeg",
           "img2": "./assets/imagenes/Europa/EuropaCA2.jpeg",
-          "img3": "./assets/imagenes/Europa/EuropaCA3.jpeg"
+          "img3": "./assets/imagenes/Europa/EuropaCA3.jpeg",
+          "img4":"./assets/imagenes/Europa/Europa2.JPG"
         }
       ],
       "destinos": [
@@ -740,7 +741,8 @@
         {
           "img1": "./assets/imagenes/Asia/AsiaCA1.jpeg",
           "img2": "./assets/imagenes/Asia/AsiaCA2.jpeg",
-          "img3": "./assets/imagenes/Asia/AsiaCA3.jpeg"
+          "img3": "./assets/imagenes/Asia/AsiaCA3.jpeg",
+          "img4":"./assets/imagenes/Asia/Asia.JPG"
         }
       ],
       "destinos": [
@@ -1463,7 +1465,7 @@
       ]
     },
     {
-      "nombre": "América",
+      "nombre": "Canadá, Estados Unidos, Latinoamérica y el caribe",
       "descripcion": "Descubre la diversidad de América, desde las majestuosas montañas de los Andes hasta las playas tropicales del Caribe. Sumérgete en su rica historia y cultura, desde las antiguas civilizaciones hasta las vibrantes ciudades modernas. Explora su biodiversidad única y déjate cautivar por sus paisajes impresionantes.",
       "titulo": "Unión en la Diversidad",
       "slogan": "De la Patagonia a Alaska, un continente lleno de vida y color",
@@ -1471,7 +1473,8 @@
         {
           "img1": "./assets/imagenes/America/aCarrusel1.jpg",
           "img2": "./assets/imagenes/America/AmericaCarrusel2.jpg",
-          "img3": "./assets/imagenes/America/Toronto.jpeg"
+          "img3": "./assets/imagenes/America/Toronto.jpeg",
+          "img4":"./assets/imagenes/America/Latam3.JPG"
         }
       ],
       "destinos": [
@@ -2382,7 +2385,8 @@
         {
           "img1": "./assets/imagenes/Africa/africaCA1.jpeg",
           "img2": "./assets/imagenes/Africa/AfricaCA2.jpeg",
-          "img3": "./assets/imagenes/Africa/africaCA3.jpeg"
+          "img3": "./assets/imagenes/Africa/africaCA3.jpeg",
+          "img4":"./assets/imagenes/Africa/Africa2.JPG"
         }
       ],
       "destinos": [

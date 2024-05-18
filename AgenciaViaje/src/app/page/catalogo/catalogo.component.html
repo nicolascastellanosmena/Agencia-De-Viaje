@@ -1,16 +1,44 @@
 <div class="container-fluid">
-    
+    <div class="row" id="titulo_catalogo">
+        <h1><strong>Descubre nuestros destinos</strong></h1>
+    </div>
     <main>
-        <div class="row" id="titulo_catalogo">
-            <h1><strong>Descubre nuestros destinos</strong></h1>
-        </div>
-        <div id="cartas" class="row">
-            <app-cards></app-cards>
-        </div>
-        
+            <div class="row">
+                @for (continente of bDestinos.continentes|slice:0:2; track continente) {
+                        <div class="col-md-6 mb-4" > 
+                            <div class="card" >
+                                <div class="card-body" [style.background-image]="'url(' + continente.imagenes_destacadas[0].img4 + ')'">
+                                 <a [routerLink]="['/catalogo', continente.nombre]" >
+                                    <div class="transparente">
+                                        <h1 class="card-title">{{ continente.nombre }}</h1>
+                                        <p class="card-text">{{ continente.descripcion }}</p>
+                                        <button [routerLink]="['/catalogo', continente.nombre]" class="btn btn-primary">Ver más</button>
+                                    </div>   
+                                 </a> 
+                                </div>
+                            </div>
+                        </div>
+                }
+                
+            </div>
+            <div class="row">
+                @for (continente of bDestinos.continentes|slice:2:4; track continente) {
+                        <div class="col-md-6 mb-4" > 
+                            <div class="card" >
+                                <div class="card-body" id="transparente" [style.background-image]="'url(' + continente.imagenes_destacadas[0].img4 + ')'">
+                                <a [routerLink]="['/catalogo', continente.nombre]" >
+                                    <div class="transparente">
+                                        <h1 class="card-title">{{ continente.nombre }}</h1>
+                                        <p class="card-text">{{ continente.descripcion }}</p>
+                                        <button [routerLink]="['/catalogo', continente.nombre]" class="btn btn-primary">Ver más</button>
+                                    </div> 
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                }
+            </div>
     </main>
-
-    
     <div class="row">
         <app-footer></app-footer>
     </div>

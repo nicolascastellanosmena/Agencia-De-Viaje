@@ -3,29 +3,80 @@
 
 }
 
-.row h1{
-    padding-top: 20px;
-    margin-bottom: 25px;
-    font-size: 25px;
+
+#titulo_catalogo{
+    padding: 15px;
     border-bottom: solid 2.5px;
     border-color: black;
-    width: fit-content;
-    color: black;
-}
-#titulo_catalogo{
-    border-bottom: solid;
-    border-color: black;
     justify-content: center;
+    h1{
+        border-bottom: solid 2.5px;
+        border-color: black;
+        width: fit-content;
+
+    }
+    
 }
 
 
-app-cards{
+main{
     min-height: 100vh;
     padding-right: 0;
-    padding-top: 40px;
+   
     padding-bottom: 50px;
 
 }
+
+
+
+
+
+
+.card{
+    margin: 20px;
+    margin-left: 30px;
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+}
+.card-body {
+    position: relative;
+    height: 900px;
+    overflow: hidden;
+    color: whitesmoke;
+    border-radius: inherit;
+    
+   
+}
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.transparente{
+    color:whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.transparente:hover{
+    transform: scale(1.01);
+    
+}
+button:hover{
+    color: yellow;
+}
+
+
+
+
+
 
 app-footer{
     padding-right: 0;
