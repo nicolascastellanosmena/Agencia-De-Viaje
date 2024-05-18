@@ -91,15 +91,12 @@ main{
 }
 #imgAbout{
     margin: 3%;
-
 }
 
 #imgAbout img{
     width: 800px;
     height: auto;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;  
 }
 .img-container {
     position: relative;
@@ -108,19 +105,7 @@ main{
     
 }
 
-.overlay {
-    position: absolute;
-    bottom: 2%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
 
-
-.img-container:hover .overlay {
-    opacity: 1;
-}
 select:hover{
     cursor: pointer;
 } 
