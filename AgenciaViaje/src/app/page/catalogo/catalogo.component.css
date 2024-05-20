@@ -46,14 +46,14 @@ main{
     overflow: hidden;
     color: whitesmoke;
     border-radius: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     
    
 }
-.bg-image {
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-}
+
 
 .transparente{
     color:whitesmoke;
